@@ -67,12 +67,14 @@
         "libvulpes:material.Copper",
         "mysticalworld:tile.copper_ore",
         "nuclearcraft:tile.nuclearcraft.ore.copper",
+        "railcraft:tile.railcraft.ore.metal.copper",
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
         "gregtech:meta_item_1:9018",
         "libvulpes:productnugget:4",
         "mysticalworld:copper_nugget:0",
+        "railcraft:nugget:1",
         "thermalfoundation:material:192"
       ]
     },
@@ -130,10 +132,12 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "nuclearcraft:tile.nuclearcraft.ore.lead",
+        "railcraft:tile.railcraft.ore.metal.lead",
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
         "gregtech:meta_item_1:9035",
+        "railcraft:nugget:3",
         "thermalfoundation:material:195"
       ]
     },
@@ -154,10 +158,12 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
+        "railcraft:tile.railcraft.ore.metal.nickel",
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
         "gregtech:meta_item_1:9044",
+        "railcraft:nugget:6",
         "thermalfoundation:material:197"
       ]
     },
@@ -199,12 +205,14 @@
         "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "mysticalworld:tile.silver_ore",
+        "railcraft:tile.railcraft.ore.metal.silver",
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
         "bewitchment:silver_nugget:0",
         "gregtech:meta_item_1:9062",
         "mysticalworld:silver_nugget:0",
+        "railcraft:nugget:4",
         "thermalfoundation:material:194"
       ]
     },
@@ -219,11 +227,13 @@
         "gregtech:tile.ore_block",
         "libvulpes:material.Tin",
         "nuclearcraft:tile.nuclearcraft.ore.tin",
+        "railcraft:tile.railcraft.ore.metal.tin",
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
         "gregtech:meta_item_1:9071",
         "libvulpes:productnugget:5",
+        "railcraft:nugget:2",
         "thermalfoundation:material:193"
       ]
     },

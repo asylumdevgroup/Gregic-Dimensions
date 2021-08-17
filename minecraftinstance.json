@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-17T01:30:06.2887864Z",
-  "playedCount": 11,
+  "lastPlayed": "2021-08-17T02:24:00.5465731Z",
+  "playedCount": 12,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -289,6 +289,90 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 322861,
+      "gameInstanceID": "8b2c12b3-5da1-4cc8-bd56-9f0c2f00c9f6",
+      "installedFile": {
+        "id": 3214400,
+        "displayName": "PackagedExCrafting-1.12.2-1.0.2.3.jar",
+        "fileName": "PackagedExCrafting-1.12.2-1.0.2.3.jar",
+        "fileDate": "2021-02-23T16:17:51.12Z",
+        "fileLength": 186144,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3214/400/PackagedExCrafting-1.12.2-1.0.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 308380,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 268387,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3347581378,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "thelm",
+            "fingerprint": 1138272010,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1129439323,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1674905460,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "PackagedExCrafting-1.12.2-1.0.2.3.jar"
+      },
+      "dateInstalled": "2021-08-17T02:20:01.9490796Z",
+      "dateUpdated": "2021-08-17T02:20:01.9500807Z",
+      "dateLastUpdateAttempted": "2021-08-17T02:20:01.9500807Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 277064,
@@ -12583,6 +12667,149 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 51195,
+      "gameInstanceID": "8b2c12b3-5da1-4cc8-bd56-9f0c2f00c9f6",
+      "installedFile": {
+        "id": 2687757,
+        "displayName": "Railcraft 12.0.0 - MC 1.12.2",
+        "fileName": "railcraft-12.0.0.jar",
+        "fileDate": "2019-03-16T01:28:54.83Z",
+        "fileLength": 5541089,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2687/757/railcraft-12.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4237966705,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "README.md",
+            "fingerprint": 3665859200,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "Railcraft_License.txt",
+            "fingerprint": 1502909835,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2343071173,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "atomicstryker",
+            "fingerprint": 619703565,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "change_log.txt",
+            "fingerprint": 1657535776,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "credits.txt",
+            "fingerprint": 1379337202,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "localization_reformat.txt",
+            "fingerprint": 481514740,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3838615573,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mods",
+            "fingerprint": 146983056,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 118084069,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "railcraft.qm",
+            "fingerprint": 3093669395,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "railcraft_version.json",
+            "fingerprint": 2311738329,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "regex_rules.txt",
+            "fingerprint": 924694124,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "thaumcraft",
+            "fingerprint": 1195710767,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "ic2",
+            "fingerprint": 4104638276,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 4261977453,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "railcraft-12.0.0.jar"
+      },
+      "dateInstalled": "2021-08-17T02:23:46.8059378Z",
+      "dateUpdated": "2021-08-17T02:23:46.8287154Z",
+      "dateLastUpdateAttempted": "2021-08-17T02:23:46.8287154Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 228815,
