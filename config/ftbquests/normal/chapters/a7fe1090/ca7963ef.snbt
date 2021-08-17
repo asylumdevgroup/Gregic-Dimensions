@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"4ebc0c35",
+		"d32eb3a0"
+	],
+	tasks: [{
+		uid: "c7b7778b",
+		type: "item",
+		items: [{
+			item: "mysticalworld:silk_thread"
+		}]
+	}]
+}

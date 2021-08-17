@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "naturesaura:book": {
+      "viewedEntries": [
+        "naturesaura:practices/tree_ritual"
+      ],
+      "bookmarks": [],
+      "history": [
+        "naturesaura:practices/tree_ritual"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

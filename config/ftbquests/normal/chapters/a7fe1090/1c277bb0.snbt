@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 11.0d,
+	shape: "rsquare",
+	dependencies: [
+		"da4d25d5"
+	],
+	tasks: [{
+		uid: "9237a39f",
+		type: "item",
+		items: [{
+			item: "pyrotech:refractory_brick_block"
+		}]
+	},
+	{
+		uid: "7b506dcc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 8357"
+		}]
+	}]
+}

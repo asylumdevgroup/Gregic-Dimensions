@@ -1,0 +1,17 @@
+{
+	title: "A Pile of Twigs",
+	x: 0.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e5acc27f",
+		"41123d21"
+	],
+	tasks: [{
+		uid: "9e082005",
+		type: "item",
+		items: [{
+			item: "pyrotech:tinder"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:beef",
+	x: 5.5d,
+	y: -0.5d,
+	dependencies: [
+		"98d072f1"
+	],
+	tasks: [{
+		uid: "243f18d5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllmeatraw",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllmeatraw"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Everything to know about early Ore Processing",
+	x: -3.0d,
+	y: 13.5d,
+	shape: "rsquare",
+	text: [
+		"Describe Ore Collection, and Bloomery Process"
+	],
+	dependencies: [
+		"793816cc"
+	],
+	tasks: [{
+		uid: "a77adf0a",
+		type: "checkmark"
+	}]
+}

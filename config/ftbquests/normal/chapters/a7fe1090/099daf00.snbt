@@ -1,0 +1,41 @@
+{
+	title: "Sticks n' Stones",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"e363329a"
+	],
+	tasks: [{
+		uid: "71b29a1d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rock"
+				}
+			}
+		}]
+	},
+	{
+		uid: "02fabcee",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	},
+	{
+		uid: "9145cbff",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 12"
+		}]
+	}]
+}

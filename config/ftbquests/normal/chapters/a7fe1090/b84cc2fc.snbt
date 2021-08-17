@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 10.0d,
+	dependencies: [
+		"da4d25d5"
+	],
+	tasks: [{
+		uid: "dcc0e393",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "60d0e7b6",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 20.5d,
+	shape: "rsquare",
+	dependencies: [
+		"bcd6dbb4",
+		"4f6f10d4"
+	],
+	tasks: [{
+		uid: "8b5cc7e3",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_iron"
+		}]
+	}]
+}

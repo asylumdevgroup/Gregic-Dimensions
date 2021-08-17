@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"e5acc27f"
+	],
+	tasks: [{
+		uid: "099d7e74",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

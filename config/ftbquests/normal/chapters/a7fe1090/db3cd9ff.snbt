@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e5acc27f"
+	],
+	tasks: [{
+		uid: "e3851124",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}]
+}

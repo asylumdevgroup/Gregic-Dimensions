@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"7f23de6d"
+	],
+	tasks: [{
+		uid: "2fce8039",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_sawmill"
+		}]
+	},
+	{
+		uid: "459486f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_stone"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:sawmill_blade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

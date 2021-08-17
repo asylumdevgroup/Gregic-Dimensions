@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	text: [
+		"Insert Description."
+	],
+	tasks: [{
+		uid: "5eb37ef1",
+		type: "checkmark",
+		title: "Welcome!"
+	}]
+}

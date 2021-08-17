@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 20.5d,
+	text: [
+		"quest about infused iron tools, being the best."
+	],
+	dependencies: [
+		"00225d51"
+	],
+	tasks: [{
+		uid: "f5fbe9cb",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 19.5d,
+	shape: "rsquare",
+	dependencies: [
+		"2d8d0d45",
+		"c504d581"
+	],
+	tasks: [{
+		uid: "68892260",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	},
+	{
+		uid: "bf5e5b8f",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	}]
+}

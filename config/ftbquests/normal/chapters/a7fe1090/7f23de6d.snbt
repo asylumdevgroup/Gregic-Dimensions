@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	dependencies: [
+		"bb46ee93",
+		"5b20ae3e"
+	],
+	tasks: [{
+		uid: "a340a557",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 20.5d,
+	shape: "rsquare",
+	dependencies: [
+		"d84874f9",
+		"a20c53a3"
+	],
+	tasks: [{
+		uid: "4024e7b2",
+		type: "item",
+		items: [{
+			item: "naturesaura:nature_altar"
+		}]
+	},
+	{
+		uid: "186c124a",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_brick"
+		}],
+		count: 8L
+	}]
+}

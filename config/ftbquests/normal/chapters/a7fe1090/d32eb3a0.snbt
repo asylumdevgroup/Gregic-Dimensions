@@ -1,0 +1,28 @@
+{
+	icon: "roots:mortar",
+	x: 3.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"41123d21"
+	],
+	tasks: [{
+		uid: "8461a56a",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "a3a3e9cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

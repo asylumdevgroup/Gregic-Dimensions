@@ -1,0 +1,16 @@
+{
+	title: "FIRE!",
+	icon: "pyrotech:campfire",
+	x: 0.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"20e31b0e",
+		"58563935",
+		"39a22e91"
+	],
+	tasks: [{
+		uid: "7a1b9170",
+		type: "checkmark"
+	}]
+}

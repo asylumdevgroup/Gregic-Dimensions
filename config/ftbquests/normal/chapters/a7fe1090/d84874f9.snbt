@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: 20.5d,
+	shape: "rsquare",
+	dependencies: [
+		"2d8d0d45",
+		"5c0d8403",
+		"fd620b55"
+	],
+	tasks: [{
+		uid: "a4b69bb8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotBronze",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotBronze"
+				}
+			}
+		}]
+	}]
+}

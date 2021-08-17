@@ -1,0 +1,23 @@
+{
+	x: 4.5d,
+	y: 21.5d,
+	dependencies: [
+		"fd620b55"
+	],
+	tasks: [{
+		uid: "0b6b7796",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		},
+		{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 10.0d,
+	shape: "rsquare",
+	dependencies: [
+		"785744c3",
+		"1c277bb0"
+	],
+	tasks: [{
+		uid: "710f0ebb",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 16.5d,
+	shape: "rsquare",
+	dependencies: [
+		"937c554f"
+	],
+	tasks: [{
+		uid: "40f9f046",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}]
+}

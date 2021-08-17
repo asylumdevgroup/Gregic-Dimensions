@@ -1,0 +1,45 @@
+{
+	title: "Tin Vein",
+	x: 1.0d,
+	y: 13.5d,
+	shape: "rsquare",
+	dependencies: [
+		"950e5eeb"
+	],
+	tasks: [{
+		uid: "74b814ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCassiterite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCassiterite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "9b07c496",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreTin",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreTin"
+				}
+			}
+		}]
+	}]
+}

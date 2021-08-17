@@ -1,0 +1,38 @@
+{
+	x: 3.5d,
+	y: 19.5d,
+	shape: "rsquare",
+	dependencies: [
+		"2d8d0d45",
+		"c504d581",
+		"a20c53a3"
+	],
+	tasks: [{
+		uid: "596cea8c",
+		type: "item",
+		items: [{
+			item: "tcomplement:melter"
+		}]
+	},
+	{
+		uid: "c42f57b6",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "e1531a2c",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "d9609a6b",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}]
+}

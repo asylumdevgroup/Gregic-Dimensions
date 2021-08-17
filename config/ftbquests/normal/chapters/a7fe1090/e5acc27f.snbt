@@ -1,0 +1,61 @@
+{
+	title: "Your first tools!",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"099daf00"
+	],
+	tasks: [{
+		uid: "bb5dbc85",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4615abb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_hoe"
+		}
+	},
+	{
+		uid: "c65d9954",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_hammer"
+		}
+	},
+	{
+		uid: "9127937a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_axe"
+		}
+	},
+	{
+		uid: "4acbe4a2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_shovel"
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Where is Granite?!?",
+	icon: "minecraft:stone 1 1",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"Sometimes you are unlucky, and cannot find a Granite vein near you. Lucky for you, we will take a stack of cobblestone off your hand for some Granite!"
+	],
+	dependencies: [
+		"7f23de6d"
+	],
+	tasks: [{
+		uid: "5583a060",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "626abc6c",
+		type: "item",
+		item: "minecraft:stone 1 1",
+		count: 64
+	}]
+}

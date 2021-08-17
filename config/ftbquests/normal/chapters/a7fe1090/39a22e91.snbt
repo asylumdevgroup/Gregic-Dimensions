@@ -1,0 +1,23 @@
+{
+	title: "Only you can prevent wildfires!",
+	x: 1.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"ca7963ef",
+		"e5acc27f",
+		"41123d21"
+	],
+	tasks: [{
+		uid: "6aa147e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:bow_drill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

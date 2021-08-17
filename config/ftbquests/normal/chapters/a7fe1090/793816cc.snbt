@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	shape: "rsquare",
+	dependencies: [
+		"da4d25d5"
+	],
+	tasks: [{
+		uid: "ebada33a",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	}]
+}

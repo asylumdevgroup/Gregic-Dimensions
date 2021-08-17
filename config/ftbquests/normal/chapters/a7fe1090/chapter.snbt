@@ -1,0 +1,10 @@
+{
+	title: "0 - Stone Age",
+	icon: "pyrotech:rock",
+	description: [
+		"Sticks and Stones may break my bones, but Bronze will never hurt me."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

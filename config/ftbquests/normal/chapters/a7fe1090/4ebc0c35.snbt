@@ -1,0 +1,14 @@
+{
+	title: "Ewww Worms",
+	icon: "mysticalworld:silkworm_egg",
+	x: 4.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "a4116145",
+		type: "item",
+		items: [{
+			item: "mysticalworld:silk_cocoon"
+		}]
+	}]
+}

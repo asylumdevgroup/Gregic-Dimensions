@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 18.5d,
+	shape: "rsquare",
+	dependencies: [
+		"bb6f480f"
+	],
+	tasks: [{
+		uid: "4fea37a2",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e4dabc6d",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}],
+		count: 8L
+	}]
+}

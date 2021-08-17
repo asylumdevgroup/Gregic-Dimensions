@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 15.0d,
+	shape: "rsquare",
+	dependencies: [
+		"793816cc",
+		"7e2a9a15"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f48cda25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotIron"
+				}
+			}
+		}]
+	}]
+}

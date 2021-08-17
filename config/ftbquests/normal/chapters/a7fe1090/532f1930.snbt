@@ -1,0 +1,17 @@
+{
+	title: "Magical FIRE!",
+	x: 0.0d,
+	y: 8.5d,
+	shape: "rsquare",
+	dependencies: [
+		"6a598521",
+		"21748be0"
+	],
+	tasks: [{
+		uid: "9468f792",
+		type: "item",
+		items: [{
+			item: "roots:bonfire"
+		}]
+	}]
+}

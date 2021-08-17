@@ -1,0 +1,28 @@
+{
+	title: "Insert overused Dad joke here.",
+	icon: "minecraft:log",
+	x: -1.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e5acc27f"
+	],
+	tasks: [{
+		uid: "43f5c3d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}]
+	}]
+}

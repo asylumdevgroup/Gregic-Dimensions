@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: 6.0d,
+	dependencies: [
+		"6a598521",
+		"df29090d",
+		"094ebe5f"
+	],
+	tasks: [{
+		uid: "e72ec1c3",
+		type: "item",
+		items: [{
+			item: "rustic:apiary"
+		}]
+	}]
+}
