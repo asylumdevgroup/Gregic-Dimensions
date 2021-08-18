@@ -27,7 +27,6 @@
         "thermalfoundation:tile.thermalfoundation.ore.aluminum"
       ],
       "output": [
-        "libvulpes:productnugget:9",
         "thermalfoundation:material:196"
       ]
     },
@@ -51,8 +50,7 @@
         "tconstruct:tile.tconstruct.ore.cobalt"
       ],
       "output": [
-        "gregtech:meta_item_1:9017",
-        "tconstruct:nuggets:0"
+        "gregtech:meta_item_1:9017"
       ]
     },
     "oreCopper": {
@@ -71,11 +69,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
-        "gregtech:meta_item_1:9018",
-        "libvulpes:productnugget:4",
-        "mysticalworld:copper_nugget:0",
-        "railcraft:nugget:1",
-        "thermalfoundation:material:192"
+        "gregtech:meta_item_1:9018"
       ]
     },
     "oreGold": {
@@ -104,9 +98,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.iridium"
       ],
       "output": [
-        "gregtech:meta_item_1:9032",
-        "libvulpes:productnugget:10",
-        "thermalfoundation:material:199"
+        "gregtech:meta_item_1:9032"
       ]
     },
     "oreIron": {
@@ -136,9 +128,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
-        "gregtech:meta_item_1:9035",
-        "railcraft:nugget:3",
-        "thermalfoundation:material:195"
+        "gregtech:meta_item_1:9035"
       ]
     },
     "oreMithril": {
@@ -162,9 +152,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
-        "gregtech:meta_item_1:9044",
-        "railcraft:nugget:6",
-        "thermalfoundation:material:197"
+        "gregtech:meta_item_1:9044"
       ]
     },
     "oreOsmium": {
@@ -191,8 +179,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.platinum"
       ],
       "output": [
-        "gregtech:meta_item_1:9051",
-        "thermalfoundation:material:198"
+        "gregtech:meta_item_1:9051"
       ]
     },
     "oreSilver": {
@@ -209,11 +196,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
-        "bewitchment:silver_nugget:0",
-        "gregtech:meta_item_1:9062",
-        "mysticalworld:silver_nugget:0",
-        "railcraft:nugget:4",
-        "thermalfoundation:material:194"
+        "gregtech:meta_item_1:9062"
       ]
     },
     "oreTin": {
@@ -231,10 +214,7 @@
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
-        "gregtech:meta_item_1:9071",
-        "libvulpes:productnugget:5",
-        "railcraft:nugget:2",
-        "thermalfoundation:material:193"
+        "gregtech:meta_item_1:9071"
       ]
     },
     "oreUranium": {
