@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 8.5d,
+	shape: "rsquare",
+	dependencies: [
+		"b5e216a2",
+		"8082622e"
+	],
+	tasks: [{
+		uid: "e01fbaf0",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	},
+	{
+		uid: "fe5c984e",
+		type: "item",
+		items: [{
+			item: "pyrotech:faucet_stone"
+		}]
+	}]
+}
