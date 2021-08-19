@@ -11,6 +11,14 @@
     {
       "dimID": -1,
       "dimName": "Nether"
-    }
+    },
+	{
+	  "dimID": 4,
+	  "dimName": "Aether"
+	},
+	{
+	  "dimID": 7,
+	  "dimName": "Twilight Forest"
+	}
   ]
 }
