@@ -58,3 +58,21 @@ SoakingPot.removeRecipes(<minecraft:mossy_cobblestone>);
 SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water>, <minecraft:cobblestone>, 600);
 SoakingPot.addRecipe("flint_clay_soak", <pyrotech:material:3>, <liquid:liquid_clay>, <ore:dustFlint>, 600);
 SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water>, <minecraft:cobblestone>, 600);
+
+
+// Remove Unfired Bricks / Lumps of Clay
+
+mods.jei.JEI.removeAndHide(<pyrotech:material:24>);
+mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
+mods.jei.JEI.removeAndHide(<pyrotech:material:35>);
+
+recipes.remove(<minecraft:brick>, <pyrotech:material:24>);
+recipes.remove(<pyrotech:bucket_clay_unfired>);
+
+recipes.addShaped(<pyrotech:bucket_clay_unfired>, [[<gregtech:meta_item_2:32013>, null, <gregtech:meta_item_2:32013>], [null, <gregtech:meta_item_2:32013>, null]]);
+
+
+// Refractory Bricks Require Mold
+
+recipes.remove(<pyrotech:material:9>);
+recipes.addShapeless(<pyrotech:material:9>, [<pyrotech:material:4>, <gregtech:meta_item_2:32012>]);
