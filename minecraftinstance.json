@@ -30,8 +30,13 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
+<<<<<<< HEAD
   "lastPlayed": "2021-08-18T02:32:54.6446686Z",
   "playedCount": 18,
+=======
+  "lastPlayed": "2021-08-17T23:27:54.1615413Z",
+  "playedCount": 14,
+>>>>>>> master
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -47,8 +52,13 @@
   "name": "Untitled-GT-Pack-2",
   "cachedScans": [],
   "isValid": true,
+<<<<<<< HEAD
   "lastPreviousMatchUpdate": "2021-08-18T01:41:35.4649771Z",
   "lastRefreshAttempt": "2021-08-17T20:41:35.4669722-05:00",
+=======
+  "lastPreviousMatchUpdate": "2021-08-17T23:23:22.4223365Z",
+  "lastRefreshAttempt": "2021-08-17T19:32:54.3005131-04:00",
+>>>>>>> master
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -3082,10 +3092,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "MoreTweaker-1.0.19.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:30:59.6787434Z",
       "dateUpdated": "2021-08-17T03:30:59.6787434Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:10:16.1699709Z",
+      "dateUpdated": "2021-08-17T01:10:16.1719717Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:10:16.1719717Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3266,10 +3283,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "rusticwitcraft-1.0.2.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:30:59.6847295Z",
       "dateUpdated": "2021-08-17T03:30:59.6847295Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:01:13.0452391Z",
+      "dateUpdated": "2021-08-17T01:01:13.04924Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:01:13.04924Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3381,10 +3405,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "RTG-1.12.2-6.1.0.0-snapshot.1.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:30:59.6667762Z",
       "dateUpdated": "2021-08-17T03:30:59.6667762Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:08:22.9469053Z",
+      "dateUpdated": "2021-08-17T01:08:22.9489045Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:08:22.9489045Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4960,10 +4991,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "NetherUpdateBackport-1.12.2(1.0.1).jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:01.6138556Z",
       "dateUpdated": "2021-08-17T03:31:01.6138556Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:01:24.9325931Z",
+      "dateUpdated": "2021-08-17T01:01:24.9345761Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:01:24.9345761Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6701,10 +6739,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "Quark-r1.6-179.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:01.6098662Z",
       "dateUpdated": "2021-08-17T03:31:01.6098662Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:20:31.293558Z",
+      "dateUpdated": "2021-08-17T01:20:31.30056Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:20:31.30056Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6784,10 +6829,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "AutoRegLib-1.3-32.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:01.6068748Z",
       "dateUpdated": "2021-08-17T03:31:01.6068748Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:20:31.0885831Z",
+      "dateUpdated": "2021-08-17T01:20:31.0895828Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:20:31.0895828Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9436,10 +9488,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "PackagedExCrafting-1.12.2-1.0.2.3.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:03.7236411Z",
       "dateUpdated": "2021-08-17T03:31:03.7236411Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T02:20:01.9490796Z",
+      "dateUpdated": "2021-08-17T02:20:01.9500807Z",
+      "dateLastUpdateAttempted": "2021-08-17T02:20:01.9500807Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9969,10 +10028,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "HardcoreDarkness-MC1.12.2-2.0.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:03.7336147Z",
       "dateUpdated": "2021-08-17T03:31:03.7336147Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:20:22.5927487Z",
+      "dateUpdated": "2021-08-17T01:20:22.5937489Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:20:22.5937489Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -11070,10 +11136,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "devtech-1.2.3.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:06.7622631Z",
       "dateUpdated": "2021-08-17T03:31:06.7622631Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T01:00:02.8426399Z",
+      "dateUpdated": "2021-08-17T01:00:02.8486402Z",
+      "dateLastUpdateAttempted": "2021-08-17T01:00:02.8486402Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13724,10 +13797,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "railcraft-12.0.0.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T03:31:06.7642618Z",
       "dateUpdated": "2021-08-17T03:31:06.7642618Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T02:23:46.8059378Z",
+      "dateUpdated": "2021-08-17T02:23:46.8287154Z",
+      "dateLastUpdateAttempted": "2021-08-17T02:23:46.8287154Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14311,6 +14391,228 @@
       "installedTargets": []
     },
     {
+      "addonID": 64578,
+      "gameInstanceID": "8b2c12b3-5da1-4cc8-bd56-9f0c2f00c9f6",
+      "installedFile": {
+        "id": 3328811,
+        "displayName": "Ender IO - 5.3.70",
+        "fileName": "EnderIO-1.12.2-5.3.70.jar",
+        "fileDate": "2021-05-28T23:09:34.453Z",
+        "fileLength": 8946575,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3328/811/EnderIO-1.12.2-5.3.70.jar",
+        "isAlternate": false,
+        "alternateFileId": 3328812,
+        "dependencies": [
+          {
+            "id": 64951402,
+            "addonId": 220318,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951410,
+            "addonId": 225643,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951400,
+            "addonId": 74120,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951405,
+            "addonId": 227083,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951403,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951419,
+            "addonId": 59751,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951417,
+            "addonId": 222880,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951411,
+            "addonId": 306028,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951413,
+            "addonId": 225561,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951406,
+            "addonId": 231951,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951421,
+            "addonId": 61811,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951418,
+            "addonId": 231868,
+            "type": 3,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951414,
+            "addonId": 242638,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951420,
+            "addonId": 267602,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951415,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951401,
+            "addonId": 243076,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951416,
+            "addonId": 223008,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951407,
+            "addonId": 228404,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951409,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951412,
+            "addonId": 250277,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951408,
+            "addonId": 235279,
+            "type": 2,
+            "fileId": 3328811
+          },
+          {
+            "id": 64951404,
+            "addonId": 74072,
+            "type": 2,
+            "fileId": 3328811
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3279576490,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1755672418,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "crazypants",
+            "fingerprint": 248345352,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3584556454,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 649772633,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3310876847,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2333660,
+        "projectId": 64578,
+        "packageFingerprintId": 671736487,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2985647,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "EnderIO-1.12.2-5.3.70.jar"
+      },
+      "dateInstalled": "2021-08-17T23:32:53.8283901Z",
+      "dateUpdated": "2021-08-17T23:32:53.8283901Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 242818,
       "gameInstanceID": "8b2c12b3-5da1-4cc8-bd56-9f0c2f00c9f6",
       "installedFile": {
@@ -14379,10 +14681,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T21:41:29.0506482Z",
       "dateUpdated": "2021-08-17T21:41:29.0506482Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T23:22:34.2769868Z",
+      "dateUpdated": "2021-08-17T23:22:34.2779871Z",
+      "dateLastUpdateAttempted": "2021-08-17T23:22:34.2779871Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14804,10 +15113,17 @@
         "isServerPack": false,
         "FileNameOnDisk": "ItemFilters-1.0.4.2.jar"
       },
+<<<<<<< HEAD
       "dateInstalled": "2021-08-17T21:41:29.0586252Z",
       "dateUpdated": "2021-08-17T21:41:29.0586252Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
+=======
+      "dateInstalled": "2021-08-17T23:21:54.8359437Z",
+      "dateUpdated": "2021-08-17T23:21:54.8369437Z",
+      "dateLastUpdateAttempted": "2021-08-17T23:21:54.8369437Z",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15043,7 +15359,11 @@
       "dateInstalled": "2021-08-17T03:31:06.7702431Z",
       "dateUpdated": "2021-08-17T03:31:06.7702431Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+<<<<<<< HEAD
       "status": 4,
+=======
+      "status": 3,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15164,7 +15484,120 @@
       "dateInstalled": "2021-08-17T21:41:29.0546361Z",
       "dateUpdated": "2021-08-17T21:41:29.0546361Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+<<<<<<< HEAD
       "status": 4,
+=======
+      "status": 3,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 74072,
+      "gameInstanceID": "8b2c12b3-5da1-4cc8-bd56-9f0c2f00c9f6",
+      "installedFile": {
+        "id": 2902483,
+        "displayName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileDate": "2020-03-15T17:02:37.37Z",
+        "fileLength": 4023372,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 61446429,
+            "addonId": 74924,
+            "type": 3,
+            "fileId": 2902483
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4217453615,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 65780644,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 219889385,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4039906649,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3056415901,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 341838363,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3094578446,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1793676,
+        "projectId": 74072,
+        "packageFingerprintId": 423558351,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2132724,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "TConstruct-1.12.2-2.13.0.183.jar"
+      },
+      "dateInstalled": "2021-08-17T23:32:53.8303916Z",
+      "dateUpdated": "2021-08-17T23:32:53.8303916Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+>>>>>>> master
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

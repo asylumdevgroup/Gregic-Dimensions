@@ -2,25 +2,20 @@
 
 ~CONFIG_VERSION: 0.1.0
 
-<<<<<<< HEAD
 world-78688046 {
+    # Show the list of bookmarks next to open GUIs.
+<<<<<<< HEAD
     B:bookmarkOverlayEnabled=true
+=======
+    B:bookmarkOverlayEnabled=false
+>>>>>>> master
 
     # Give items instead of showing the recipe.
-=======
-world-2060703100 {
-    # Show the list of bookmarks next to open GUIs.
-    B:bookmarkOverlayEnabled=true
->>>>>>> master
     B:cheatItemsEnabled=true
 
     # Hide and unhide ingredients by clicking them in the list.
     B:editEnabled=false
-<<<<<<< HEAD
-    S:filterText=unfired
-=======
-    S:filterText=hammer
->>>>>>> master
+    S:filterText=@astral
 
     # Show the list of ingredients next to open GUIs.
     B:overlayEnabled=true

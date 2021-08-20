@@ -4,9 +4,9 @@ cache {
     # Waits as many hours, until it checks again. [range: 0 ~ 168, default: 24]
     I:interval=24
 <<<<<<< HEAD
-    S:lastCheck=1629254021682
+    S:lastCheck=1629228037706
 =======
-    S:lastCheck=1629336598557
+    S:lastCheck=1629242900353
 >>>>>>> master
 }
 
