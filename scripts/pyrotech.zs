@@ -7,6 +7,9 @@
 import mods.pyrotech.DryingRack;
 import mods.tconstruct.Drying;
 import mods.pyrotech.SoakingPot;
+import mods.roots.Pyre;
+import crafttweaker.item.IIngredient;
+import mods.pyrotech.Bloomery;
 
 
 // Disable Drying Rack
@@ -57,6 +60,7 @@ SoakingPot.removeRecipes(<minecraft:mossy_cobblestone>);
 
 SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water>, <minecraft:cobblestone>, 600);
 SoakingPot.addRecipe("flint_clay_soak", <pyrotech:material:3>, <liquid:liquid_clay>, <ore:dustFlint>, 600);
+SoakingPot.addRecipe("lime_clay_soak", <pyrotech:material:8>, <liquid:liquid_clay>, <pyrotech:material:22>, 600);
 
 
 // Remove Unfired Bricks / Lumps of Clay
@@ -75,3 +79,48 @@ recipes.addShaped(<pyrotech:bucket_clay_unfired>, [[<gregtech:meta_item_2:32013>
 
 recipes.remove(<pyrotech:material:9>);
 recipes.addShapeless(<pyrotech:material:9>, [<pyrotech:material:4>, <gregtech:meta_item_2:32012>]);
+
+
+// Refractory Bricks Require Pyre
+
+furnace.remove(<pyrotech:material:5>);
+Pyre.addRecipe("refractory_brick_pyre", <pyrotech:material:5>*10, [<pyrotech:material:9>, <pyrotech:material:9>, <pyrotech:material:9>, <pyrotech:material:9>, <pyrotech:material:9>]);
+
+
+// Bloomery Ore Processing Changes
+
+Bloomery.removeAllBloomeryRecipes();
+Bloomery.removeAllWitherForgeRecipes();
+mods.jei.JEI.removeAndHide(<pyrotech:wither_forge>);
+
+Bloomery.createBloomeryBuilder("iron_bloomery_recipe", <minecraft:iron_nugget>, <ore:oreEarlyIron>)
+	.setAnvilTiers(["granite", "ironclad"])
+	.setBurnTimeTicks(2400)
+	.setFailureChance(0)
+	.setBloomYield(18,18)
+	.register();
+	
+Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <gregtech:meta_item_1:9827>, <ore:oreEarlyPrecMetal>)
+	.setAnvilTiers(["granite", "ironclad"])
+	.setBurnTimeTicks(2400)
+	.setFailureChance(0)
+	.setBloomYield(18,18)
+	.register();
+
+Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_item_1:9071>, <ore:oreEarlyTin>)
+	.setAnvilTiers(["granite", "ironclad"])
+	.setBurnTimeTicks(2400)
+	.setFailureChance(0)
+	.setBloomYield(18,18)
+	.register();
+	
+Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_item_1:9018>, <ore:oreEarlyCopper>)
+	.setAnvilTiers(["granite", "ironclad"])
+	.setBurnTimeTicks(2400)
+	.setFailureChance(0)
+	.setBloomYield(18,18)
+	.register();
+	
+val precMetalBloom = <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 0, maxIntegrity: 0, langKey: "tile.ore_block", recipeId: "crafttweaker:prec_bloomery_recipe"}});
+
+precMetalBloom.displayName = "Precious Metal Ore Bloom";

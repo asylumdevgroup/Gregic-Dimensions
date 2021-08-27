@@ -1,5 +1,5 @@
 // oredict.zs
-// By MCAdventureCity & Gregicality Community Pack Team
+// By MCAdventureCity & Gregicality Community Pack Team & CJWilk
 // Credit to Gregicality team for most of the code in this script
 
 #priority 999
@@ -82,3 +82,28 @@ unify_oredicts(<ore:nugget*>);
 
 unify(<ore:bioplastic>, 0);
 unify(<ore:itemSilicon>, 0);
+
+
+// Early Ore OreDict Creation
+
+oreDict.oreEarlyIron;
+oreDict.oreEarlyCopper;
+oreDict.oreEarlyPrecMetal;
+oreDict.oreEarlyTin;
+
+val oreDictEntIron = <ore:oreEarlyIron>;
+val oreDictEntCopper = <ore:oreEarlyCopper>;
+val oreDictEntPrecMetal = <ore:oreEarlyPrecMetal>;
+val oreDictEntTin = <ore:oreEarlyTin>;
+
+oreDictEntIron.addAll(<ore:oreIron>);
+oreDictEntIron.addAll(<ore:oreMagnetite>);
+oreDictEntIron.addAll(<ore:orePyrite>);
+
+oreDictEntCopper.addAll(<ore:oreCopper>);
+oreDictEntCopper.addAll(<ore:oreChalcopyrite>);
+
+oreDictEntPrecMetal.addAll(<ore:orePreciousMetal>);
+
+oreDictEntTin.addAll(<ore:oreTin>);
+oreDictEntTin.addAll(<ore:oreCassiterite>);
