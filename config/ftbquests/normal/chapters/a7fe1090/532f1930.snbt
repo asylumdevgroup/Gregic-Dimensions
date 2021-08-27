@@ -8,10 +8,10 @@
 		"21748be0"
 	],
 	tasks: [{
-		uid: "9468f792",
+		uid: "77185f73",
 		type: "item",
 		items: [{
-			item: "roots:bonfire"
+			item: "roots:pyre"
 		}]
 	}]
 }

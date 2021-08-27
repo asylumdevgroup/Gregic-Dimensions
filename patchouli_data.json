@@ -11,6 +11,16 @@
         "naturesaura:practices/tree_ritual"
       ],
       "completedManualQuests": []
+    },
+    "roots:roots_guide": {
+      "viewedEntries": [
+        "roots:crafting/runic_crafter"
+      ],
+      "bookmarks": [],
+      "history": [
+        "roots:crafting/runic_crafter"
+      ],
+      "completedManualQuests": []
     }
   }
 }
