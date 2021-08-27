@@ -93,32 +93,32 @@ Bloomery.removeAllBloomeryRecipes();
 Bloomery.removeAllWitherForgeRecipes();
 mods.jei.JEI.removeAndHide(<pyrotech:wither_forge>);
 
-Bloomery.createBloomeryBuilder("iron_bloomery_recipe", <minecraft:iron_nugget>, <ore:oreEarlyIron>)
+Bloomery.createBloomeryBuilder("iron_bloomery_recipe", <minecraft:iron_ingot>, <ore:oreEarlyIron>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
-	.setBloomYield(18,18)
+	.setBloomYield(0,0)
 	.register();
 	
-Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <gregtech:meta_item_1:9827>, <ore:oreEarlyPrecMetal>)
+Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <gregtech:meta_item_1:10827>, <ore:oreEarlyPrecMetal>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
-	.setBloomYield(18,18)
+	.setBloomYield(0,0)
 	.register();
 
-Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_item_1:9071>, <ore:oreEarlyTin>)
+Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_item_1:10071>, <ore:oreEarlyTin>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
-	.setBloomYield(18,18)
+	.setBloomYield(0,0)
 	.register();
 	
-Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_item_1:9018>, <ore:oreEarlyCopper>)
+Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_item_1:10018>, <ore:oreEarlyCopper>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
-	.setBloomYield(18,18)
+	.setBloomYield(0,0)
 	.register();
 	
 val precMetalBloom = <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 0, maxIntegrity: 0, langKey: "tile.ore_block", recipeId: "crafttweaker:prec_bloomery_recipe"}});
