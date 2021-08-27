@@ -17,7 +17,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 30,
+          "weight": 25,
           "value": "ore:lazurite"
         },
         {
@@ -29,7 +29,7 @@
           "value": "ore:lapis"
         },
 		{
-          "weight": 15,
+          "weight": 20,
           "value": "ore:calcite"
         }
       ]

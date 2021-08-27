@@ -9,7 +9,7 @@
   },
   "generator": {
     "type": "ellipsoid",
-    "radius": [17, 19]
+    "radius": [18, 18]
   },
   "filler": {
     "type": "simple",
@@ -21,7 +21,7 @@
           "value": "ore:chalcopyrite"
         },
 		{
-          "weight": 30,
+          "weight": 20,
           "value": "ore:iron"
         },
 		{
@@ -29,7 +29,7 @@
           "value": "ore:pyrite"
         },
 		{
-          "weight": 10,
+          "weight": 20,
           "value": "ore:copper"
         }
       ]
