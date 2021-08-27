@@ -12,5 +12,5 @@ recipes.addShaped(<roots:mortar>, [[<minecraft:cobblestone>, null, <minecraft:co
 
 // Make Pyre require Sawmill
 
-recipes.remove(<roots:bonfire>);
-recipes.addShaped(<roots:bonfire>, [[null, <pyrotech:material:20>, null], [<pyrotech:material:20>, <roots:wildroot>, <pyrotech:material:20>], [<ore:cobblestone>, <roots:terra_moss>, <ore:cobblestone>]]);
+recipes.remove(<roots:pyre>);
+recipes.addShaped(<roots:pyre>, [[null, <pyrotech:material:20>, null], [<pyrotech:material:20>, <roots:wildroot>, <pyrotech:material:20>], [<ore:cobblestone>, <roots:terra_moss>, <ore:cobblestone>]]);
