@@ -1,0 +1,16 @@
+{
+	title: "Bronze Dungeon",
+	icon: "aether_legacy:locked_dungeon_block 1 1",
+	x: 2.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"00d5ad35"
+	],
+	tasks: [{
+		uid: "ba2d5399",
+		type: "kill",
+		entity: "aether_legacy:slider",
+		value: 1L
+	}]
+}

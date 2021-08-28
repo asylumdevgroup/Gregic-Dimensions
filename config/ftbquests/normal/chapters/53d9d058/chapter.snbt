@@ -1,0 +1,7 @@
+{
+	title: "So many new worlds!",
+	icon: "twilightforest:magic_leaves 1 1",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

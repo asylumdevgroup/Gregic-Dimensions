@@ -1,0 +1,16 @@
+{
+	title: "Gold Dungeon",
+	icon: "aether_legacy:locked_dungeon_block 1 5",
+	x: 5.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"912ad5a2"
+	],
+	tasks: [{
+		uid: "327869c9",
+		type: "kill",
+		entity: "aether_legacy:sun_spirit",
+		value: 1L
+	}]
+}

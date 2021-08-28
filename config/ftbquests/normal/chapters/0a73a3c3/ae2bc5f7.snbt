@@ -1,0 +1,19 @@
+{
+	title: "Aether Equipment!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "lost_aether:phoenix_sword"
+	},
+	x: 1.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"59c409e8"
+	],
+	tasks: [{
+		uid: "57278579",
+		type: "checkmark"
+	}]
+}

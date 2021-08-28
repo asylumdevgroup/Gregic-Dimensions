@@ -1,0 +1,13 @@
+{
+	title: "Pondering the stars beyond",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: -55584635,
+	default_quest_shape: ""
+}

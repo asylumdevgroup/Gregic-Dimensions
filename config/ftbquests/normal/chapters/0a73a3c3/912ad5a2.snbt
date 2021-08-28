@@ -1,0 +1,16 @@
+{
+	title: "Silver Dungeon",
+	icon: "aether_legacy:locked_dungeon_block 1 3",
+	x: 4.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e339107b"
+	],
+	tasks: [{
+		uid: "f1174f32",
+		type: "kill",
+		entity: "aether_legacy:valkyrie_queen",
+		value: 1L
+	}]
+}

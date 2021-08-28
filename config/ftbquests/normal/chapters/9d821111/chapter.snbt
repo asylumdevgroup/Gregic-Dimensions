@@ -1,0 +1,7 @@
+{
+	title: "Oh Hell no.",
+	icon: "minecraft:netherrack",
+	always_invisible: false,
+	group: 1406783576,
+	default_quest_shape: ""
+}

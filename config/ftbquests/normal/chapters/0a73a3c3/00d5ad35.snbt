@@ -1,0 +1,24 @@
+{
+	title: "Aether Dungeons!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "aether_legacy:aether_portal_frame"
+	},
+	x: 1.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"The main progression of the Aether, beyond exploring, is through multiple tiers of Dungeons!",
+		"",
+		"There are four dungeons, a Bronze, Silver, Gold, and Platinum Dungeon. See the later quests for more details."
+	],
+	dependencies: [
+		"59c409e8"
+	],
+	tasks: [{
+		uid: "1e4770f0",
+		type: "checkmark"
+	}]
+}

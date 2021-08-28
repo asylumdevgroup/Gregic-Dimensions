@@ -1,0 +1,17 @@
+{
+	title: "Ore Generation!",
+	icon: "aether_legacy:ambrosium_ore",
+	x: 0.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"Like all other dimensions, the Aether also has unique ore spawns!"
+	],
+	dependencies: [
+		"59c409e8"
+	],
+	tasks: [{
+		uid: "f2966f0d",
+		type: "checkmark"
+	}]
+}

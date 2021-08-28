@@ -1,0 +1,12 @@
+{
+	title: "Dark Magic",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "quark:witch_hat"
+	},
+	always_invisible: false,
+	group: -55584635,
+	default_quest_shape: ""
+}

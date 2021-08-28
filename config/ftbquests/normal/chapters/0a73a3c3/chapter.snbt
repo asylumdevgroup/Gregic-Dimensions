@@ -1,0 +1,7 @@
+{
+	title: "A Heavenly Nightmare",
+	icon: "aether_legacy:aether_grass",
+	always_invisible: false,
+	group: 1406783576,
+	default_quest_shape: ""
+}

@@ -1,0 +1,17 @@
+{
+	title: "Slime Islands!",
+	icon: "tconstruct:slime_congealed 1 2",
+	x: -1.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"59c409e8"
+	],
+	tasks: [{
+		uid: "f47aa559",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_congealed 1 2"
+		}]
+	}]
+}

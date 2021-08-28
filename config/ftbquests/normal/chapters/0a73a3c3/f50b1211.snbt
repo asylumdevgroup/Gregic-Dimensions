@@ -1,0 +1,16 @@
+{
+	title: "Platinum Dungeon",
+	icon: "lost_aether:light_gale_stone",
+	x: 7.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"e831afbc"
+	],
+	tasks: [{
+		uid: "dcc36666",
+		type: "kill",
+		entity: "lost_aether:king_aerwhale",
+		value: 1L
+	}]
+}

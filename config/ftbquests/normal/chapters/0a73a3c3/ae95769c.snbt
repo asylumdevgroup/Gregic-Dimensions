@@ -1,0 +1,25 @@
+{
+	title: "Astral Temples!",
+	x: -1.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"Unlike most packs, the Astral Temples ONLY spawn in the Aether.",
+		"",
+		"On top of that, minor progression through the Aether is REQUIRED to begin Astral Sorcery, and vice versa!",
+		"",
+		"While you have previously mastered the ways of Witchcraft, harnessing the power of the stars will be necessary in order to progress further in your technological journey!",
+		"",
+		"***See the main Astral Sorcery chapter for more."
+	],
+	dependencies: [
+		"59c409e8"
+	],
+	tasks: [{
+		uid: "2bdf62b7",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}]
+	}]
+}

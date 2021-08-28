@@ -1,0 +1,7 @@
+{
+	title: "A Glorious Ending!",
+	icon: "minecraft:end_stone",
+	always_invisible: false,
+	group: 1406783576,
+	default_quest_shape: ""
+}

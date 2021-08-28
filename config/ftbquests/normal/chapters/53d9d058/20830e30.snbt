@@ -1,0 +1,56 @@
+{
+	title: "Dimensions Galore!",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"This pack offers many unique worlds to explore. However, on top of the many worlds to explore, some of these dimensions also have an a magic mod tied to its progression.",
+		"This pack does not just make you explore for the sake of exploring, but melds the progression of magic mods with it. For example, as you progress through the Aether Dungeons, you will simultaneously gain accesss to Astral Sorcery.",
+		"",
+		"Key to Dimensions/Magic Combos:",
+		"Overworld - Wizardry, Roots, Nature's Aura",
+		"Nether - Bewitchment",
+		"Aether - Astral Sorcery",
+		"Twilight Forest - Botania",
+		"Mars - Blood Magic",
+		"",
+		"On top of those dimensions listed, there are also others you can explore and are required to travel to, such as the Moon and the End. While these don't have a coinciding magic mod, they have just as much to uncover.",
+		"The goal of this quest, and set of chapters, is to visit ALL of the dimensions offered. Some of them cannot be accessed until the end-game, while others come early in Progression, and will constantly be used!"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "4aba51cd",
+		type: "dimension",
+		dim: 0
+	},
+	{
+		uid: "204680a3",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "3e7f29ad",
+		type: "dimension",
+		dim: 18
+	},
+	{
+		uid: "81436b45",
+		type: "dimension",
+		dim: 7
+	},
+	{
+		uid: "2eddc10a",
+		type: "dimension",
+		dim: 22
+	},
+	{
+		uid: "f30dc53f",
+		type: "dimension",
+		dim: 23
+	},
+	{
+		uid: "c638b8db",
+		type: "dimension",
+		dim: 1
+	}]
+}

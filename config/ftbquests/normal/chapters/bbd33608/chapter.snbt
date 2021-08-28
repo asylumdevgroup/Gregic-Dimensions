@@ -1,0 +1,7 @@
+{
+	title: "Flower Power",
+	icon: "botania:shinyflower 1 3",
+	always_invisible: false,
+	group: -55584635,
+	default_quest_shape: ""
+}

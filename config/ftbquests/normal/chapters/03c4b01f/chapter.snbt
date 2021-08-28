@@ -1,0 +1,7 @@
+{
+	title: "Harnessing the world around you",
+	icon: "roots:pyre",
+	always_invisible: false,
+	group: -55584635,
+	default_quest_shape: ""
+}

@@ -1,0 +1,9 @@
+{
+	x: -0.5d,
+	y: 3.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "d759c5a7",
+		type: "checkmark"
+	}]
+}
