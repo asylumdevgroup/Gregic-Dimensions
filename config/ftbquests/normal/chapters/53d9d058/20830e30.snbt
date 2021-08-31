@@ -1,8 +1,7 @@
 {
 	title: "Dimensions Galore!",
-	x: 0.0d,
-	y: 0.0d,
-	shape: "rsquare",
+	x: 1.5d,
+	y: -1.5d,
 	text: [
 		"This pack offers many unique worlds to explore. However, on top of the many worlds to explore, some of these dimensions also have an a magic mod tied to its progression.",
 		"This pack does not just make you explore for the sake of exploring, but melds the progression of magic mods with it. For example, as you progress through the Aether Dungeons, you will simultaneously gain accesss to Astral Sorcery.",
@@ -19,11 +18,6 @@
 	],
 	size: 3.0d,
 	tasks: [{
-		uid: "4aba51cd",
-		type: "dimension",
-		dim: 0
-	},
-	{
 		uid: "204680a3",
 		type: "dimension",
 		dim: -1

@@ -17,13 +17,10 @@ val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
 
 Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
 
-mods.jei.JEI.removeAndHide(<aether_legacy:enchanted_gravitite>);
-mods.jei.JEI.removeAndHide(<aether_legacy:gravitite_ore>);
-
 autoclave.recipeBuilder()
-	.inputs(<ore:gemGravitite>)
+	.inputs(<aether_legacy:gravitite_ore>)
 	.fluidInputs([<liquid:astralsorcery.liquidstarlight> * 250])
-	.outputs(<contenttweaker:enchgravitite>)
+	.outputs(<aether_legacy:enchanted_gravitite>)
 	.duration(80)
 	.EUt(30)
 	.buildAndRegister();

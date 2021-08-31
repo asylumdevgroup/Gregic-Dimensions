@@ -6,9 +6,6 @@
 	text: [
 		"In this pack, the progression of Astral Sorcery and the Aether are combined, and progressing to the end game of both will be required to complete the pack. However, you will not need to, nor will you be able to, do that soon."
 	],
-	dependencies: [
-		"3e7f29ad"
-	],
 	tasks: [{
 		uid: "961f2dc6",
 		type: "checkmark",

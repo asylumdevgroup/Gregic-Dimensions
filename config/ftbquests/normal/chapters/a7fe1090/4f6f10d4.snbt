@@ -24,5 +24,16 @@
 				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "32c6f052",
+		type: "item",
+		item: "gregtech:meta_item_2 1 7033"
+	},
+	{
+		uid: "429a45f8",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 6
 	}]
 }
