@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-08-27T22:15:02.2831929Z",
-  "playedCount": 26,
+  "lastPlayed": "2021-09-01T00:17:00.5253517Z",
+  "playedCount": 27,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -48,7 +48,7 @@
   "cachedScans": [],
   "isValid": true,
   "lastPreviousMatchUpdate": "2021-08-27T22:00:51.5424849Z",
-  "lastRefreshAttempt": "2021-08-27T17:00:51.9573775-05:00",
+  "lastRefreshAttempt": "2021-09-01T07:52:37.578858-05:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -1093,6 +1093,73 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 282988,
+      "gameInstanceID": "33a0f451-1142-498a-ae31-e5b26ea77ac3",
+      "installedFile": {
+        "id": 2598021,
+        "displayName": "Scavenge V1.12-1.8.3.2",
+        "fileName": "Scavenge V1.12-1.8.3.2.jar",
+        "fileDate": "2018-08-04T22:12:16.047Z",
+        "fileLength": 534420,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2598/21/Scavenge V1.12-1.8.3.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2450546687,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "scavenge",
+            "fingerprint": 468681013,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2584969988,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3748373555,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2007-07-01T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Scavenge V1.12-1.8.3.2.jar"
+      },
+      "dateInstalled": "2021-08-31T22:50:32.0039495Z",
+      "dateUpdated": "2021-08-31T22:50:32.0248939Z",
+      "dateLastUpdateAttempted": "2021-08-31T22:50:32.0248939Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 252910,
@@ -9876,24 +9943,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 225957,
-      "gameInstanceID": "33a0f451-1142-498a-ae31-e5b26ea77ac3",
-      "installedFile": null,
-      "dateInstalled": "2021-08-17T03:31:03.7336147Z",
-      "dateUpdated": "2021-08-17T03:31:03.7336147Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 236541,
       "gameInstanceID": "33a0f451-1142-498a-ae31-e5b26ea77ac3",
       "installedFile": {
@@ -13762,7 +13811,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
