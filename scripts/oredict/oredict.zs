@@ -110,3 +110,7 @@ oreDictEntPrecMetal.addAll(<ore:orePreciousMetal>);
 
 oreDictEntTin.addAll(<ore:oreTin>);
 oreDictEntTin.addAll(<ore:oreCassiterite>);
+
+// Infused Iron OreDict Fix
+
+<ore:ingotInfusedIron>.add(<naturesaura:infused_iron>);
