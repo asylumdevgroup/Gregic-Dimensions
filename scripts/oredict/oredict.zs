@@ -99,6 +99,9 @@ val oreDictEntTin = <ore:oreEarlyTin>;
 oreDictEntIron.addAll(<ore:oreIron>);
 oreDictEntIron.addAll(<ore:oreMagnetite>);
 oreDictEntIron.addAll(<ore:orePyrite>);
+oreDictEntIron.addAll(<ore:oreBrownLimonite>);
+oreDictEntIron.addAll(<ore:oreYellowLimonite>);
+oreDictEntIron.addAll(<ore:BandedIron>);
 
 oreDictEntCopper.addAll(<ore:oreCopper>);
 oreDictEntCopper.addAll(<ore:oreChalcopyrite>);

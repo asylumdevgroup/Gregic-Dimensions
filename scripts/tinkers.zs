@@ -1,5 +1,5 @@
 // Tinkers.zs
-// By CJWilk
+// By CJWilk and MCAdventureCity
 
 
 // Imports
@@ -8,6 +8,8 @@ import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
 import mods.pyrotech.GraniteAnvil;
 
+// Blank Pattern
+recipes.addShapedMirrored("blank_pattern", <tconstruct:pattern> * 8, [[<pyrotech:material:23>, <thermalfoundation:material:801>],[<thermalfoundation:material:801>,<pyrotech:material:23>]]);
 
 // Drying Rack
 
