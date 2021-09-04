@@ -5,6 +5,7 @@
 // Imports
 
 import mods.roots.Pyre;
+import mods.naturesaura.TreeRitual;
 
 // Wooden Stand
 
@@ -26,9 +27,19 @@ recipes.addShaped("na_gold_powder", <naturesaura:gold_powder>, [[<ore:craftingTo
 
 Pyre.addRecipe("na_gold_leaf", <naturesaura:gold_leaf>*10, [<ore:ingotPreciousMetal>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]);
 
-//Add Ritual of the Forest Recipe for Gold Stone Bricks
+// Gold Stone Bricks
 
+<naturesaura:gold_brick>.displayName = "Brilliant Bricks";
+
+TreeRitual.addRecipe("na_gold_bricks", <minecraft:sapling>, <naturesaura:gold_brick> * 4, 40, [<naturesaura:gold_powder>, <naturesaura:gold_powder>, <naturesaura:gold_powder>, <naturesaura:gold_powder>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>, <minecraft:stonebrick>]);
 
 
 // Add Recipe to convert NA Infused Iron to the GT Material Version.
+
 recipes.addShapeless("gt_infused_iron", <gregtech:meta_item_1:10476>, [<naturesaura:infused_iron>]);
+
+
+// Natural Altar
+
+TreeRitual.removeRecipe(<naturesaura:nature_altar>);
+TreeRitual.addRecipe("na_natural_altar", <minecraft:sapling>, <naturesaura:nature_altar>, 160, [<ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>, <ore:ingotBronze>, <ore:ingotBronze>]);

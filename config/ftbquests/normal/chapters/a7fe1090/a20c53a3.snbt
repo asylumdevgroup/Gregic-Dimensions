@@ -11,7 +11,8 @@
 		items: [{
 			item: "naturesaura:gold_powder"
 		}],
-		count: 16L
+		count: 16L,
+		consume_items: true
 	},
 	{
 		uid: "e4dabc6d",

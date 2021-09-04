@@ -7,6 +7,7 @@
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.Burn;
 import mods.pyrotech.GraniteAnvil;
+import mods.naturesaura.TreeRitual;
 
 // Blank Pattern
 recipes.remove(<tconstruct:pattern>);
@@ -38,4 +39,19 @@ Burn.createBuilder("grout_seared_stone", <tconstruct:seared>, "tconstruct:soil")
 
 GraniteAnvil.addRecipe("seared_bricks_anvil", <tconstruct:materials>, <tconstruct:seared>, 2, "pickaxe");
 
-// Tool Station
+// Seared Melter and Furnace
+
+recipes.remove(<tcomplement:melter>);
+recipes.remove(<tconstruct:seared_furnace_controller>);
+
+TreeRitual.addRecipe("tinkers_melter", <minecraft:sapling>, <tcomplement:melter>, 160, [<tconstruct:seared_tank>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>]);
+TreeRitual.addRecipe("tinkers_furnace", <minecraft:sapling>, <tconstruct:seared_furnace_controller>, 160, [<ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:ingotBrickSeared>, <ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>]);
+
+// Tool & Crafting Stations
+
+recipes.remove(<tconstruct:tooltables>);
+recipes.remove(<tconstruct:tooltables:3>);
+
+recipes.addShaped("tinkers_crafting_station", <tconstruct:tooltables>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
+recipes.addShaped("tinkers_tool_station", <tconstruct:tooltables:3>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
+

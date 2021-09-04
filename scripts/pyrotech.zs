@@ -58,9 +58,9 @@ SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<minecraft:mossy_cobblestone>);
 
-SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water>, <minecraft:cobblestone>, 600);
-SoakingPot.addRecipe("flint_clay_soak", <pyrotech:material:3>, <liquid:liquid_clay>, <ore:dustFlint>, 600);
-SoakingPot.addRecipe("lime_clay_soak", <pyrotech:material:8>, <liquid:liquid_clay>, <pyrotech:material:22>, 600);
+SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water> * 500, <minecraft:cobblestone>, 600);
+SoakingPot.addRecipe("flint_clay_soak", <pyrotech:material:3>, <liquid:liquid_clay> * 500, <ore:dustFlint>, 600);
+SoakingPot.addRecipe("lime_clay_soak", <pyrotech:material:8>, <liquid:liquid_clay> * 500, <pyrotech:material:22>, 600);
 
 
 // Remove Unfired Bricks / Lumps of Clay
