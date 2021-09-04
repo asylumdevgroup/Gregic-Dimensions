@@ -9,6 +9,7 @@ import mods.pyrotech.Burn;
 import mods.pyrotech.GraniteAnvil;
 
 // Blank Pattern
+recipes.remove(<tconstruct:pattern>);
 recipes.addShapedMirrored("blank_pattern", <tconstruct:pattern> * 8, [[<pyrotech:material:23>, <thermalfoundation:material:801>],[<thermalfoundation:material:801>,<pyrotech:material:23>]]);
 
 // Drying Rack
@@ -37,4 +38,4 @@ Burn.createBuilder("grout_seared_stone", <tconstruct:seared>, "tconstruct:soil")
 
 GraniteAnvil.addRecipe("seared_bricks_anvil", <tconstruct:materials>, <tconstruct:seared>, 2, "pickaxe");
 
-
+// Tool Station

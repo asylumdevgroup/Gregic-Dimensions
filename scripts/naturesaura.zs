@@ -27,3 +27,8 @@ recipes.addShaped("na_gold_powder", <naturesaura:gold_powder>, [[<ore:craftingTo
 Pyre.addRecipe("na_gold_leaf", <naturesaura:gold_leaf>*10, [<ore:ingotPreciousMetal>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]);
 
 //Add Ritual of the Forest Recipe for Gold Stone Bricks
+
+
+
+// Add Recipe to convert NA Infused Iron to the GT Material Version.
+recipes.addShapeless("gt_infused_iron", <gregtech:meta_item_1:10476>, [<naturesaura:infused_iron>]);

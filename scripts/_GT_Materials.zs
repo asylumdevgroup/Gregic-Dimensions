@@ -15,5 +15,5 @@ import mods.devtech.unification.IMaterialIconType;
 import mods.devtech.unification.IMaterialPredicate;
 
 // Infused Iron (Nature's Aura) GT Material
-var infused_iron = MaterialRegistry.createIngotMaterial(476, "infused_iron", 0x00802b, "DIAMOND", 3);
+var infused_iron = MaterialRegistry.createIngotMaterial(476, "infused_iron", 0x00802b, "METALLIC", 3);
 infused_iron.addFlags(["GENERATE_PLATE"]);
