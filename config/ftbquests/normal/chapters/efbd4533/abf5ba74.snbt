@@ -1,0 +1,16 @@
+{
+	title: "Beginning Steam",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"In order to begin Steam, you will need a decent infrastructure, including multiple more Steam Dynamos. While it is not required, it is also recommended to make multiple Railcraft Coke Ovens."
+	],
+	dependencies: [
+		"7aae6a7a"
+	],
+	tasks: [{
+		uid: "c334e340",
+		type: "checkmark"
+	}]
+}

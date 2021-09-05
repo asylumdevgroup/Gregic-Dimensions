@@ -1,17 +1,57 @@
 {
+	title: "STEAM!",
 	x: -1.0d,
 	y: 23.0d,
 	shape: "pentagon",
+	text: [
+		"NOTE: This Dynamo will not produce power. It has an augment to ONLY produce Steam.",
+		"",
+		"The Thermal Dynamo is your primary Steam source until the Large Steam Boiler at LV. It is recommended you make numerous of these.",
+		"",
+		"You are able to craft GT Steam Boilers, but these are recommended. They have a higher steam output, and do not blow up."
+	],
 	dependencies: [
 		"d84874f9",
 		"00225d51"
 	],
 	size: 2.0d,
 	tasks: [{
-		uid: "392063f6",
+		uid: "5e66a207",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1"
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Energy: 0,
+				Level: 1b,
+				Augments: [{
+					Slot: 0,
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 576s
+				}]
+			}
 		}]
+	}],
+	rewards: [{
+		uid: "4f977e47",
+		type: "item",
+		item: {
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Energy: 0,
+				Level: 1b,
+				Augments: [{
+					Slot: 0,
+					id: "thermalexpansion:augment",
+					Count: 1b,
+					Damage: 576s
+				}]
+			}
+		},
+		count: 3
 	}]
 }

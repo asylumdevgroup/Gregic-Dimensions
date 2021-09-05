@@ -21,6 +21,22 @@
         "roots:crafting/runic_crafter"
       ],
       "completedManualQuests": []
+    },
+    "bewitchment:codex_infernalis": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "bewitchment:book_of_shadows": {
+      "viewedEntries": [
+        "bewitchment:magic_overview/altars_and_modifiers"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bewitchment:magic_overview/altars_and_modifiers"
+      ],
+      "completedManualQuests": []
     }
   }
 }

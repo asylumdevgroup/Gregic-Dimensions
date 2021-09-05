@@ -1,0 +1,11 @@
+{
+	title: "Welcome to ADG Insert-Pack-Name!",
+	icon: "avaritia:resource 1 5",
+	x: 0.5d,
+	y: -0.5d,
+	size: 2.0d,
+	tasks: [{
+		uid: "eb6364e3",
+		type: "checkmark"
+	}]
+}

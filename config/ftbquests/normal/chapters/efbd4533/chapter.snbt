@@ -1,0 +1,10 @@
+{
+	title: "02 - Bronze Age (Steam)",
+	icon: "gregtech:machine_casing 1 10",
+	description: [
+		"I was wrong. Bronze will hurt me."
+	],
+	always_invisible: false,
+	group: 150877283,
+	default_quest_shape: ""
+}

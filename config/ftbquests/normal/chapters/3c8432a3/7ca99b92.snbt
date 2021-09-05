@@ -1,0 +1,12 @@
+{
+	title: "Placeholder Cold Iron Quest",
+	x: -0.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "d4b4f800",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_ingot"
+		}]
+	}]
+}

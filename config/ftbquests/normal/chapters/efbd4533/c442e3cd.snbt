@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	dependencies: [
+		"abf5ba74"
+	],
+	tasks: [{
+		uid: "679ea33e",
+		type: "item",
+		items: [{
+			item: "railcraft:coke_oven"
+		}],
+		count: 26L
+	}]
+}
