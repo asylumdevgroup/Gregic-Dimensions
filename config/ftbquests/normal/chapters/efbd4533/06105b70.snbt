@@ -1,0 +1,45 @@
+{
+	title: "Apatite Vein",
+	x: 6.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ba80c6c8"
+	],
+	tasks: [{
+		uid: "61a89885",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreApatite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreApatite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "662bb53c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "orePhosphor",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any orePhosphor"
+				}
+			}
+		}]
+	}]
+}

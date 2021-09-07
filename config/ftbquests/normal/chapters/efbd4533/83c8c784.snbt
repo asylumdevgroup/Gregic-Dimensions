@@ -1,0 +1,81 @@
+{
+	title: "Lapis Vein",
+	x: 6.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ba80c6c8"
+	],
+	tasks: [{
+		uid: "616b9263",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreLapis",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreLapis"
+				}
+			}
+		}]
+	},
+	{
+		uid: "edd6629c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreLazurite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreLazurite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4ad1ecb5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreSodalite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreSodalite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "f9af48e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCalcite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCalcite"
+				}
+			}
+		}]
+	}]
+}

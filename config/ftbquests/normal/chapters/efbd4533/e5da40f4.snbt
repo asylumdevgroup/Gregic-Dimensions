@@ -1,0 +1,33 @@
+{
+	title: "High Pressure",
+	x: 1.5d,
+	y: 6.0d,
+	text: [
+		"Now with access to Steel, you can make High Pressure Steam Machines, which are faster Steam machines. Also, they require a lot less Steel, and more Wrought Iron, than typical GT."
+	],
+	dependencies: [
+		"d511524d"
+	],
+	tasks: [{
+		uid: "648c8aca",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 16"
+		},
+		{
+			item: "gregtech:machine 1 8"
+		},
+		{
+			item: "gregtech:machine 1 10"
+		},
+		{
+			item: "gregtech:machine 1 12"
+		},
+		{
+			item: "gregtech:machine 1 14"
+		},
+		{
+			item: "gregtech:machine 1 18"
+		}]
+	}]
+}

@@ -1,17 +1,24 @@
 {
+	title: "Infused Iron Tools",
 	x: -4.5d,
 	y: 20.5d,
 	text: [
-		"quest about infused iron tools, being the best."
+		"GT Infused Iron tools are superior to other options. It is recomended you use it as your material of choice."
 	],
 	dependencies: [
 		"00225d51"
 	],
 	tasks: [{
-		uid: "f5fbe9cb",
+		uid: "7112c7dc",
 		type: "item",
 		items: [{
-			item: "minecraft:dirt"
+			item: "gregtech:meta_item_2 1 1476"
+		},
+		{
+			item: "gregtech:meta_item_2 1 6476"
+		},
+		{
+			item: "gregtech:meta_item_2 1 7476"
 		}]
 	}]
 }

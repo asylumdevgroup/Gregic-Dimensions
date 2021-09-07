@@ -1,0 +1,59 @@
+{
+	title: "Placeholder Galena Vein Quest",
+	x: 1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "cdabb789",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreSilver",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreSilver"
+				}
+			}
+		}]
+	},
+	{
+		uid: "4579a319",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGalena",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGalena"
+				}
+			}
+		}]
+	},
+	{
+		uid: "29547a7c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreLead",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreLead"
+				}
+			}
+		}]
+	}]
+}

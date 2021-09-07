@@ -1,0 +1,18 @@
+{
+	title: "LV Age!",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "pentagon",
+	dependencies: [
+		"d511524d",
+		"cea323f1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f41b4489",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 501"
+		}]
+	}]
+}

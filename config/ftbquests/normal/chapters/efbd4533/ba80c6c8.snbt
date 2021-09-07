@@ -1,0 +1,17 @@
+{
+	title: "Other Overworld Ore Veins",
+	icon: "gregtech:ore_diamond_0",
+	x: 4.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"These veins were not required for progression in the Stone Age, but are now."
+	],
+	dependencies: [
+		"abf5ba74"
+	],
+	tasks: [{
+		uid: "c27c4fba",
+		type: "checkmark"
+	}]
+}

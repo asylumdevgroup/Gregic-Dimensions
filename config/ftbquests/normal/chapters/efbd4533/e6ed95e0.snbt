@@ -1,6 +1,9 @@
 {
-	x: -2.5d,
-	y: -2.0d,
+	x: 2.5d,
+	y: -2.5d,
+	text: [
+		"You are not able to craft this until midway through Bewitchment Progression."
+	],
 	dependencies: [
 		"abf5ba74",
 		"7ca99b92"

@@ -51,7 +51,19 @@
 					Damage: 576s
 				}]
 			}
-		},
-		count: 3
+		}
+	},
+	{
+		uid: "4e336b55",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7107954308026632868L,
+					AS_Amulet_HolderMost: -625770188708100546L
+				}
+			},
+			id: "thermalfoundation:wrench"
+		}
 	}]
 }

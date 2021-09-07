@@ -101,7 +101,7 @@ oreDictEntIron.addAll(<ore:oreMagnetite>);
 oreDictEntIron.addAll(<ore:orePyrite>);
 oreDictEntIron.addAll(<ore:oreBrownLimonite>);
 oreDictEntIron.addAll(<ore:oreYellowLimonite>);
-oreDictEntIron.addAll(<ore:BandedIron>);
+oreDictEntIron.addAll(<ore:oreBandedIron>);
 
 oreDictEntCopper.addAll(<ore:oreCopper>);
 oreDictEntCopper.addAll(<ore:oreChalcopyrite>);
@@ -111,6 +111,7 @@ oreDictEntPrecMetal.addAll(<ore:orePreciousMetal>);
 oreDictEntTin.addAll(<ore:oreTin>);
 oreDictEntTin.addAll(<ore:oreCassiterite>);
 
-// Infused Iron OreDict Fix
+// New GT Materials OreDict Fix
 
 <ore:ingotInfusedIron>.add(<naturesaura:infused_iron>);
+<ore:ingotNetherite>.add(<netherbackport:netheriteingot>);

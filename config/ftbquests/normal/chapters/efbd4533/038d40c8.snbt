@@ -1,0 +1,81 @@
+{
+	title: "Basaltic Mineral Vein",
+	x: 6.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ba80c6c8"
+	],
+	tasks: [{
+		uid: "0b493dd8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBasalticMineralSand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBasalticMineralSand"
+				}
+			}
+		}]
+	},
+	{
+		uid: "ad3bfd33",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGraniticMineralSand",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGraniticMineralSand"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7e938f8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreFullersEarth",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreFullersEarth"
+				}
+			}
+		}]
+	},
+	{
+		uid: "18d15670",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGypsum",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGypsum"
+				}
+			}
+		}]
+	}]
+}

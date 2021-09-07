@@ -1,0 +1,31 @@
+{
+	title: "Transfering Steam",
+	x: -0.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	text: [
+		"There are a few options to transfer Steam to your machines at this stage: GT Bronze Pipes, and Ender IO Fluid Conduits. The Conduits are superior, but much more expensive!"
+	],
+	dependencies: [
+		"abf5ba74"
+	],
+	tasks: [{
+		uid: "7c5c583a",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe 1 95"
+		},
+		{
+			item: "gregtech:fluid_pipe 1 1095"
+		},
+		{
+			item: "gregtech:fluid_pipe 1 2095"
+		},
+		{
+			item: "gregtech:fluid_pipe 1 3095"
+		},
+		{
+			item: "enderio:item_liquid_conduit"
+		}]
+	}]
+}

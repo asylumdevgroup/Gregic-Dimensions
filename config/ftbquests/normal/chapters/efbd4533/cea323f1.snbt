@@ -1,0 +1,21 @@
+{
+	title: "Bewitchment",
+	icon: "bewitchment:witches_cauldron",
+	x: -1.5d,
+	y: 7.5d,
+	shape: "rsquare",
+	text: [
+		"Although you have just created your first steel, you are not yet ready to progress into the LV Age. To do so, you'll need to progress through Bewitchment, which has now been unlocked along side the Nether.",
+		"",
+		"There are two name things you'll have to do: Covereing cables, and Basic Circuit Boards. While they can later be made in GT Machines, your early batches will be made entirely in Bewitchment.",
+		"",
+		"***See main Bewitchment Line for more."
+	],
+	dependencies: [
+		"5abe02f8"
+	],
+	tasks: [{
+		uid: "f658d1ff",
+		type: "checkmark"
+	}]
+}

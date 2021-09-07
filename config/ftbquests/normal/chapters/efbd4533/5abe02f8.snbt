@@ -1,0 +1,31 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "minecraft:flint_and_steel"
+	},
+	x: -1.5d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"d511524d"
+	],
+	tasks: [{
+		uid: "07e88768",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ccbb1c1",
+		type: "dimension",
+		dim: -1
+	}]
+}

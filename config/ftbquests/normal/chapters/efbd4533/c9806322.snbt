@@ -1,0 +1,80 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ba80c6c8"
+	],
+	tasks: [{
+		uid: "26c49403",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBrownLimonite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBrownLimonite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "141ea46f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreYellowLimonite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreYellowLimonite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "630f85ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreBandedIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreBandedIron"
+				}
+			}
+		}]
+	},
+	{
+		uid: "21c4cfc4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreMalachite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreMalachite"
+				}
+			}
+		}]
+	}]
+}

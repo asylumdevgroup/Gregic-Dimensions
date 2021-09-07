@@ -1,0 +1,19 @@
+{
+	title: "Blast me off, Scotty!",
+	x: 0.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"725c29be",
+		"620321f0",
+		"47cb50ad",
+		"714530aa"
+	],
+	tasks: [{
+		uid: "d36adba3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 510"
+		}]
+	}]
+}
