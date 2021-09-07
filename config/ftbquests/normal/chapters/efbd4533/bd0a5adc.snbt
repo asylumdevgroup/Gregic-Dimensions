@@ -1,14 +1,15 @@
 {
+	title: "Passive Water",
 	x: -2.5d,
-	y: -3.0d,
+	y: -2.0d,
 	dependencies: [
 		"abf5ba74"
 	],
 	tasks: [{
-		uid: "679ea33e",
+		uid: "21968cd8",
 		type: "item",
 		items: [{
-			item: "railcraft:coke_oven"
+			item: "railcraft:tank_water"
 		}],
 		count: 26L
 	}]

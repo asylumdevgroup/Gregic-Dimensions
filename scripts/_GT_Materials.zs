@@ -24,3 +24,11 @@ infused_iron.addFlags(["GENERATE_PLATE", "SMELT_INTO_FLUID"]);
 
 var netherite = MaterialRegistry.createIngotMaterial(477, "netherite", 0x4c4143, "METALLIC", 4);
 netherite.addFlags(["GENERATE_PLATE"]);
+
+// Witches' Rubber
+
+val witchesRubber = MaterialRegistry.createFluidMaterial(478, "witches_rubber", 0x2b2827, "FLUID");
+witchesRubber.addFlags(["GENERATE_FLUID_BLOCK"]);
+
+val witchesRubberItem = MaterialRegistry.createIngotMaterial(479, "witches_rubber_i", 0x2b2827, "DULL", 1);
+witchesRubberItem.addFlags(["GENERATE_PLATE", "GENERATE_FOIL", "GENERATE_RING"]);
