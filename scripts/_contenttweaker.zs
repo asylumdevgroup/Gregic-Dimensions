@@ -11,3 +11,7 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 
 
+// Items
+
+var skyroot = VanillaFactory.createItem("skyroot");
+skyroot.register();

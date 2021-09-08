@@ -1,0 +1,23 @@
+{
+	title: "To the Aether!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "aether_legacy:aether_portal_frame"
+	},
+	x: 2.5d,
+	y: 10.5d,
+	shape: "pentagon",
+	text: [
+		"Fill your new Skyroot bucket with water, and in a frame of Glowstone, ignite your portal to the Aether."
+	],
+	dependencies: [
+		"0acce29b"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "448e2345",
+		type: "checkmark"
+	}]
+}

@@ -50,18 +50,12 @@ recipes.addShaped("witches_cauldron", <bewitchment:witches_cauldron>, [[<ore:nug
 
 // Essence of Vitality
 
-WitchesOven.removeRecipe(<bewitchment:essence_of_vitality>);
 WitchesOven.addRecipe(<naturesaura:ancient_sapling>, <bewitchment:essence_of_vitality>, <bewitchment:wood_ash>, 100, true);
-
-// Heaven Extract
-
-recipes.remove(<bewitchment:heaven_extract>);
-Distillery.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>], [<bewitchment:cloudy_oil>, <bewitchment:birch_soul>, <ore:feather>, <bewitchment:owlets_wing>, <naturesaura:sky_ingot>]);
 
 // Sigil Table
 
 recipes.remove(<bewitchment:sigil_table>);
-recipes.addShaped("sigil_table", <bewitchment:sigil_table>, [[<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>], [<bewitchment:elder_wood>, <bewitchment:dragons_blood_resin>, <bewitchment:elder_wood>], [<bewitchment:elder_wood>, <bewitchment:demonic_elixir>, <bewitchment:elder_wood>]]);
+recipes.addShaped("sigil_table", <bewitchment:sigil_table>, [[<astralsorcery:blockmarbleslab>, <bloodmagic:slate>, <astralsorcery:blockmarbleslab>], [<bewitchment:elder_wood>, <bewitchment:dragons_blood_resin>, <bewitchment:elder_wood>], [<bewitchment:elder_wood>, <bewitchment:demonic_elixir>, <bewitchment:elder_wood>]]);
 
 // Empty Jar
 

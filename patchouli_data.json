@@ -4,10 +4,12 @@
   "bookData": {
     "naturesaura:book": {
       "viewedEntries": [
-        "naturesaura:practices/tree_ritual"
+        "naturesaura:practices/tree_ritual",
+        "naturesaura:practices/offering"
       ],
       "bookmarks": [],
       "history": [
+        "naturesaura:practices/offering",
         "naturesaura:practices/tree_ritual"
       ],
       "completedManualQuests": []

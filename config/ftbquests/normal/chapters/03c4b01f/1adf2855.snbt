@@ -1,0 +1,19 @@
+{
+	title: "Placeholder Offering Table Quest",
+	x: 4.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "f10df2d0",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	},
+	{
+		uid: "28b86539",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}]
+}

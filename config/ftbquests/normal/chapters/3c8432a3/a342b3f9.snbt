@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 6.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1adf2855",
+		"21c25ee9",
+		"f8c810cc",
+		"71879bba",
+		"3bb8bdbe"
+	],
+	tasks: [{
+		uid: "e7383c84",
+		type: "item",
+		items: [{
+			item: "contenttweaker:skyroot"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Placeholder Orb Quest",
+	x: -1.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "0650b559",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					mana: 100.0d,
+					maxMana: 100.0d,
+					burnout: 0.0d,
+					max_burnout: 100.0d
+				}
+			},
+			id: "wizardry:orb",
+			Damage: 1s
+		}]
+	}]
+}

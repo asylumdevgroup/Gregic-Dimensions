@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	shape: "rsquare",
+	dependencies: [
+		"211fb346",
+		"a342b3f9"
+	],
+	tasks: [{
+		uid: "998aacba",
+		type: "item",
+		items: [{
+			item: "aether_legacy:skyroot_bucket"
+		}]
+	}]
+}
