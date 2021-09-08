@@ -36,10 +36,12 @@
         "bewitchment:world/animals",
         "bewitchment:sigils/luck",
         "bewitchment:sigils/mending",
-        "bewitchment:distilling_and_smelting/witches_oven_and_distillery"
+        "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
+        "bewitchment:rituals/rising_twigs"
       ],
       "bookmarks": [],
       "history": [
+        "bewitchment:rituals/rising_twigs",
         "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
         "bewitchment:sigils/mending",
         "bewitchment:sigils/luck",

@@ -4,7 +4,6 @@
 	shape: "rsquare",
 	dependencies: [
 		"40bc27b0",
-		"71879bba",
 		"b4f20d19"
 	],
 	tasks: [{

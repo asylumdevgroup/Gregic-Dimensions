@@ -1,0 +1,7 @@
+{
+	title: "04 - Alu-min-i-um (MV)",
+	icon: "gregtech:machine 1 502",
+	always_invisible: false,
+	group: 150877283,
+	default_quest_shape: ""
+}

@@ -1,0 +1,7 @@
+{
+	title: "05 - High as a kite (HV)",
+	icon: "gregtech:machine 1 503",
+	always_invisible: false,
+	group: 150877283,
+	default_quest_shape: ""
+}

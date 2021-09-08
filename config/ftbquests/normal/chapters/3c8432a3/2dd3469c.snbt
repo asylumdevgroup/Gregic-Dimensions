@@ -1,8 +1,15 @@
 {
 	x: -2.0d,
 	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"00c44ebb"
+	],
 	tasks: [{
-		uid: "313cd5a7",
-		type: "checkmark"
+		uid: "42635eb6",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_ichor"
+		}]
 	}]
 }

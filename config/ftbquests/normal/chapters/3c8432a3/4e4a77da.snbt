@@ -1,0 +1,27 @@
+{
+	title: "Chalk Rituals",
+	x: -3.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	text: [
+		"The final piece of Bewitchment Progression is Rituals, made by using Ritual Chalk. However, this part of Bewitchment is heavily gated behind GT, requiring an Implosion Compressor, which you get access to at HV.",
+		"",
+		"It is how you will harness the ancient power of the beings from Mars, as well as the ability to move without the restraints of gravity (flight)."
+	],
+	dependencies: [
+		"43daacae",
+		"2dd3469c"
+	],
+	tasks: [{
+		uid: "0d4dfbae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:ritual_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

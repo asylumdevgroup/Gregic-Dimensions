@@ -1,0 +1,12 @@
+{
+	title: "Placeholder Implosion Compressor Quest",
+	x: -1.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "6367aca0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2536"
+		}]
+	}]
+}

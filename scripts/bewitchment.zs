@@ -13,6 +13,7 @@ import mods.gregtech.recipe.RecipeMap;
 // GT Machines
 
 val alloy_smelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
+val implosion_compressor as RecipeMap = RecipeMap.getByName("implosion_compressor");
 
 // Remove Other Altars
 
@@ -66,4 +67,16 @@ alloy_smelter.recipeBuilder()
 	.outputs([<bewitchment:empty_jar>])
 	.duration(100)
 	.EUt(24)
+	.buildAndRegister();
+	
+// Ritual Chalk
+
+recipes.remove(<bewitchment:ritual_chalk>);
+
+implosion_compressor.recipeBuilder()
+	.inputs([<gregtech:meta_item_1:2097> * 6, <bewitchment:stone_ichor>])
+	.outputs([<bewitchment:ritual_chalk> * 2])
+	.property("explosives", 2)
+	.duration(10)
+	.EUt(480)
 	.buildAndRegister();
