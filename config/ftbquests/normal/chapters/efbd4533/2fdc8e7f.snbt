@@ -1,0 +1,26 @@
+{
+	title: "Struggling for Steam?",
+	icon: {
+		id: "thermalexpansion:florb",
+		tag: {
+			Fluid: "steam"
+		}
+	},
+	x: -4.5d,
+	y: -2.0d,
+	text: [
+		"Steam is your main power source until at least mid-MV, so if you are struggling for it now, it would be wise to figure it out as sooner rather than struggle through it.",
+		"",
+		"On the brightside, there are numerous ways to produce Steam in this pack. Beyond the Dynamos, there are GT Small, High Pressure, and Large Boilers, as well as Railcraft Multiblock boilers.",
+		"You can also use a Thermal Upgrade Kit, and an Auxiliary Transmission Coil Augment to upgrade your current Dynamos.",
+		"",
+		"***NOTE: Not all of these can be crafted when you start Steam"
+	],
+	dependencies: [
+		"abf5ba74"
+	],
+	tasks: [{
+		uid: "1d50480a",
+		type: "checkmark"
+	}]
+}

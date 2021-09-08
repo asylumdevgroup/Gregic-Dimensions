@@ -6,6 +6,9 @@
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.PBFRecipeBuilder;
 import crafttweaker.item.IItemStack;
+import moretweaker.bewitchment.WitchesCauldron;
+import moretweaker.bewitchment.Distillery;
+
 
 // Machines
 
@@ -20,7 +23,7 @@ recipes.addShaped("wood_pulp_mortar", <gregtech:meta_item_1:2196> * 2, [[<ore:lo
 
 recipes.remove(<gregtech:machine:1>);
 recipes.addShaped("small_steam_coal_boiler", <gregtech:machine:1>, [[<ore:plateBronze>, <ore:plateInfusedIron>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>], [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]]);
-<gregtech:machine:1>.addTooltip(format.red("Not recommended. Use Thermal Dynamos instead."));
+<gregtech:machine:1>.addTooltip(format.red("Not recommended if you have not used them before, as Thermal Dynamos are safer."));
 
 // Bronze Casings
 
@@ -74,6 +77,11 @@ recipes.addShaped("hp_steam_forge_hammer", <gregtech:machine:14>, [[<ore:plateWr
 recipes.remove(<gregtech:machine:18>);
 recipes.addShaped("hp_steam_alloy_smelter", <gregtech:machine:18>, [[<ore:plateWroughtIron>, <ore:pipeTinySteel>, <ore:plateWroughtIron>], [<tconstruct:seared_furnace_controller>, <gregtech:machine_casing:13>, <tconstruct:seared_furnace_controller>], [<ore:plateWroughtIron>, <ore:pipeTinySteel>, <ore:plateWroughtIron>]]);
 
+recipes.remove(<gregtech:machine:6>);
+recipes.addShaped("hp_lava_boiler", <gregtech:machine:6>, [[<ore:plateWroughtIron>, <ore:plateSteel>, <ore:plateWroughtIron>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:plateWroughtIron>, <gregtech:machine_casing:13>, <ore:plateWroughtIron>]]);
+
+recipes.remove(<gregtech:machine:2>);
+recipes.addShaped("hp_coal_boiler", <gregtech:machine:2>, [[<ore:plateWroughtIron>, <ore:plateSteel>, <ore:plateWroughtIron>], [<ore:plateWroughtIron>, null, <ore:plateWroughtIron>], [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]]);
 
 // Steel Steam Hulls
 
@@ -122,3 +130,78 @@ var earlyGTCables as IItemStack[] = [
 	for i in earlyGTCables {
 	recipes.remove(i);
 }
+
+// Fixing Cable Combination
+
+recipes.addShapeless(<gregtech:cable:5017> * 2, [<gregtech:cable:6017>]);
+recipes.addShapeless(<gregtech:cable:6017> * 2, [<gregtech:cable:7017>]);
+recipes.addShapeless(<gregtech:cable:7017> * 2, [<gregtech:cable:8017>]);
+recipes.addShapeless(<gregtech:cable:6017>, [<gregtech:cable:5017> * 2]);
+recipes.addShapeless(<gregtech:cable:7017>, [<gregtech:cable:6017> * 2]);
+
+recipes.addShapeless(<gregtech:cable:5035> * 2, [<gregtech:cable:6035>]);
+recipes.addShapeless(<gregtech:cable:6035> * 2, [<gregtech:cable:7035>]);
+recipes.addShapeless(<gregtech:cable:7035> * 2, [<gregtech:cable:8035>]);
+recipes.addShapeless(<gregtech:cable:6035>, [<gregtech:cable:5035> * 2]);
+recipes.addShapeless(<gregtech:cable:7035>, [<gregtech:cable:6035> * 2]);
+
+recipes.addShapeless(<gregtech:cable:5071> * 2, [<gregtech:cable:6071>]);
+recipes.addShapeless(<gregtech:cable:6071> * 2, [<gregtech:cable:7071>]);
+recipes.addShapeless(<gregtech:cable:7071> * 2, [<gregtech:cable:8071>]);
+recipes.addShapeless(<gregtech:cable:6071>, [<gregtech:cable:5071> * 2]);
+recipes.addShapeless(<gregtech:cable:7071>, [<gregtech:cable:6071> * 2]);
+
+recipes.addShapeless(<gregtech:cable:5079> * 2, [<gregtech:cable:6079>]);
+recipes.addShapeless(<gregtech:cable:6079> * 2, [<gregtech:cable:7079>]);
+recipes.addShapeless(<gregtech:cable:7079> * 2, [<gregtech:cable:8079>]);
+recipes.addShapeless(<gregtech:cable:6079>, [<gregtech:cable:5079> * 2]);
+recipes.addShapeless(<gregtech:cable:7079>, [<gregtech:cable:6079> * 2]);
+
+recipes.addShapeless(<gregtech:cable:5080> * 2, [<gregtech:cable:6080>]);
+recipes.addShapeless(<gregtech:cable:6080> * 2, [<gregtech:cable:7080>]);
+recipes.addShapeless(<gregtech:cable:7080> * 2, [<gregtech:cable:8080>]);
+recipes.addShapeless(<gregtech:cable:6080>, [<gregtech:cable:5080> * 2]);
+recipes.addShapeless(<gregtech:cable:7080>, [<gregtech:cable:6080> * 2]);
+
+recipes.addShapeless(<gregtech:cable:5037> * 2, [<gregtech:cable:6037>]);
+recipes.addShapeless(<gregtech:cable:6037> * 2, [<gregtech:cable:7037>]);
+recipes.addShapeless(<gregtech:cable:7037> * 2, [<gregtech:cable:8037>]);
+recipes.addShapeless(<gregtech:cable:6037>, [<gregtech:cable:5037> * 2]);
+recipes.addShapeless(<gregtech:cable:7037>, [<gregtech:cable:6037> * 2]);
+
+// Empty Cell Early
+
+recipes.addShaped("empty_cell", <gregtech:meta_item_1:32762>, [[<ore:craftingToolHardHammer>, <ore:plateDoubleIron>, <ore:craftingToolBendingCylinder>]]);
+
+// Witches' Rubber Cell
+
+var full_wr_cell = <gregtech:meta_item_1:32762>.withTag({Fluid: {FluidName: "witches_rubber", Amount: 1000}});
+
+WitchesCauldron.addRecipe([full_wr_cell, <bewitchment:empty_jar>, <bewitchment:empty_jar>], [<bewitchment:essence_of_vitality>, <bewitchment:fiery_unguent>, <gregtech:meta_item_1:32627>, <gregtech:meta_item_1:32627>, <bewitchment:wood_ash>, <gregtech:meta_item_1:32762>]);
+
+// Coated Circuit Board
+
+recipes.remove(<gregtech:meta_item_2:32443>);
+WitchesCauldron.addRecipe([<gregtech:meta_item_2:32443> * 3, <bewitchment:empty_jar>, <bewitchment:empty_jar>], [<bewitchment:essence_of_vitality>, <bewitchment:fiery_unguent>, <gregtech:meta_item_1:32627>, <gregtech:meta_item_1:32627>, <bewitchment:wood_ash>, <gregtech:meta_item_1:12196> * 3]);
+WitchesCauldron.addRecipe([<gregtech:meta_item_2:32443> * 3, <gregtech:meta_item_1:32762>], [<gregtech:meta_item_1:12196> * 3, full_wr_cell]);
+
+// 1x ULV/LV Wires w/ Witches' Rubber
+
+WitchesCauldron.addRecipe([<gregtech:cable:5237> * 8, <gregtech:meta_item_1:32762>], [full_wr_cell, <gregtech:cable:237> * 8]);
+WitchesCauldron.addRecipe([<gregtech:cable:5237> * 8, <bewitchment:empty_jar>, <bewitchment:empty_jar>], [<bewitchment:essence_of_vitality>, <bewitchment:fiery_unguent>, <gregtech:meta_item_1:32627>, <gregtech:meta_item_1:32627>, <bewitchment:wood_ash>, <gregtech:cable:237> * 8]);
+WitchesCauldron.addRecipe([<gregtech:cable:5071> * 8, <gregtech:meta_item_1:32762>], [full_wr_cell, <gregtech:cable:71> * 8]);
+WitchesCauldron.addRecipe([<gregtech:cable:5071> * 8, <bewitchment:empty_jar>, <bewitchment:empty_jar>], [<bewitchment:essence_of_vitality>, <bewitchment:fiery_unguent>, <gregtech:meta_item_1:32627>, <gregtech:meta_item_1:32627>, <bewitchment:wood_ash>, <gregtech:cable:71> * 8]);
+
+// Witches' Rubber Fixes
+
+<gregtech:meta_item_1:479>.displayName = "Tiny Pile of Witches' Rubber Pulp";
+<gregtech:meta_item_1:1479>.displayName = "Small Pile of Witches' Rubber Pulp";
+<gregtech:meta_item_1:2479>.displayName = "Witches' Rubber Pulp";
+<gregtech:meta_item_1:9479>.displayName = "Witches' Rubber Chip";
+<gregtech:meta_item_1:10479>.displayName = "Witches' Rubber Bar";
+<gregtech:meta_item_1:12479>.displayName = "Witches' Rubber Sheet";
+
+recipes.remove(<gregtech:meta_item_1:12479>);
+
+recipes.remove(<gregtech:meta_item_1:18479>);
+recipes.addShaped("correct_wr_ring", <gregtech:meta_item_1:18479>, [[null, <ore:craftingToolKnife>, null], [null, <gregtech:meta_item_1:12479>, null]]);

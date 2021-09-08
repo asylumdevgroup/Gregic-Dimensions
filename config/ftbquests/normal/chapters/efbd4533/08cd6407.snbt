@@ -1,6 +1,6 @@
 {
 	title: "Other GT Tools",
-	x: 0.5d,
+	x: 1.0d,
 	y: -3.5d,
 	shape: "rsquare",
 	text: [

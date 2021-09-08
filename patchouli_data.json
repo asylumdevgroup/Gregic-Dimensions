@@ -30,10 +30,18 @@
     },
     "bewitchment:book_of_shadows": {
       "viewedEntries": [
-        "bewitchment:magic_overview/altars_and_modifiers"
+        "bewitchment:magic_overview/altars_and_modifiers",
+        "bewitchment:world/animals",
+        "bewitchment:sigils/luck",
+        "bewitchment:sigils/mending",
+        "bewitchment:distilling_and_smelting/witches_oven_and_distillery"
       ],
       "bookmarks": [],
       "history": [
+        "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
+        "bewitchment:sigils/mending",
+        "bewitchment:sigils/luck",
+        "bewitchment:world/animals",
         "bewitchment:magic_overview/altars_and_modifiers"
       ],
       "completedManualQuests": []

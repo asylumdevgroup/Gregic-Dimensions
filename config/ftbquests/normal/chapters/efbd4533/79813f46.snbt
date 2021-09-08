@@ -1,0 +1,16 @@
+{
+	title: "That's basic",
+	x: 1.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1e7da1c8"
+	],
+	tasks: [{
+		uid: "ea14c45f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32443"
+		}]
+	}]
+}

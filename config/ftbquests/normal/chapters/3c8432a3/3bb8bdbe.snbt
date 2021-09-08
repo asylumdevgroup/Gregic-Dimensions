@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"bd6f536c"
+	],
+	tasks: [{
+		uid: "1e52e48d",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_cauldron"
+		}]
+	}]
+}

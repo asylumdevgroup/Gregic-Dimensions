@@ -1,0 +1,7 @@
+{
+	title: "You got the Munchies??",
+	icon: "gregtechfoodoption:gtfo_meta_item 1 65",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

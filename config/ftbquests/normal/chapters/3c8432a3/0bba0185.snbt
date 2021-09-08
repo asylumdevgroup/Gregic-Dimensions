@@ -1,0 +1,41 @@
+{
+	title: "[Insert Bad Witch Pun Here]",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "quark:witch_hat"
+	},
+	x: 2.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	text: [
+		"Welcome to Bewitchment, the spiritual successor to Emoniph's Witchery! This mod adds numerous unique methods of crafting, as well as gaining power. This questline will guide you through the progression of the mod.",
+		"",
+		"The Book of Shadows is your best friend."
+	],
+	dependencies: [
+		"d511524d",
+		"204680a3"
+	],
+	tasks: [{
+		uid: "4f9ffab0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "638e9e23",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -7107954308026632868L,
+					AS_Amulet_HolderMost: -625770188708100546L
+				}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "bewitchment:book_of_shadows"
+			}
+		}
+	}]
+}

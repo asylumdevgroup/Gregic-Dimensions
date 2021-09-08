@@ -1,0 +1,20 @@
+{
+	title: "Advanced Spirits",
+	icon: "bewitchment:heaven_extract",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	text: [
+		"The following spirits are required for progression in the pack. There are some that are not listed that allow for progression in the mod, but are not required for the pack.",
+		"",
+		"These spirits, combined with the basic ones, are necessary to brewing in the Witches' Cauldron, making unique items OR brews."
+	],
+	dependencies: [
+		"0a4d81e0",
+		"f6b8764b"
+	],
+	tasks: [{
+		uid: "6230d820",
+		type: "checkmark"
+	}]
+}

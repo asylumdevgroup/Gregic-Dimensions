@@ -1,0 +1,12 @@
+{
+	title: "Placeholder",
+	x: 2.5d,
+	y: -2.5d,
+	dependencies: [
+		"c7f9d691"
+	],
+	tasks: [{
+		uid: "063af375",
+		type: "checkmark"
+	}]
+}

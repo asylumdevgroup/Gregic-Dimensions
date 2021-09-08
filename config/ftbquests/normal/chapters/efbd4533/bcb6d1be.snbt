@@ -1,6 +1,9 @@
 {
 	x: 2.5d,
 	y: -1.5d,
+	text: [
+		"The Steam Pump, when supplied with Steam, will output whatever fluid it is pumping out of the output side, which replaces the exhaust port for most Steam Machines."
+	],
 	dependencies: [
 		"abf5ba74"
 	],

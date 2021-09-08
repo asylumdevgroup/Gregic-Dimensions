@@ -1,0 +1,29 @@
+{
+	title: "A substitute for Rubber.",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "witches_rubber",
+			Amount: 1000
+		}
+	},
+	x: 0.0d,
+	y: 7.5d,
+	shape: "rsquare",
+	text: [
+		"Regular GT Rubber is not available until the Aether, which to access requires a LV Assembling Machine. Therefore, your first batches of Rubber for Cables and Circuits will come from Bewitchment."
+	],
+	dependencies: [
+		"cea323f1",
+		"3bb8bdbe",
+		"f8c94cb2"
+	],
+	tasks: [{
+		uid: "7897cb33",
+		type: "fluid",
+		fluid: "witches_rubber"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "Space Race",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {
+				AS_Amulet_HolderLeast: -7107954308026632868L,
+				AS_Amulet_HolderMost: -625770188708100546L
+			}
+		},
+		id: "advancedrocketry:satellite"
+	},
+	always_invisible: false,
+	group: -934769840,
+	default_quest_shape: ""
+}

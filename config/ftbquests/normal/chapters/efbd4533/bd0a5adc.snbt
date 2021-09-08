@@ -1,7 +1,13 @@
 {
 	title: "Passive Water",
-	x: -2.5d,
-	y: -2.0d,
+	x: 0.0d,
+	y: -3.5d,
+	shape: "circle",
+	text: [
+		"The RailCraft Water Tank Multiblock will passively produce water once it has been placed. This should help offset the continuous need to fill up your Dynamos with Water.",
+		"",
+		"To obtain Sticky Resin for the recipe, simply cut down a GT Rubber Tree, that should be abundant."
+	],
 	dependencies: [
 		"abf5ba74"
 	],
@@ -12,5 +18,11 @@
 			item: "railcraft:tank_water"
 		}],
 		count: 26L
+	}],
+	rewards: [{
+		uid: "ab5b2fbf",
+		type: "item",
+		item: "railcraft:tank_water",
+		count: 26
 	}]
 }

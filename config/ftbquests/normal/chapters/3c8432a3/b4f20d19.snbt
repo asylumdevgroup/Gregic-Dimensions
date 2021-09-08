@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"00c44ebb",
+		"f8c94cb2"
+	],
+	tasks: [{
+		uid: "a7f3a497",
+		type: "item",
+		items: [{
+			item: "bewitchment:demonic_elixir"
+		}]
+	}]
+}

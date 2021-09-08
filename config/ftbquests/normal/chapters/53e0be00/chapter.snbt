@@ -1,0 +1,7 @@
+{
+	title: "Quality of Life Improvements",
+	icon: "ironchest:iron_chest",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,16 @@
+{
+	title: "Literal Hell",
+	icon: "minecraft:netherrack",
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"Welcome to the Nether, Minecraft's equivalent of Hell. Here you will find an abundance of resources you were not able to find in the Overworld, allowing you to expand your Technological and Magical pursuits alike."
+	],
+	dependencies: [
+		"204680a3"
+	],
+	tasks: [{
+		uid: "1970cc81",
+		type: "checkmark"
+	}]
+}

@@ -1,7 +1,11 @@
 {
-	title: "Placeholder Cold Iron Quest",
-	x: -0.5d,
-	y: -0.5d,
+	title: "Cold Iron",
+	x: 0.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	dependencies: [
+		"645c0bdf"
+	],
 	tasks: [{
 		uid: "d4b4f800",
 		type: "item",

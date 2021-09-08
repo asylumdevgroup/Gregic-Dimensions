@@ -1,0 +1,24 @@
+{
+	title: "Wizardry Progression",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				mana: 100.0d,
+				maxMana: 100.0d,
+				burnout: 0.0d,
+				max_burnout: 100.0d
+			}
+		},
+		id: "wizardry:orb",
+		Damage: 1s
+	},
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"bcd6dbb4"
+	],
+	tasks: [{
+		uid: "391dc564",
+		type: "checkmark"
+	}]
+}

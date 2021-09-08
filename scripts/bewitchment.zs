@@ -5,6 +5,14 @@
 
 import crafttweaker.item.IItemStack;
 import mods.naturesaura.TreeRitual;
+import moretweaker.bewitchment.WitchesOven;
+import moretweaker.bewitchment.WitchesCauldron;
+import moretweaker.bewitchment.Distillery;
+import mods.gregtech.recipe.RecipeMap;
+
+// GT Machines
+
+val alloy_smelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
 
 // Remove Other Altars
 
@@ -40,3 +48,28 @@ recipes.addShaped("witches_oven", <bewitchment:witches_oven>, [[null, <ore:plate
 recipes.addShaped("bw_distillery", <bewitchment:distillery>, [[<gregtech:machine:812>, null, null], [<ore:gemOpal>, <ore:pipeSmallBronze>, <gregtech:machine:812>], [<ore:plateNetherite>, null, <ore:plateNetherite>]]);
 recipes.addShaped("witches_cauldron", <bewitchment:witches_cauldron>, [[<ore:nuggetNetherite>, null, <ore:nuggetNetherite>], [<ore:plateNetherite>, null, <ore:plateNetherite>], [<ore:plateNetherite>, <ore:plateSteel>, <ore:plateNetherite>]]);
 
+// Essence of Vitality
+
+WitchesOven.removeRecipe(<bewitchment:essence_of_vitality>);
+WitchesOven.addRecipe(<naturesaura:ancient_sapling>, <bewitchment:essence_of_vitality>, <bewitchment:wood_ash>, 100, true);
+
+// Heaven Extract
+
+recipes.remove(<bewitchment:heaven_extract>);
+Distillery.addRecipe([<bewitchment:heaven_extract>, <bewitchment:empty_jar>], [<bewitchment:cloudy_oil>, <bewitchment:birch_soul>, <ore:feather>, <bewitchment:owlets_wing>, <naturesaura:sky_ingot>]);
+
+// Sigil Table
+
+recipes.remove(<bewitchment:sigil_table>);
+recipes.addShaped("sigil_table", <bewitchment:sigil_table>, [[<astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>, <astralsorcery:blockmarbleslab>], [<bewitchment:elder_wood>, <bewitchment:dragons_blood_resin>, <bewitchment:elder_wood>], [<bewitchment:elder_wood>, <bewitchment:demonic_elixir>, <bewitchment:elder_wood>]]);
+
+// Empty Jar
+
+recipes.remove(<bewitchment:empty_jar>);
+
+alloy_smelter.recipeBuilder()
+	.inputs([<ore:clay> * 2, <gregtech:meta_item_1:32305>])
+	.outputs([<bewitchment:empty_jar>])
+	.duration(100)
+	.EUt(24)
+	.buildAndRegister();

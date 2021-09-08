@@ -1,0 +1,7 @@
+{
+	title: "Ender-Thermic Expansion",
+	icon: "enderio:item_material 1 40",
+	always_invisible: false,
+	group: -934769840,
+	default_quest_shape: ""
+}

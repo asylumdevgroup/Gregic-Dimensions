@@ -1,0 +1,17 @@
+{
+	title: "Brewing like a true witch",
+	x: 2.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	text: [
+		"There are two ways to use your new Cauldron, either to create special brews OR craft unique items. Both are required for progression."
+	],
+	dependencies: [
+		"3bb8bdbe",
+		"f6b8764b"
+	],
+	tasks: [{
+		uid: "16d44403",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Cables",
+	x: -1.0d,
+	y: 9.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1e7da1c8"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "ec1bef28",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 5071"
+		},
+		{
+			item: "gregtech:cable 1 5237"
+		}]
+	}]
+}

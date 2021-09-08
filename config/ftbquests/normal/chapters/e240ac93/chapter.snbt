@@ -1,0 +1,7 @@
+{
+	title: "Main Progression Outline",
+	icon: "extendedcrafting:material 1 32",
+	always_invisible: false,
+	group: 150877283,
+	default_quest_shape: ""
+}

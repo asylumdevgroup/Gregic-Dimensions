@@ -1,0 +1,42 @@
+{
+	title: "Basic Spirits",
+	icon: "bewitchment:empty_jar",
+	x: 5.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"71879bba",
+		"3844e8ee"
+	],
+	tasks: [{
+		uid: "c47af62d",
+		type: "item",
+		items: [{
+			item: "bewitchment:oak_spirit"
+		},
+		{
+			item: "bewitchment:spruce_heart"
+		},
+		{
+			item: "bewitchment:birch_soul"
+		},
+		{
+			item: "bewitchment:cloudy_oil"
+		},
+		{
+			item: "bewitchment:acacia_resin"
+		},
+		{
+			item: "bewitchment:ebb_of_death"
+		},
+		{
+			item: "bewitchment:droplet_of_wisdom"
+		},
+		{
+			item: "bewitchment:liquid_witchcraft"
+		},
+		{
+			item: "bewitchment:essence_of_vitality"
+		}]
+	}]
+}

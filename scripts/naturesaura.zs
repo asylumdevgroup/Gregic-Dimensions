@@ -43,3 +43,8 @@ recipes.addShapeless("gt_infused_iron", <gregtech:meta_item_1:10476>, [<naturesa
 
 TreeRitual.removeRecipe(<naturesaura:nature_altar>);
 TreeRitual.addRecipe("na_natural_altar", <minecraft:sapling>, <naturesaura:nature_altar>, 160, [<ore:stone>, <ore:stone>, <ore:stone>, <ore:stone>, <naturesaura:gold_leaf>, <naturesaura:gold_leaf>, <ore:ingotBronze>, <ore:ingotBronze>]);
+
+// Remove Wither Proofer
+
+TreeRitual.removeRecipe(<auraddons:block_wither_proofer>);
+mods.jei.JEI.hide(<auraddons:block_wither_proofer>);

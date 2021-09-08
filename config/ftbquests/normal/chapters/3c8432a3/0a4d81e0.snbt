@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"bd6f536c"
+	],
+	tasks: [{
+		uid: "d90fb9cc",
+		type: "item",
+		items: [{
+			item: "bewitchment:distillery"
+		}]
+	}]
+}

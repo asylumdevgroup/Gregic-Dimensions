@@ -22,10 +22,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "1ccbb1c1",
-		type: "dimension",
-		dim: -1
 	}]
 }

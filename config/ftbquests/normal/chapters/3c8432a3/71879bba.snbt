@@ -1,0 +1,35 @@
+{
+	title: "The crops of a Witch",
+	icon: "bewitchment:mandrake_root",
+	x: 6.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"cea323f1"
+	],
+	tasks: [{
+		uid: "0eb26657",
+		type: "item",
+		items: [{
+			item: "bewitchment:mandrake_root"
+		},
+		{
+			item: "bewitchment:aconitum"
+		},
+		{
+			item: "bewitchment:belladonna"
+		},
+		{
+			item: "bewitchment:garlic"
+		},
+		{
+			item: "bewitchment:hellebore"
+		},
+		{
+			item: "bewitchment:white_sage"
+		},
+		{
+			item: "bewitchment:wormwood"
+		}]
+	}]
+}

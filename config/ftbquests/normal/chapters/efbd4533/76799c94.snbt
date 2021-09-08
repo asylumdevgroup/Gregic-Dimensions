@@ -1,0 +1,69 @@
+{
+	title: "GT Multiblock Steam Boilers",
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"2fdc8e7f"
+	],
+	tasks: [{
+		uid: "6859f573",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 521"
+		}]
+	},
+	{
+		uid: "938d3119",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d2a61bef",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 7L
+	},
+	{
+		uid: "85bcb1c9",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 23L
+	},
+	{
+		uid: "7aec21db",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 700"
+		},
+		{
+			item: "gregtech:machine 1 710"
+		}]
+	},
+	{
+		uid: "a2d44879",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 702"
+		},
+		{
+			item: "gregtech:machine 1 712"
+		}]
+	},
+	{
+		uid: "1263a269",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 703"
+		},
+		{
+			item: "gregtech:machine 1 713"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Circuitry!",
+	x: 1.0d,
+	y: 11.0d,
+	shape: "pentagon",
+	dependencies: [
+		"d8bf4c3e",
+		"79813f46"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "784d1528",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32487"
+		}]
+	}]
+}

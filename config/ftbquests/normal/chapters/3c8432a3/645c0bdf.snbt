@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	shape: "rsquare",
+	dependencies: [
+		"73ac0f87",
+		"f8c94cb2"
+	],
+	tasks: [{
+		uid: "7cfa97ef",
+		type: "item",
+		items: [{
+			item: "bewitchment:bottled_frostfire"
+		}]
+	}]
+}

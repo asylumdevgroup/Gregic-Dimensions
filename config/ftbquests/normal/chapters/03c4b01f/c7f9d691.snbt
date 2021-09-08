@@ -1,0 +1,13 @@
+{
+	title: "Nature's Aura Progression",
+	icon: "naturesaura:gold_leaf",
+	x: 0.5d,
+	y: -2.5d,
+	dependencies: [
+		"bb6f480f"
+	],
+	tasks: [{
+		uid: "5704be31",
+		type: "checkmark"
+	}]
+}

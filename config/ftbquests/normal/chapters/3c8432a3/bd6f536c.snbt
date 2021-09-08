@@ -1,0 +1,23 @@
+{
+	title: "An Altar fit for a Witch",
+	x: 2.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	dependencies: [
+		"a38b645d",
+		"0bba0185"
+	],
+	tasks: [{
+		uid: "b78e2241",
+		type: "item",
+		items: [{
+			item: "bewitchment:obsidian_witches_altar"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "1216d99f",
+		type: "item",
+		item: "minecraft:carpet 1 14"
+	}]
+}

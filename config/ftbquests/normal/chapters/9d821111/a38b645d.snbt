@@ -1,0 +1,12 @@
+{
+	title: "Placeholder Netherite Quest",
+	x: 1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "d4cbbeee",
+		type: "item",
+		items: [{
+			item: "netherbackport:ancientdebris"
+		}]
+	}]
+}

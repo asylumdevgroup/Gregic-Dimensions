@@ -1,0 +1,12 @@
+{
+	title: "placeholder blank slate",
+	x: 0.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "90fa7e16",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"00c44ebb",
+		"78bb4c3c"
+	],
+	tasks: [{
+		uid: "b408fec9",
+		type: "item",
+		items: [{
+			item: "bewitchment:fiery_unguent"
+		}]
+	}]
+}

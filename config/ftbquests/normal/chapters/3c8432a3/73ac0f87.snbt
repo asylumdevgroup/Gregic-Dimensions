@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"00c44ebb"
+	],
+	tasks: [{
+		uid: "86da57c9",
+		type: "item",
+		items: [{
+			item: "bewitchment:cleansing_balm"
+		}]
+	}]
+}

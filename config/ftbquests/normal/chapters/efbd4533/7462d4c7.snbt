@@ -1,11 +1,10 @@
 {
 	title: "LV Age!",
-	x: 0.0d,
-	y: 9.0d,
+	x: -1.0d,
+	y: 11.0d,
 	shape: "pentagon",
 	dependencies: [
-		"d511524d",
-		"cea323f1"
+		"d8bf4c3e"
 	],
 	size: 2.0d,
 	tasks: [{
