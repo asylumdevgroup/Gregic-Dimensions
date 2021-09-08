@@ -6,14 +6,13 @@
 import mods.enderio.AlloySmelter;
 import mods.tconstruct.Casting;
 import mods.gregtech.recipe.RecipeMap;
+import crafttweaker.item.IItemStack;
 
 // GT Machines
 
 val alloy_smelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
 
 // Quite Clear Glass
-
-mods.enderio.AlloySmelter.removeRecipe(<enderio:block_fused_glass>);
 
 mods.tconstruct.Casting.addBasinRecipe(<enderio:block_fused_glass>, <ore:blockGlass>, <liquid:glass>, 500);
 
