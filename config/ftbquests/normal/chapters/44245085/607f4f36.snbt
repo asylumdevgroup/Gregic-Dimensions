@@ -1,0 +1,19 @@
+{
+	title: "Beginning LV",
+	x: 1.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	text: [
+		"Welcome to the Low Voltage (LV) Age! LV is the first of many tiers in GregTech, and like all of the other tiers, it has a corresponding metal to that tier (Steel), and an end goal in mind (Aluminium).",
+		"",
+		"Your first task will be to generate GT power, which can be done using the Steam you should already be passively producing. See the quest to the right for a more detailed explanation of GT power."
+	],
+	dependencies: [
+		"215bfcdb",
+		"7462d4c7"
+	],
+	tasks: [{
+		uid: "e1600432",
+		type: "checkmark"
+	}]
+}

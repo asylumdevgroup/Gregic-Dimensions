@@ -1,0 +1,38 @@
+{
+	title: "Storing & Buffering Power",
+	x: 3.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"c027018b"
+	],
+	tasks: [{
+		uid: "da4cb850",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 614"
+		},
+		{
+			item: "gregtech:machine 1 615"
+		},
+		{
+			item: "gregtech:machine 1 616"
+		},
+		{
+			item: "gregtech:machine 1 617"
+		}]
+	},
+	{
+		uid: "d725f953",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32519"
+		},
+		{
+			item: "gregtech:meta_item_1 1 32518"
+		},
+		{
+			item: "gregtech:meta_item_1 1 32517"
+		}]
+	}]
+}

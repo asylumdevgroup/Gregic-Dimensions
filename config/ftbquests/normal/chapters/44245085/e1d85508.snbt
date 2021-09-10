@@ -1,0 +1,23 @@
+{
+	title: "GregTech Components",
+	icon: "gregtech:meta_item_1 1 32600",
+	x: 1.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	text: [
+		"GT uses unique machine components for crafting every machine. Beyond the Machine Hull you have already crafted, there are also individual parts: Motors, Pumps, Robot Arms, Conveyor Belts, and Pistons.",
+		"Each Voltage Tier has their own version of these parts, and they are used heavily throughout the tiers, so it is recommended you batch craft a whole bunch at a time. Also, crafting them kind of sucks.",
+		"",
+		"Beyond being used to craft machines, Pumps, Conveyors, and Robot Arms also have other uses. When right clicked on the side of a machine, they can be used to import/export items or fluids.",
+		"You can configure them by using a screwdriver on that face of the machine, but they have limits based on the voltage tier they are.",
+		"",
+		"There are also the rarely used Emitters and Sensors. You will very rarely use them in recipes, so you don't need to craft that many."
+	],
+	dependencies: [
+		"607f4f36"
+	],
+	tasks: [{
+		uid: "d4a83ab1",
+		type: "checkmark"
+	}]
+}

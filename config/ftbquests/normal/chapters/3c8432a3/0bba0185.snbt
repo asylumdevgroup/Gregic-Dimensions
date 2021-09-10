@@ -1,11 +1,5 @@
 {
 	title: "[Insert Bad Witch Pun Here]",
-	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
-		id: "quark:witch_hat"
-	},
 	x: 2.5d,
 	y: -2.5d,
 	shape: "rsquare",

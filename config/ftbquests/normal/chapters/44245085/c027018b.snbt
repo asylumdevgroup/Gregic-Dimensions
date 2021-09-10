@@ -1,0 +1,16 @@
+{
+	title: "Generating POWAH!",
+	x: 1.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"45317f06"
+	],
+	tasks: [{
+		uid: "3b2479d4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2242"
+		}]
+	}]
+}

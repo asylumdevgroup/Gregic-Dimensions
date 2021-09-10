@@ -1,0 +1,30 @@
+{
+	title: "GregTech Power, explained",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 31s
+	},
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"GregTech power is its own beast. Unlike most mods that only care about the current of electricity, GT cares about two other factors from the real world: Amperage & Voltage.",
+		"",
+		"Voltage in GT is determined by tiers (LV, MV, HV, etc.). Paying attention to those tiers are super important, as you cannot connect mis-matching tiers. If you try to push MV power through an LV cable, it will burn.",
+		"The same is true if you connect a machine to cables of a higher voltage, as the machine will blow up.",
+		"",
+		"Amperage is also just as important. Rather than many mods that supply as much power as the cables can transfer, the Amperage (or Amps) of GT wires determine how many Amps of the certain Voltage Tier it can supply.",
+		"For example, if you are using 4-Amp LV wires, you can only supply UP TO 4 amps of 32 EU/t (given that you are generating that much power) to the machines connected. If you try to run more machines than your cables can handle, they will power off.",
+		"",
+		"The final thing to note is EU-Loss. Most GT cables have a component called EU-Loss per block, which is how much EU will be lost for every block it travels. However, lossless cables exist that don't lose EU, and you will be able to craft them soon."
+	],
+	dependencies: [
+		"607f4f36"
+	],
+	tasks: [{
+		uid: "9aa53ce6",
+		type: "checkmark"
+	}]
+}
