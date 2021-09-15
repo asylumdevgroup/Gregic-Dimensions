@@ -16,7 +16,7 @@ recipes.addShapedMirrored("blank_pattern", <tconstruct:pattern> * 8, [[<pyrotech
 // Drying Rack
 
 recipes.remove(<tconstruct:rack:1>);
-recipes.addShaped(<tconstruct:rack:1>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<mysticalworld:silk_thread>, null, <mysticalworld:silk_thread>]]);
+recipes.addShaped(<tconstruct:rack:1>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}), [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<mysticalworld:silk_thread>, null, <mysticalworld:silk_thread>]]);
 
 
 // Grout

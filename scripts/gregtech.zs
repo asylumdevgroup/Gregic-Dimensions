@@ -25,6 +25,10 @@ recipes.remove(<gregtech:machine:1>);
 recipes.addShaped("small_steam_coal_boiler", <gregtech:machine:1>, [[<ore:plateBronze>, <ore:plateInfusedIron>, <ore:plateBronze>], [<ore:plateBronze>, null, <ore:plateBronze>], [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]]);
 <gregtech:machine:1>.addTooltip(format.red("Not recommended if you have not used them before, as Thermal Dynamos are safer."));
 
+// GT Crafting Station can any OreDict workbench (Not Just Vanilla)
+recipes.remove(<gregtech:machine:825>);
+recipes.addShaped("gt_crafting_station", <gregtech:machine:825>, [[<ore:chestWood>, <ore:workbench>, <ore:chestWood>], [<ore:plateBronze>, <gregtech:machine_casing:10>, <ore:plateBronze>], [<ore:plateBronze>, <ore:craftingToolHardHammer>, <ore:plateBronze>]]);
+
 // Bronze Casings
 
 recipes.remove(<gregtech:machine_casing:10>);
