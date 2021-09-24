@@ -1,7 +1,7 @@
 {
 	title: "Placeholder Offering Table Quest",
-	x: 4.0d,
-	y: -2.5d,
+	x: 2.0d,
+	y: -5.0d,
 	tasks: [{
 		uid: "f10df2d0",
 		type: "item",

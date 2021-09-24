@@ -37,10 +37,14 @@
         "bewitchment:sigils/luck",
         "bewitchment:sigils/mending",
         "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
-        "bewitchment:rituals/rising_twigs"
+        "bewitchment:rituals/rising_twigs",
+        "bewitchment:distilling_and_smelting/bottled_frostfire",
+        "bewitchment:cauldron_and_brewing/brewing"
       ],
       "bookmarks": [],
       "history": [
+        "bewitchment:cauldron_and_brewing/brewing",
+        "bewitchment:distilling_and_smelting/bottled_frostfire",
         "bewitchment:rituals/rising_twigs",
         "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
         "bewitchment:sigils/mending",

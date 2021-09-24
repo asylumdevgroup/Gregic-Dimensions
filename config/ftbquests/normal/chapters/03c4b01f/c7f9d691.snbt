@@ -1,6 +1,5 @@
 {
 	title: "Nature's Aura Progression",
-	icon: "naturesaura:gold_leaf",
 	x: 0.5d,
 	y: -2.5d,
 	dependencies: [

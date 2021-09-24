@@ -1,11 +1,7 @@
 {
 	title: "Roots Progression",
-	icon: "roots:pyre",
 	x: -2.5d,
 	y: -2.5d,
-	dependencies: [
-		"532f1930"
-	],
 	tasks: [{
 		uid: "43776705",
 		type: "checkmark"

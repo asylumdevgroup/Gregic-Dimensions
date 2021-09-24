@@ -14,3 +14,9 @@ recipes.addShaped(<roots:mortar>, [[<minecraft:cobblestone>, null, <minecraft:co
 
 recipes.remove(<roots:pyre>);
 recipes.addShaped(<roots:pyre>, [[null, <pyrotech:material:20>, null], [<pyrotech:material:20>, <roots:wildroot>, <pyrotech:material:20>], [<ore:cobblestone>, <roots:terra_moss>, <ore:cobblestone>]]);
+
+
+// Make Fey Crafter Require Skyroot
+
+recipes.remove(<roots:fey_crafter>);
+recipes.addShaped("roots_fey", <roots:fey_crafter>, [[<ore:treeSapling>, <contenttweaker:skyroot>, <ore:treeSapling>], [<roots:terra_moss>, <ore:treeSapling>, <roots:terra_moss>], [<ore:treeSapling>, <bewitchment:elder_wood>, <ore:treeSapling>]]);

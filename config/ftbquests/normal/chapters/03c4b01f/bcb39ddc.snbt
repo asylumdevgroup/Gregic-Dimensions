@@ -1,16 +1,15 @@
 {
-	title: "Pyre",
 	x: -4.0d,
-	y: -3.5d,
+	y: -2.0d,
 	dependencies: [
 		"681783b7",
-		"532f1930"
+		"a342b3f9"
 	],
 	tasks: [{
-		uid: "4f6b49ee",
+		uid: "11ccf652",
 		type: "item",
 		items: [{
-			item: "roots:pyre"
+			item: "roots:fey_crafter"
 		}]
 	}]
 }
