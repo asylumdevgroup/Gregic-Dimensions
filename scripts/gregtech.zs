@@ -19,6 +19,14 @@ val mixer as RecipeMap = RecipeMap.getByName("mixer");
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_item_1:2196> * 2, [[<ore:logWood>],[<gregtech:meta_tool:12>]]);
 
+// Disable GTCE Coke Oven (Using Railcraft's Version)
+recipes.remove(<gregtech:machine:526>);
+recipes.remove(<gregtech:machine:527>);
+recipes.remove(<gregtech:metal_casing:8>);
+<gregtech:machine:526>.addTooltip(format.red("Disabled. Use Railcraft's Coke Oven Instead."));
+<gregtech:machine:527>.addTooltip(format.red("Disabled. Use Railcraft's Coke Oven Instead."));
+<gregtech:metal_casing:8>.addTooltip(format.red("Disabled. Use Railcraft's Coke Oven Instead."));
+
 // GT Steam Boilers
 
 recipes.remove(<gregtech:machine:1>);
@@ -46,7 +54,7 @@ recipes.addShaped("steam_miner", <gregtech:machine:4212>, [[<ore:gemDiamond>, <o
 
 recipes.remove(<gregtech:metal_casing:1>);
 mixer.recipeBuilder()
-	.inputs(<gregtech:meta_item_2:32015> * 4)
+	.inputs([<gregtech:meta_item_2:32015> * 4, <ore:dustGypsum>])
 	.fluidInputs([<liquid:concrete> * 250])
 	.outputs(<gregtech:metal_casing:1>)
 	.duration(100)

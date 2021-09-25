@@ -4,6 +4,11 @@
 // Imports
 
 
+// Coke Oven Brick
+recipes.remove(<railcraft:coke_oven>);
+recipes.addShaped("railcraft_coke_oven", <railcraft:coke_oven>, [[<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>], [<gregtech:meta_item_2:32016>, <gregtech:meta_item_2:32016>]]);
+
+
 // Water Tank
 
 recipes.remove(<railcraft:tank_water>);
