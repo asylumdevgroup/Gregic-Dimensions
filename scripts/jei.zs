@@ -10,7 +10,9 @@ import crafttweaker.item.IItemStack;
 var removeHide as IItemStack[] = [
 	<enderio:block_simple_alloy_smelter>,
 	<enderio:block_alloy_smelter>,
-	<enderio:block_enhanced_alloy_smelter>
+	<enderio:block_enhanced_alloy_smelter>,
+	<enderio:block_vat>,
+	<enderio:block_enhanced_vat>
 ];
 
 for i in removeHide {

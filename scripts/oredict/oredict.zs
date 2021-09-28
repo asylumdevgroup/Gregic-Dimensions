@@ -115,3 +115,14 @@ oreDictEntTin.addAll(<ore:oreCassiterite>);
 
 <ore:ingotInfusedIron>.add(<naturesaura:infused_iron>);
 <ore:ingotNetherite>.add(<netherbackport:netheriteingot>);
+
+// Rubber Ring OreDict
+
+oreDict.oreRubberRing;
+
+val oreDictRubberRingEnt = <ore:oreRubberRing>;
+
+oreDictRubberRingEnt.add(<gregtech:meta_item_1:18152>);
+oreDictRubberRingEnt.add(<gregtech:meta_item_1:18479>);
+oreDictRubberRingEnt.add(<gregtech:meta_item_1:18391>);
+oreDictRubberRingEnt.add(<gregtech:meta_item_1:18398>);

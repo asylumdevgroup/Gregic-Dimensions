@@ -1,6 +1,9 @@
 {
-	title: "Quality of Life Improvements",
-	icon: "ironchest:iron_chest",
+	title: "Multiblock Madness",
+	icon: "gregtech:machine 1 2534",
+	description: [
+		"Putting the modpack to shame"
+	],
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

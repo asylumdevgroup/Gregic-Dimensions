@@ -29,3 +29,9 @@ netherite.addFlags(["GENERATE_PLATE"]);
 
 val witchesRubber = MaterialRegistry.createIngotMaterial(479, "witches_rubber", 0x2b2827, "DULL", 1);
 witchesRubber.addFlags(["GENERATE_PLATE", "GENERATE_FOIL", "GENERATE_RING"]);
+
+// Redstone Alloy
+
+val redstoneAlloy = MaterialRegistry.createIngotMaterial(480, "redstone_alloy", 0xb53333, "SHINY", 1);
+redstoneAlloy.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
+redstoneAlloy.setCableProperties(32, 1, 0);
