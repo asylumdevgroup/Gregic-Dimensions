@@ -1,0 +1,26 @@
+{
+	title: "Nether Quartz Vein",
+	x: 3.0d,
+	y: -5.0d,
+	dependencies: [
+		"db58752d"
+	],
+	tasks: [{
+		uid: "5fafcc39",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreNetherrackNetherQuartz",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherQuartz"
+				}
+			}
+		}]
+	}]
+}

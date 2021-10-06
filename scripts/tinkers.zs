@@ -53,5 +53,5 @@ recipes.remove(<tconstruct:tooltables>);
 recipes.remove(<tconstruct:tooltables:3>);
 
 recipes.addShaped("tinkers_crafting_station", <tconstruct:tooltables>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
-recipes.addShaped("tinkers_tool_station", <tconstruct:tooltables:3>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
+recipes.addShaped("tinkers_tool_station", <tconstruct:tooltables:3>, [[<ore:plankWood>, <tconstruct:pattern>, <ore:plankWood>], [<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
 

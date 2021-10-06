@@ -1,0 +1,62 @@
+{
+	title: "Graphite Vein",
+	x: 1.0d,
+	y: -5.0d,
+	dependencies: [
+		"db58752d"
+	],
+	tasks: [{
+		uid: "90f13399",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreGraphite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGraphite"
+				}
+			}
+		}]
+	},
+	{
+		uid: "0d313b51",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreDiamond",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreDiamond"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7bfca096",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreCoal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreCoal"
+				}
+			}
+		}]
+	}]
+}

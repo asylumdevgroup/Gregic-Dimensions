@@ -15,6 +15,8 @@ import moretweaker.bewitchment.Distillery;
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
 val mixer as RecipeMap = RecipeMap.getByName("mixer");
 
+// Flint Dust from Mortar and Flint
+recipes.addShaped("flint_dust_mortar", <gregtech:meta_item_1:2220>, [[<minecraft:flint>],[<gregtech:meta_tool:12>]]);
 
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_item_1:2196> * 2, [[<ore:logWood>],[<gregtech:meta_tool:12>]]);

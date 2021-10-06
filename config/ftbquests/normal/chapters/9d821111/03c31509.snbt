@@ -1,0 +1,62 @@
+{
+	title: "Bewitchment Gem Vein",
+	x: 4.0d,
+	y: -5.0d,
+	dependencies: [
+		"db58752d"
+	],
+	tasks: [{
+		uid: "1f90f48e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreOpal",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreOpal"
+				}
+			}
+		}]
+	},
+	{
+		uid: "1760e8c4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreAmethyst",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreAmethyst"
+				}
+			}
+		}]
+	},
+	{
+		uid: "7bce6b09",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreSapphire",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreSapphire"
+				}
+			}
+		}]
+	}]
+}

@@ -1,7 +1,10 @@
 {
-	title: "Placeholder Galena Vein Quest",
-	x: 1.0d,
-	y: -2.5d,
+	title: "Galena Vein",
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"db58752d"
+	],
 	tasks: [{
 		uid: "cdabb789",
 		type: "item",

@@ -57,10 +57,14 @@ recipes.addShapedMirrored(<pyrotech:tinder>, [[null, <pyrotech:material:13>, <or
 SoakingPot.removeRecipes(<pyrotech:material:3>);
 SoakingPot.removeRecipes(<pyrotech:material:8>);
 SoakingPot.removeRecipes(<minecraft:mossy_cobblestone>);
+SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
+SoakingPot.removeRecipes(<pyrotech:material:23>);
 
 SoakingPot.addRecipe("moss_stone_soak", <minecraft:mossy_cobblestone>, <liquid:water> * 500, <minecraft:cobblestone>, 600);
 SoakingPot.addRecipe("flint_clay_soak", <pyrotech:material:3>, <liquid:liquid_clay> * 500, <ore:dustFlint>, 600);
 SoakingPot.addRecipe("lime_clay_soak", <pyrotech:material:8>, <liquid:liquid_clay> * 500, <pyrotech:material:22>, 600);
+SoakingPot.addRecipe("tarred_planks_soak", <pyrotech:planks_tarred>, <liquid:wood_tar> * 125, <ore:plankWood>, true, 600);
+SoakingPot.addRecipe("tarred_board_soak", <pyrotech:material:23>, <liquid:wood_tar> * 50, <pyrotech:material:20>, true, 200);
 
 
 // Remove Unfired Bricks / Lumps of Clay

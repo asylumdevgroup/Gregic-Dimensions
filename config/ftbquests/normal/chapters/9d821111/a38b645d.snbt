@@ -1,7 +1,10 @@
 {
 	title: "Placeholder Netherite Quest",
-	x: 1.0d,
-	y: -3.5d,
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"db58752d"
+	],
 	tasks: [{
 		uid: "d4cbbeee",
 		type: "item",

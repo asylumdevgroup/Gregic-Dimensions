@@ -1,0 +1,13 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	dependencies: [
+		"001763fa"
+	],
+	tasks: [{
+		uid: "24c505a1",
+		type: "checkmark",
+		title: "Nether Ore Veins",
+		icon: "gregtech:ore_nether_quartz_0 1 6"
+	}]
+}
