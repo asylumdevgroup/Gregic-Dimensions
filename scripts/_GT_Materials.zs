@@ -35,3 +35,9 @@ witchesRubber.addFlags(["GENERATE_PLATE", "GENERATE_FOIL", "GENERATE_RING"]);
 val redstoneAlloy = MaterialRegistry.createIngotMaterial(480, "redstone_alloy", 0xb53333, "SHINY", 1);
 redstoneAlloy.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
 redstoneAlloy.setCableProperties(32, 1, 0);
+
+// Alloyium & Infinity
+
+val alloyium = MaterialRegistry.createIngotMaterial(481, "alloyium", 0x84053e, "shiny", 2);
+val infinity = MaterialRegistry.createIngotMaterial(482, "infinity", 0xf8e9fe, "shiny", 2);
+infinity.setCableProperties(2147483647, 16, 0);
