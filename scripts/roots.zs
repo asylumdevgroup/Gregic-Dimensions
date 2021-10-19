@@ -1,6 +1,8 @@
 // Roots.zs
 // By CJWilk
 
+// Imports
+import mods.roots.Mortar;
 
 // Mortar & Pestle
 
@@ -20,3 +22,10 @@ recipes.addShaped(<roots:pyre>, [[null, <pyrotech:material:20>, null], [<pyrotec
 
 recipes.remove(<roots:fey_crafter>);
 recipes.addShaped("roots_fey", <roots:fey_crafter>, [[<ore:treeSapling>, <contenttweaker:skyroot>, <ore:treeSapling>], [<roots:terra_moss>, <ore:treeSapling>, <roots:terra_moss>], [<ore:treeSapling>, <bewitchment:elder_wood>, <ore:treeSapling>]]);
+
+// Make Staff Require Aether Materials
+
+recipes.remove(<roots:staff>.withTag({}));
+recipes.addShaped("roots_staff", <roots:staff>.withTag({}), [[null, <contenttweaker:skyroot>, <ore:gemZanite>], [null, <ore:stickWood>, <contenttweaker:skyroot>], [<ore:stickWood>, null, null]]);
+
+// Sky Soarer Spell
