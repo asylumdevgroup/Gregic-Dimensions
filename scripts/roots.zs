@@ -25,7 +25,7 @@ recipes.addShaped("roots_fey", <roots:fey_crafter>, [[<ore:treeSapling>, <conten
 
 // Make Staff Require Aether Materials
 
-recipes.remove(<roots:staff>.withTag({}));
+recipes.remove(<roots:staff>);
 recipes.addShaped("roots_staff", <roots:staff>.withTag({}), [[null, <contenttweaker:skyroot>, <ore:gemZanite>], [null, <ore:stickWood>, <contenttweaker:skyroot>], [<ore:stickWood>, null, null]]);
 
 // Sky Soarer Spell

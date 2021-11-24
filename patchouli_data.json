@@ -16,10 +16,30 @@
     },
     "roots:roots_guide": {
       "viewedEntries": [
-        "roots:crafting/runic_crafter"
+        "roots:crafting/runic_crafter",
+        "roots:concepts/quick_start",
+        "roots:concepts/introduction",
+        "roots:herbs/wildewheet",
+        "roots:herbs/terra_moss",
+        "roots:herbs/dewgonia",
+        "roots:rituals/ritual_grove_supplication",
+        "roots:rituals/introduction",
+        "roots:rituals/visualisation",
+        "roots:crafting/fey_crafter",
+        "roots:spells/spell_fey_light"
       ],
       "bookmarks": [],
       "history": [
+        "roots:spells/spell_fey_light",
+        "roots:crafting/fey_crafter",
+        "roots:rituals/introduction",
+        "roots:rituals/visualisation",
+        "roots:rituals/ritual_grove_supplication",
+        "roots:herbs/dewgonia",
+        "roots:herbs/terra_moss",
+        "roots:herbs/wildewheet",
+        "roots:concepts/introduction",
+        "roots:concepts/quick_start",
         "roots:crafting/runic_crafter"
       ],
       "completedManualQuests": []
