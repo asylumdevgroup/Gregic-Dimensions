@@ -490,6 +490,141 @@
       "installedTargets": null
     },
     {
+      "addonID": 295114,
+      "gameInstanceID": "de18d080-f109-40b0-a590-4a6647546bbe",
+      "installedFile": {
+        "id": 3092102,
+        "displayName": "botaniatweaks-1.9.1.jar",
+        "fileName": "botaniatweaks-1.9.1.jar",
+        "fileDate": "2020-10-25T05:48:58.38Z",
+        "fileLength": 269249,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3092/102/botaniatweaks-1.9.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 49938203,
+            "addonId": 261348,
+            "type": 2,
+            "fileId": 3092102
+          },
+          {
+            "id": 49938202,
+            "addonId": 252818,
+            "type": 2,
+            "fileId": 3092102
+          },
+          {
+            "id": 49938205,
+            "addonId": 268387,
+            "type": 2,
+            "fileId": 3092102
+          },
+          {
+            "id": 49938201,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 3092102
+          },
+          {
+            "id": 49938206,
+            "addonId": 225643,
+            "type": 3,
+            "fileId": 3092102
+          },
+          {
+            "id": 49938204,
+            "addonId": 239197,
+            "type": 2,
+            "fileId": 3092102
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2902962108,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "quaternary",
+            "fingerprint": 2889915466,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1722060767,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1256670358,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1115519700,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 204649632,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2029996,
+        "projectId": 295114,
+        "packageFingerprintId": 541533861,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2494491,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "botaniatweaks-1.9.1.jar"
+      },
+      "dateInstalled": "2021-12-09T20:47:00.7183668Z",
+      "dateUpdated": "2021-12-09T20:47:00.7347644Z",
+      "dateLastUpdateAttempted": "2021-12-09T20:47:00.7347644Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+	{
       "addonID": 477021,
       "gameInstanceID": "6698aa63-f61f-478b-965c-efc269fb3e3f",
       "installedFile": {
