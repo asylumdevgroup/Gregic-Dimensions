@@ -126,3 +126,6 @@ oreDictRubberRingEnt.add(<gregtech:meta_item_1:18152>);
 oreDictRubberRingEnt.add(<gregtech:meta_item_1:18479>);
 oreDictRubberRingEnt.add(<gregtech:meta_item_1:18391>);
 oreDictRubberRingEnt.add(<gregtech:meta_item_1:18398>);
+
+<ore:ingotAstralStarmetal>.add(<gregtech:meta_item_1:10483>);
+<ore:ingotStarmetal>.add(<astralsorcery:itemcraftingcomponent:1>);

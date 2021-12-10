@@ -41,3 +41,13 @@ redstoneAlloy.setCableProperties(32, 1, 0);
 val alloyium = MaterialRegistry.createIngotMaterial(481, "alloyium", 0x84053e, "shiny", 2);
 val infinity = MaterialRegistry.createIngotMaterial(482, "infinity", 0xf8e9fe, "shiny", 2);
 infinity.setCableProperties(2147483647, 16, 0);
+
+// Starmetal
+
+val starmetal = MaterialRegistry.createIngotMaterial(483, "starmetal", 0x0003b5, "shiny", 2);
+starmetal.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
+
+// Fluix Steel
+
+val fluixSteel = MaterialRegistry.createIngotMaterial(484, "fluix_steel", 0x5c00a3, "dull", 2);
+fluixSteel.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
