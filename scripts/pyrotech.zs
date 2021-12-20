@@ -9,8 +9,13 @@ import mods.tconstruct.Drying;
 import mods.pyrotech.SoakingPot;
 import mods.roots.Pyre;
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import mods.pyrotech.Bloomery;
+import mods.pyrotech.PitKiln;
 
+// Fix Cobble Slab Recipe
+recipes.remove(<minecraft:stone_slab:3>);
+recipes.addShaped("cobble_slab_fixed", <minecraft:stone_slab:3>, [[<pyrotech:rock>,<pyrotech:rock>,<pyrotech:rock>],[<pyrotech:rock>,<minecraft:clay_ball>,<pyrotech:rock>]]);
 
 // Disable Drying Rack
 
@@ -22,7 +27,7 @@ mods.pyrotech.DryingRack.removeRecipes(<pyrotech:material:13>);
 // Dried Fibers
 
 mods.tconstruct.Drying.addRecipe(<pyrotech:material:13>, <pyrotech:material:12>, 600);
-
+mods.tconstruct.Drying.addRecipe(<pyrotech:material:2>, <minecraft:wheat>, 600);
 
 // Remove Twine
 
@@ -40,10 +45,32 @@ recipes.remove(<pyrotech:material:2>);
 recipes.addShaped(<pyrotech:material:2>, [[<ore:string>, <ore:string>], [<ore:string>, <pyrotech:material:13>]]);
 
 
-// Harder Pit Kiln
+// Harder (But Faster) Pit Kiln
 
 recipes.remove(<pyrotech:kiln_pit>);
 recipes.addShaped(<pyrotech:kiln_pit>, [[<pyrotech:material:13>, <pyrotech:material:13>, <pyrotech:material:13>], [<pyrotech:material:2>, <pyrotech:material:2>, <pyrotech:material:2>]]);
+PitKiln.removeRecipes(<minecraft:stone>);
+PitKiln.addRecipe("faster_stone", <minecraft:stone>, <minecraft:cobblestone>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock> * 5]);
+PitKiln.removeRecipes(<minecraft:stone_slab>);
+PitKiln.addRecipe("faster_stone_slab", <minecraft:stone_slab>, <minecraft:stone_slab:3>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock> * 3]);
+PitKiln.removeRecipes(<minecraft:stone:1>);
+PitKiln.addRecipe("faster_granite", <minecraft:stone:1>, <pyrotech:cobblestone:2>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:1> * 5]);
+PitKiln.removeRecipes(<minecraft:stone:3>);
+PitKiln.addRecipe("faster_diorite", <minecraft:stone:3>, <pyrotech:cobblestone:1>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:2> * 5]);
+PitKiln.removeRecipes(<minecraft:stone:5>);
+PitKiln.addRecipe("faster_granite", <minecraft:stone:5>, <pyrotech:cobblestone>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:3> * 5]);
+PitKiln.removeRecipes(<pyrotech:limestone>);
+PitKiln.addRecipe("faster_limestone", <pyrotech:limestone>, <pyrotech:cobblestone:3>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:8> * 5]);
+PitKiln.removeRecipes(<minecraft:hardened_clay>);
+PitKiln.addRecipe("faster_terracotta", <minecraft:hardened_clay>, <minecraft:clay>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
+PitKiln.removeRecipes(<pyrotech:bucket_clay>);
+PitKiln.addRecipe("faster_clay_bucket", <pyrotech:bucket_clay>, <pyrotech:bucket_clay_unfired>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
+PitKiln.removeRecipes(<pyrotech:clay_shears>);
+PitKiln.addRecipe("faster_clay_shears", <pyrotech:clay_shears>, <pyrotech:unfired_clay_shears>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
+PitKiln.removeRecipes(<minecraft:brick>);
+PitKiln.addRecipe("faster_brick", <minecraft:brick>, <gregtech:meta_item_2:32013>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
+PitKiln.removeRecipes(<pyrotech:material:15>);
+PitKiln.addRecipe("faster_charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 2400, 0.33, [<pyrotech:material>]);
 
 
 // Harder Tinder

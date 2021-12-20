@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-12-10T20:19:56.050904Z",
-  "playedCount": 63,
+  "lastPlayed": "2021-12-20T05:48:15.0014648Z",
+  "playedCount": 65,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -613,7 +613,7 @@
       "dateInstalled": "2021-12-15T22:57:00.1423863Z",
       "dateUpdated": "2021-12-15T22:57:00.1453832Z",
       "dateLastUpdateAttempted": "2021-12-15T22:57:00.1453832Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -622,7 +622,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237989,
@@ -3105,7 +3105,7 @@
       "dateInstalled": "2021-12-15T23:13:09.0479214Z",
       "dateUpdated": "2021-12-15T23:13:09.0499231Z",
       "dateLastUpdateAttempted": "2021-12-15T23:13:09.0499231Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3114,7 +3114,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291786,
@@ -10442,7 +10442,7 @@
       "dateInstalled": "2021-12-15T22:56:56.5013838Z",
       "dateUpdated": "2021-12-15T22:56:56.5133841Z",
       "dateLastUpdateAttempted": "2021-12-15T22:56:56.5133841Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10451,7 +10451,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 225194,
@@ -10969,111 +10969,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 364851,
-      "gameInstanceID": "a00a8cd9-7d55-4aa7-820e-4ad043b25a21",
-      "installedFile": {
-        "id": 3542805,
-        "displayName": "Gregicality-1.12.2-0.23.3.jar",
-        "fileName": "Gregicality-1.12.2-0.23.3.jar",
-        "fileDate": "2021-11-30T23:13:22.58Z",
-        "fileLength": 4856970,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3542/805/Gregicality-1.12.2-0.23.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 79689071,
-            "addonId": 293327,
-            "type": 3,
-            "fileId": 3542805
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3566098250,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "gregicadditions",
-            "fingerprint": 754822639,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 830889031,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3257345841,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 72218889,
-        "gameVersion": [
-          "Forge",
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2",
-            "gameVersionTypeId": 628
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": true,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2605498,
-        "projectId": 364851,
-        "packageFingerprintId": 796806577,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3511357,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Gregicality-1.12.2-0.23.3.jar"
-      },
-      "dateInstalled": "2021-12-15T22:56:57.0523832Z",
-      "dateUpdated": "2021-12-15T22:56:57.1033828Z",
-      "dateLastUpdateAttempted": "2021-12-15T22:56:57.1033828Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 235279,
       "gameInstanceID": "a00a8cd9-7d55-4aa7-820e-4ad043b25a21",
       "installedFile": {
@@ -11167,6 +11062,111 @@
       "dateInstalled": "2021-08-17T03:31:03.7645314Z",
       "dateUpdated": "2021-08-17T03:31:03.7645314Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 364851,
+      "gameInstanceID": "a00a8cd9-7d55-4aa7-820e-4ad043b25a21",
+      "installedFile": {
+        "id": 3542805,
+        "displayName": "Gregicality-1.12.2-0.23.3.jar",
+        "fileName": "Gregicality-1.12.2-0.23.3.jar",
+        "fileDate": "2021-11-30T23:13:22.58Z",
+        "fileLength": 4856970,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3542/805/Gregicality-1.12.2-0.23.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 79689071,
+            "addonId": 293327,
+            "type": 3,
+            "fileId": 3542805
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3566098250,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "gregicadditions",
+            "fingerprint": 754822639,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 830889031,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3257345841,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 72218889,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2605498,
+        "projectId": 364851,
+        "packageFingerprintId": 796806577,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 3511357,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Gregicality-1.12.2-0.23.3.jar"
+      },
+      "dateInstalled": "2021-12-15T22:56:57.0523832Z",
+      "dateUpdated": "2021-12-15T22:56:57.1033828Z",
+      "dateLastUpdateAttempted": "2021-12-15T22:56:57.1033828Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -11357,7 +11357,7 @@
       "dateInstalled": "2021-12-15T22:47:09.4661653Z",
       "dateUpdated": "2021-12-15T22:47:09.4661653Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
