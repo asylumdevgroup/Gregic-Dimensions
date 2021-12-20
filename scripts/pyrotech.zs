@@ -58,7 +58,7 @@ PitKiln.addRecipe("faster_granite", <minecraft:stone:1>, <pyrotech:cobblestone:2
 PitKiln.removeRecipes(<minecraft:stone:3>);
 PitKiln.addRecipe("faster_diorite", <minecraft:stone:3>, <pyrotech:cobblestone:1>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:2> * 5]);
 PitKiln.removeRecipes(<minecraft:stone:5>);
-PitKiln.addRecipe("faster_granite", <minecraft:stone:5>, <pyrotech:cobblestone>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:3> * 5]);
+PitKiln.addRecipe("faster_andesite", <minecraft:stone:5>, <pyrotech:cobblestone>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:3> * 5]);
 PitKiln.removeRecipes(<pyrotech:limestone>);
 PitKiln.addRecipe("faster_limestone", <pyrotech:limestone>, <pyrotech:cobblestone:3>, 2400, 0.33, [<pyrotech:material>, <pyrotech:rock:8> * 5]);
 PitKiln.removeRecipes(<minecraft:hardened_clay>);
