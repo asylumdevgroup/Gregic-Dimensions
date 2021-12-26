@@ -4,9 +4,6 @@
 		"settings": true,
 		"admin_panel": true
 	},
-	"ftbquests": {
-		"quests": true
-	},
 	"ftbutilities": {
 		"toggle.gamemode": true,
 		"toggle.rain": true,
@@ -16,8 +13,5 @@
 		"claimed_chunks": true,
 		"trash_can": true,
 		"leaderboards": true
-	},
-	"ftbmoney": {
-		"shop": true
 	}
 }
