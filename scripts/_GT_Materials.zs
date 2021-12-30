@@ -54,7 +54,7 @@ var redstone_alloy = MaterialBuilder(32004, "redstone_alloy")
 .color(0xb53333)
 .iconSet("SHINY")
 .flags(["generate_plate", "generate_rod", "generate_bolt_screw"])
-.setCableProperties(32, 1, 0)
+.cableProperties(32, 1, 0)
 .build();
 // val redstoneAlloy = MaterialRegistry.createIngotMaterial(480, "redstone_alloy", 0xb53333, "SHINY", 1);
 // redstoneAlloy.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
@@ -69,12 +69,12 @@ var alloyium = MaterialBuilder(32005, "alloyium")
 .iconSet("SHINY")
 .build();
 
-var infinity = MaterialBuilder(32006, "alloyium")
+var infinity = MaterialBuilder(32006, "infinity")
 .fluid("fluid", true)
 .ingot()
 .color(0xf8e9fe)
 .iconSet("SHINY")
-,setCableProperties(2147483647, 16, 0)
+.cableProperties(2147483647, 16, 0)
 .build();
 // val alloyium = MaterialRegistry.createIngotMaterial(481, "alloyium", 0x84053e, "shiny", 2);
 // val infinity = MaterialRegistry.createIngotMaterial(482, "infinity", 0xf8e9fe, "shiny", 2);

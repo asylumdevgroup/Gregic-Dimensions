@@ -208,14 +208,14 @@ WitchesCauldron.addRecipe([<gregtech:cable:5071> * 8, <bewitchment:empty_jar>, <
 
 // Witches' Rubber Fixes
 
-<gregtech:meta_item_1:479>.displayName = "Tiny Pile of Witches' Rubber Pulp";
-<gregtech:meta_item_1:1479>.displayName = "Small Pile of Witches' Rubber Pulp";
-<gregtech:meta_item_1:2479>.displayName = "Witches' Rubber Pulp";
-<gregtech:meta_item_1:9479>.displayName = "Witches' Rubber Chip";
-<gregtech:meta_item_1:10479>.displayName = "Witches' Rubber Bar";
-<gregtech:meta_item_1:12479>.displayName = "Witches' Rubber Sheet";
+<gregtech:meta_dust_tiny:32003>.displayName = "Tiny Pile of Witches' Rubber Pulp";
+<gregtech:meta_dust_small:32003>.displayName = "Small Pile of Witches' Rubber Pulp";
+<gregtech:meta_dust:32003>.displayName = "Witches' Rubber Pulp";
+<gregtech:meta_nugget:32003>.displayName = "Witches' Rubber Chip";
+<gregtech:meta_ingot:32003>.displayName = "Witches' Rubber Bar";
+<gregtech:meta_plate:32003>.displayName = "Witches' Rubber Sheet";
 
-recipes.remove(<gregtech:meta_item_1:12479>);
+recipes.remove(<gregtech:meta_plate:32003>);
 
-recipes.remove(<gregtech:meta_item_1:18479>);
-recipes.addShaped("correct_wr_ring", <gregtech:meta_item_1:18479>, [[null, <ore:craftingToolKnife>, null], [null, <gregtech:meta_item_1:12479>, null]]);
+recipes.remove(<gregtech:meta_ring:32003>);
+recipes.addShaped("correct_wr_ring", <gregtech:meta_ring:32003>, [[null, <ore:craftingToolKnife>, null], [null, <ore:plateWitchesRubber>, null]]);
