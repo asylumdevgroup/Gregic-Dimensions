@@ -19,7 +19,6 @@ var removals as IItemStack[] = [
 	<threng:machine:1>,
 	<threng:machine:2>,
 	<threng:machine:5>,
-	<ae2stuff:inscriber>,
 	<threng:machine>,
 	<threng:machine>,
 	<threng:material:7>,
@@ -41,11 +40,11 @@ var removals as IItemStack[] = [
 mods.jei.JEI.removeAndHide(<threng:material:2>);
 furnace.remove(<threng:material>);
 
-Agglomeration.addRecipe(<threng:material>, [<ore:dustStainlessSteel>, <ore:ingotAstralStarmetal>, <ore:crystalFluix>], 50000, 0x2300ad, 0x8800ad, <gregtech:meta_block_compressed_4:8>, <astralsorcery:blockmarble>, <gregtech:meta_block_compressed_14:4>);
+Agglomeration.addRecipe(<threng:material>, [<ore:dustStainlessSteel>, <ore:ingotAstralStarmetal>, <ore:crystalFluix>], 50000, 0x2300ad, 0x8800ad, <gregtech:meta_block_compressed_7:1>, <astralsorcery:blockmarble>, <gregtech:meta_block_compressed_18:13>);
 
 // Resonating Crystal
 
-Agglomeration.addRecipe(<threng:material:5>, [<threng:material:1>, <ore:crystalPureCertusQuartz>, <ore:dustEnderPearl>], 200000, 0xbff5ff, 0x8800ad, <gregtech:meta_block_compressed_4:8>, <astralsorcery:blockmarble>, <gregtech:meta_block_compressed_14:4>);
+Agglomeration.addRecipe(<threng:material:5>, [<threng:material:1>, <ore:crystalPureCertusQuartz>, <ore:dustEnderPearl>], 200000, 0xbff5ff, 0x8800ad, <gregtech:meta_block_compressed_7:1>, <astralsorcery:blockmarble>, <gregtech:meta_block_compressed_18:13>);
 
 // Carbonic Fluix Mix
 

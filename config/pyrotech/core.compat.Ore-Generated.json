@@ -57,7 +57,6 @@
         "gregtech:tile.ore_block",
         "libvulpes:material.Copper",
         "mysticalworld:tile.copper_ore",
-        "railcraft:tile.railcraft.ore.metal.copper",
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
@@ -100,7 +99,6 @@
       "slagColor": "95afee",
       "langKey": [
         "gregtech:tile.ore_block",
-        "railcraft:tile.railcraft.ore.metal.lead",
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
@@ -120,7 +118,6 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "gregtech:tile.ore_block",
-        "railcraft:tile.railcraft.ore.metal.nickel",
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
@@ -143,7 +140,6 @@
         "bewitchment:tile.bewitchment.silver_ore",
         "gregtech:tile.ore_block",
         "mysticalworld:tile.silver_ore",
-        "railcraft:tile.railcraft.ore.metal.silver",
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
@@ -157,7 +153,6 @@
         "forestry:tile.for.resources.tin",
         "gregtech:tile.ore_block",
         "libvulpes:material.Tin",
-        "railcraft:tile.railcraft.ore.metal.tin",
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
