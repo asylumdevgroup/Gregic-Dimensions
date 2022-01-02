@@ -1,36 +1,36 @@
 {
-  "weight": 20,
-  "density": 0.2,
-  "min_height": 20,
-  "max_height": 60,
+  "weight": 50,
+  "density": 0.25,
+  "max_height": 80,
+  "min_height": 40,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "lithium"
+    "material": "galena"
   },
   "dimension_filter": [
-    "name:the_end"
+    "is_nether"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      17,
-      24
+      14,
+      16
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:scheelite"
+        "primary": "ore:galena"
       },
       {
-        "secondary": "ore:scheelite"
+        "secondary": "ore:galena"
       },
       {
-        "between": "ore:tungstate"
+        "between": "ore:silver"
       },
       {
-        "sporadic": "ore:lithium"
+        "sporadic": "ore:lead"
       }
     ]
   }
