@@ -63,7 +63,7 @@ recipes.addShaped("sigil_table", <bewitchment:sigil_table>, [[<astralsorcery:blo
 recipes.remove(<bewitchment:empty_jar>);
 
 alloy_smelter.recipeBuilder()
-	.inputs([<ore:clay> * 2, <gregtech:meta_item_1:32305>])
+	.inputs([<ore:clay> * 2, <metaitem:shape.mold.bottle>])
 	.outputs([<bewitchment:empty_jar>])
 	.duration(100)
 	.EUt(24)
@@ -74,7 +74,7 @@ alloy_smelter.recipeBuilder()
 recipes.remove(<bewitchment:ritual_chalk>);
 
 implosion_compressor.recipeBuilder()
-	.inputs([<gregtech:meta_item_1:2097> * 6, <bewitchment:stone_ichor>])
+	.inputs([<ore:dustCalcite> * 6, <bewitchment:stone_ichor>])
 	.outputs([<bewitchment:ritual_chalk> * 2])
 	.property("explosives", 2)
 	.duration(10)
