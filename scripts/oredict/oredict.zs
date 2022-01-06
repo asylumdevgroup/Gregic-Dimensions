@@ -129,3 +129,11 @@ oreDictRubberRingEnt.add(<gregtech:meta_ring:1000>);
 
 <ore:ingotAstralStarmetal>.add(<gregtech:meta_ingot:32007>);
 <ore:ingotStarmetal>.add(<astralsorcery:itemcraftingcomponent:1>);
+
+<ore:ingotUltimate>.addAll(<ore:ingotAlloyium>);
+<ore:nuggetUltimate>.addAll(<ore:nuggetAlloyium>);
+<ore:blockUltimate>.addAll(<ore:blockAlloyium>);
+
+<ore:ingotAlloyium>.addAll(<ore:ingotUltimate>);
+<ore:nuggetAlloyium>.addAll(<ore:nuggetUltimate>);
+<ore:blockAlloyium>.addAll(<ore:blockUltimate>);
