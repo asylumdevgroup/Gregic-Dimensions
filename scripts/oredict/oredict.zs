@@ -106,7 +106,7 @@ oreDictEntIron.addAll(<ore:oreBandedIron>);
 oreDictEntCopper.addAll(<ore:oreCopper>);
 oreDictEntCopper.addAll(<ore:oreChalcopyrite>);
 
-oreDictEntPrecMetal.addAll(<ore:orePreciousMetal>);
+oreDictEntPrecMetal.addAll(<ore:oreGold>);
 
 oreDictEntTin.addAll(<ore:oreTin>);
 oreDictEntTin.addAll(<ore:oreCassiterite>);
@@ -122,18 +122,13 @@ oreDict.oreRubberRing;
 
 val oreDictRubberRingEnt = <ore:oreRubberRing>;
 
-oreDictRubberRingEnt.add(<gregtech:meta_item_1:18152>);
-oreDictRubberRingEnt.add(<gregtech:meta_item_1:18479>);
-oreDictRubberRingEnt.add(<gregtech:meta_item_1:18391>);
-oreDictRubberRingEnt.add(<gregtech:meta_item_1:18398>);
+oreDictRubberRingEnt.add(<gregtech:meta_ring:1068>);
+oreDictRubberRingEnt.add(<gregtech:meta_ring:32003>);
+oreDictRubberRingEnt.add(<gregtech:meta_ring:1004>);
+oreDictRubberRingEnt.add(<gregtech:meta_ring:1000>);
 
-<ore:ingotAstralStarmetal>.add(<gregtech:meta_item_1:10483>);
+<ore:ingotAstralStarmetal>.add(<gregtech:meta_ingot:32007>);
 <ore:ingotStarmetal>.add(<astralsorcery:itemcraftingcomponent:1>);
-
-<ore:ingotInfinity>.add(<avaritia:resource:6>);
-<ore:blocknfinity>.add(<avaritia:resource:1>);
-<ore:ingotInfinity>.remove(<gregtech:meta_item_1:10482>);
-<ore:blocknfinity>.remove(<gregtech:meta_block_compressed_30:2>);
 
 <ore:ingotUltimate>.addAll(<ore:ingotAlloyium>);
 <ore:nuggetUltimate>.addAll(<ore:nuggetAlloyium>);

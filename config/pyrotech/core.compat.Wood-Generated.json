@@ -154,7 +154,7 @@
     "forestry:planks.vanilla.fireproof.0:3": "forestry:slabs.vanilla.fireproof.0:3",
     "forestry:planks.vanilla.fireproof.0:4": "forestry:slabs.vanilla.fireproof.0:4",
     "forestry:planks.vanilla.fireproof.0:5": "forestry:slabs.vanilla.fireproof.0:5",
-    "gregtech:log:0": "minecraft:planks:3",
+    "gregtech:rubber_log:0": "gregtech:planks:0",
     "harvestcraft:pamcinnamon:0": "minecraft:planks:3",
     "harvestcraft:pammaple:0": "minecraft:planks:1",
     "harvestcraft:pampaperbark:0": "minecraft:planks:3",

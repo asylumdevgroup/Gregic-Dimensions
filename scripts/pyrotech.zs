@@ -68,7 +68,7 @@ PitKiln.addRecipe("faster_clay_bucket", <pyrotech:bucket_clay>, <pyrotech:bucket
 PitKiln.removeRecipes(<pyrotech:clay_shears>);
 PitKiln.addRecipe("faster_clay_shears", <pyrotech:clay_shears>, <pyrotech:unfired_clay_shears>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
 PitKiln.removeRecipes(<minecraft:brick>);
-PitKiln.addRecipe("faster_brick", <minecraft:brick>, <gregtech:meta_item_2:32013>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
+PitKiln.addRecipe("faster_brick", <minecraft:brick>, <pyrotech:material:24>, 2400, 0.33, [<pyrotech:material>, <pyrotech:material:7>, <pyrotech:material:6>]);
 PitKiln.removeRecipes(<pyrotech:material:15>);
 PitKiln.addRecipe("faster_charcoal_flakes", <pyrotech:material:15>, <pyrotech:rock:7>, 2400, 0.33, [<pyrotech:material>]);
 
@@ -94,22 +94,23 @@ SoakingPot.addRecipe("tarred_planks_soak", <pyrotech:planks_tarred>, <liquid:woo
 SoakingPot.addRecipe("tarred_board_soak", <pyrotech:material:23>, <liquid:wood_tar> * 50, <pyrotech:material:20>, true, 200);
 
 
-// Remove Unfired Bricks / Lumps of Clay
+// Remove Lumps of Clay
 
-mods.jei.JEI.removeAndHide(<pyrotech:material:24>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:35>);
 
 recipes.remove(<minecraft:brick>, <pyrotech:material:24>);
 recipes.remove(<pyrotech:bucket_clay_unfired>);
 
-recipes.addShaped(<pyrotech:bucket_clay_unfired>, [[<gregtech:meta_item_2:32013>, null, <gregtech:meta_item_2:32013>], [null, <gregtech:meta_item_2:32013>, null]]);
 
 
-// Refractory Bricks Require Mold
+// Pyrotech Bricks Require Mold
 
 recipes.remove(<pyrotech:material:9>);
-recipes.addShapeless(<pyrotech:material:9>, [<pyrotech:material:4>, <gregtech:meta_item_2:32012>]);
+recipes.addShapeless(<pyrotech:material:9>, [<pyrotech:material:4>, <metaitem:wooden_form.brick>]);
+
+recipes.remove(<pyrotech:material:24>);
+recipes.addShapeless(<pyrotech:material:24>, [<minecraft:clay_ball>, <metaitem:wooden_form.brick>]);
 
 
 // Refractory Bricks Require Pyre

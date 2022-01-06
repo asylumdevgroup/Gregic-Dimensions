@@ -13,7 +13,7 @@ val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 
 recipes.remove(<botania:terraplate>);
 assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_1:12483> * 3, <ore:screwStainlessSteel> * 2, <ore:manaDiamond>, <ore:runeManaB>])
+	.inputs([<gregtech:meta_plate:32007> * 3, <ore:screwStainlessSteel> * 2, <ore:manaDiamond>, <ore:runeManaB>])
 	.fluidInputs([<liquid:astralsorcery.liquidstarlight> * 100])
 	.outputs(<botania:terraplate> * 1)
 	.duration(100)

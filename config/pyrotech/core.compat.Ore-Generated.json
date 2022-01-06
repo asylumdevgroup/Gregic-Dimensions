@@ -43,14 +43,10 @@
       "slagColor": "1c5bc1",
       "langKey": [
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "tconstruct:tile.tconstruct.ore.cobalt"
       ],
       "output": [
-        "gregtech:meta_item_1:9017"
+        "gregtech:meta_nugget:23"
       ]
     },
     "oreCopper": {
@@ -59,28 +55,18 @@
         "abyssalcraft:tile.abycopore",
         "forestry:tile.for.resources.copper",
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "libvulpes:material.Copper",
         "mysticalworld:tile.copper_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.copper",
-        "railcraft:tile.railcraft.ore.metal.copper",
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
-        "gregtech:meta_item_1:9018"
+        "gregtech:meta_nugget:25"
       ]
     },
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
         "abyssalcraft:tile.abygolore",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "minecraft:tile.oreGold"
       ],
@@ -91,26 +77,17 @@
     "oreIridium": {
       "slagColor": "d5d4e7",
       "langKey": [
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "libvulpes:material.Iridium",
         "thermalfoundation:tile.thermalfoundation.ore.iridium"
       ],
       "output": [
-        "gregtech:meta_item_1:9032"
+        "gregtech:meta_nugget:50"
       ]
     },
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
         "abyssalcraft:tile.abyiroore",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "gregtech:tile.ore_block",
         "minecraft:tile.oreIron"
       ],
@@ -122,16 +99,10 @@
       "slagColor": "95afee",
       "langKey": [
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "nuclearcraft:tile.nuclearcraft.ore.lead",
-        "railcraft:tile.railcraft.ore.metal.lead",
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
-        "gregtech:meta_item_1:9035"
+        "gregtech:meta_nugget:55"
       ]
     },
     "oreMithril": {
@@ -147,42 +118,20 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "railcraft:tile.railcraft.ore.metal.nickel",
         "thermalfoundation:tile.thermalfoundation.ore.nickel"
       ],
       "output": [
-        "gregtech:meta_item_1:9044"
-      ]
-    },
-    "oreOsmium": {
-      "slagColor": "9babc4",
-      "langKey": [
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block"
-      ],
-      "output": [
-        "gregtech:meta_item_1:9047"
+        "gregtech:meta_nugget:69"
       ]
     },
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "thermalfoundation:tile.thermalfoundation.ore.platinum"
       ],
       "output": [
-        "gregtech:meta_item_1:9051"
+        "gregtech:meta_nugget:80"
       ]
     },
     "oreSilver": {
@@ -190,16 +139,11 @@
       "langKey": [
         "bewitchment:tile.bewitchment.silver_ore",
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "mysticalworld:tile.silver_ore",
-        "railcraft:tile.railcraft.ore.metal.silver",
         "thermalfoundation:tile.thermalfoundation.ore.silver"
       ],
       "output": [
-        "gregtech:meta_item_1:9062"
+        "gregtech:meta_nugget:100"
       ]
     },
     "oreTin": {
@@ -208,31 +152,11 @@
         "abyssalcraft:tile.abytinore",
         "forestry:tile.for.resources.tin",
         "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
         "libvulpes:material.Tin",
-        "nuclearcraft:tile.nuclearcraft.ore.tin",
-        "railcraft:tile.railcraft.ore.metal.tin",
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
-        "gregtech:meta_item_1:9071"
-      ]
-    },
-    "oreUranium": {
-      "slagColor": "5c734b",
-      "langKey": [
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "gregtech:tile.ore_block",
-        "nuclearcraft:tile.nuclearcraft.ore.uranium"
-      ],
-      "output": [
-        "gregtech:meta_item_1:9075"
+        "gregtech:meta_nugget:112"
       ]
     }
   }

@@ -21,4 +21,3 @@ fusionReactor.recipeBuilder()
     .EUt(130720)
     .property("eu_to_start", 150000000)
     .buildAndRegister();
-

@@ -16,12 +16,12 @@ recipes.remove(<thermalexpansion:dynamo>);
 
 var fancyDynamo = <thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Energy: 0, Level: 1 as byte, Augments: [{Slot: 0, id: "thermalexpansion:augment", Count: 1 as byte, Damage: 576 as short}]});
 
-recipes.addShaped("thermal_steam_boiler", fancyDynamo, [[null, <ore:pipeLargeBronze>, null], [<ore:plateBronze>, <gregtech:machine_casing:10>, <ore:plateBronze>], [<ore:plateIron>, <ore:plateInfusedIron>, <ore:plateIron>]]);
+recipes.addShaped("thermal_steam_boiler", fancyDynamo, [[null, <ore:pipeLargeFluidBronze>, null], [<ore:plateBronze>, <gregtech:steam_casing>, <ore:plateBronze>], [<ore:plateIron>, <ore:plateInfusedIron>, <ore:plateIron>]]);
 
 // Reinforced Upgrade Kit
 
 recipes.remove(<thermalfoundation:upgrade:1>);
-recipes.addShaped("tf_reinforced_kit", <thermalfoundation:upgrade:1>, [[null, <ore:ingotPreciousMetal>, null], [<ore:ingotPreciousMetal>, <ore:ingotInfusedIron>, <ore:ingotPreciousMetal>], [<ore:gearBronze>, <ore:ingotPreciousMetal>, <ore:gearBronze>]]);
+recipes.addShaped("tf_reinforced_kit", <thermalfoundation:upgrade:1>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotInfusedIron>, <ore:ingotGold>], [<ore:gearBronze>, <ore:ingotGold>, <ore:gearBronze>]]);
 
 // Transmission Coil Augments
 

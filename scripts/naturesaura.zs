@@ -25,7 +25,7 @@ recipes.remove(<naturesaura:gold_powder>);
 
 recipes.addShaped("na_gold_powder", <naturesaura:gold_powder>, [[<ore:craftingToolMortar>, <naturesaura:gold_leaf>]]);
 
-Pyre.addRecipe("na_gold_leaf", <naturesaura:gold_leaf>*10, [<ore:ingotPreciousMetal>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]);
+Pyre.addRecipe("na_gold_leaf", <naturesaura:gold_leaf>*10, [<ore:ingotGold>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>]);
 
 // Gold Stone Bricks
 
