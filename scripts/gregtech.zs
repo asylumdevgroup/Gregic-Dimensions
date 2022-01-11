@@ -101,12 +101,29 @@ recipes.remove(<gregtech:machine:1000>);
 recipes.addShaped("gt_pbf", <gregtech:machine:1000>, [[<ore:craftingToolHardHammer>, <ore:stickWroughtIron>, <ore:screwWroughtIron>], [<ore:plateWroughtIron>, <gregtech:metal_casing:1>, <ore:stickWroughtIron>], [<ore:craftingToolScrewdriver>, <ore:stickWroughtIron>, <ore:screwWroughtIron>]]);
 
 pbf.recipeBuilder()
-	.inputs(<ore:ingotInfusedIron> * 1)
-	.outputs(<ore:ingotSteel>.firstItem * 1)
+	.inputs([<ore:ingotInfusedIron> * 1, <minecraft:coal> * 2])
+	.outputs(<ore:ingotSteel>.firstItem)
 	.duration(400)
 	.buildAndRegister();
 
-	
+pbf.recipeBuilder()
+	.inputs([<ore:ingotInfusedIron> * 1, <minecraft:coal:1> * 2])
+	.outputs(<ore:ingotSteel>.firstItem)
+	.duration(400)
+	.buildAndRegister();
+
+pbf.recipeBuilder()
+	.inputs([<ore:ingotInfusedIron> * 1, <ore:fuelCoke> * 1])
+	.outputs(<ore:ingotSteel>.firstItem)
+	.duration(400)
+	.buildAndRegister();
+
+pbf.recipeBuilder()
+	.inputs([<ore:ingotInfusedIron> * 1, <ore:dustCoke> * 1])
+	.outputs(<ore:ingotSteel>.firstItem)
+	.duration(400)
+	.buildAndRegister();
+
 
 // Early GT Wires Require Bewitchment
 

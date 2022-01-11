@@ -57,6 +57,7 @@
         "gregtech:tile.ore_block",
         "libvulpes:material.Copper",
         "mysticalworld:tile.copper_ore",
+        "nuclearcraft:tile.nuclearcraft.ore.copper",
         "thermalfoundation:tile.thermalfoundation.ore.copper"
       ],
       "output": [
@@ -99,6 +100,7 @@
       "slagColor": "95afee",
       "langKey": [
         "gregtech:tile.ore_block",
+        "nuclearcraft:tile.nuclearcraft.ore.lead",
         "thermalfoundation:tile.thermalfoundation.ore.lead"
       ],
       "output": [
@@ -153,10 +155,20 @@
         "forestry:tile.for.resources.tin",
         "gregtech:tile.ore_block",
         "libvulpes:material.Tin",
+        "nuclearcraft:tile.nuclearcraft.ore.tin",
         "thermalfoundation:tile.thermalfoundation.ore.tin"
       ],
       "output": [
         "gregtech:meta_nugget:112"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+      ],
+      "output": [
+        "gregtech:meta_nugget:116"
       ]
     }
   }
