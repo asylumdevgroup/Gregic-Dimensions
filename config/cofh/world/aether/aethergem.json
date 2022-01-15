@@ -1,0 +1,51 @@
+{  
+    "populate":{  
+       "aethergem":{  
+          "distribution":"fractal",
+          "generator": {
+         "type": "plate",
+         "block": [
+           {
+             "name": "contenttweaker:ore_holy_aquamarine",
+             "weight": 25
+           },
+           {
+             "name": "aether_legacy:zanite_ore",
+             "weight": 25
+           },
+           {
+            "name": "aether_legacy:gravitite_ore",
+            "weight": 20
+          },
+           {
+             "name": "contenttweaker:ore_holy_rockcrystal",
+             "weight": 10
+           },
+           {
+            "name": "aether_legacy:holystone",
+            "weight": 20
+          }
+
+         ],
+         "material": "aether_legacy:holystone",
+         "radius": 6,
+         "height": 7
+       },
+          "cluster-count":12,
+          "chunk-chance":16,
+          "min-height":25,
+          "max-height":60,
+          "vein-height":40,
+          "vein-diameter":30,
+          "vertical-density":48,
+          "horizontal-density":48,
+          "retrogen":"true",
+          "dimension":{  
+             "restriction":"whitelist",
+             "value":[  
+                18
+             ]
+          }
+       }
+    }
+ }

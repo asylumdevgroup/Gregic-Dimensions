@@ -1,4 +1,8 @@
 item.contenttweaker.skyroot.name=Skyroot
 item.contenttweaker.parallel_print.name=Printed Parallel Circuit
 
+tile.contenttweaker.ore_holy_aquamarine.name=Holystone Aquamarine Ore
+tile.contenttweaker.ore_holy_rockcrystal.name=Holystone Rock Crystal Ore
+tile.contenttweaker.ore_holy_sulfur.name=Holystone Sulfur Ore
+
 tile.ore_unifier.name=Ore Unifier

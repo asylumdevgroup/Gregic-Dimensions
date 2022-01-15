@@ -19,4 +19,11 @@ ore_unifier.setItemSlot(6, 2, ComponentFace.all(), 64)
        .setHandAccess(false, true)
        .setGroup("output");
 
-// Ore Unifier Recipes
+//JEI Handler
+
+ore_unifier.setJEIItemSlot(0,0,"input");
+ore_unifier.setJEIItemSlot(2,0,"output");
+ore_unifier.setJEIDurationSlot(1,0,"duration", SlotVisual.arrowRight());
+
+
+
