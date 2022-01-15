@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
 import mods.jei.JEI;
 
-static mods as string[] = ["minecraft", "gregtech", "gtadditions", "thermalfoundation", "enderio", "pyrotech", "nuclearcraft", "qmd", "mysticalworld", "calculator"];
+static mods as string[] = ["minecraft", "gregtech", "gcym", "thermalfoundation", "enderio", "pyrotech", "nuclearcraft", "qmd", "mysticalworld", "calculator"];
 static size as int = mods.length - 1;
 
 function unify_oredicts (oredict as [IOreDictEntry]) {

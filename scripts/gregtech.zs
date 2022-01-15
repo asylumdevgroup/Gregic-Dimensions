@@ -43,7 +43,6 @@ recipes.addShaped("steam_miner", <gregtech:machine:21>, [[<ore:gemDiamond>, <ore
 
 // Firebricks
 
-recipes.remove(<gregtech:metal_casing:1>);
 mixer.recipeBuilder()
 	.inputs([<metaitem:brick.fireclay> * 4, <ore:dustGypsum>])
 	.fluidInputs([<liquid:concrete> * 250])
