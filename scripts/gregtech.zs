@@ -39,7 +39,7 @@ recipes.addShaped("bricked_bronze_casing", <gregtech:steam_casing:1>, [[<ore:pla
 // Steam Chunk Miner
 
 recipes.remove(<gregtech:machine:21>);
-recipes.addShaped("steam_miner", <gregtech:machine:21>, [[<ore:gemDiamond>, <ore:pipeSmallFluidBronze>, <ore:gemDiamond>], [<bewitchment:cold_iron_pickaxe>, <gregtech:machine_casing:10>, <bewitchment:cold_iron_pickaxe>], [<ore:rotorSteel>, <ore:pipeSmallFluidBronze>, <ore:rotorSteel>]]);
+recipes.addShaped("steam_miner", <gregtech:machine:21>, [[<ore:gemDiamond>, <ore:pipeSmallFluidBronze>, <ore:gemDiamond>], [<bewitchment:cold_iron_pickaxe>, <gregtech:steam_casing>, <bewitchment:cold_iron_pickaxe>], [<ore:rotorSteel>, <ore:pipeSmallFluidBronze>, <ore:rotorSteel>]]);
 
 // Firebricks
 

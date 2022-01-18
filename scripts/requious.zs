@@ -13,7 +13,8 @@ ore_unifier.setItemSlot(2, 2, ComponentFace.all(), 64)
        .setHandAccess(true, true)
        .setGroup("input");
 ore_unifier.setDurationSlot(4, 2)
-       .setVisual(SlotVisual.arrowRight());
+       .setVisual(SlotVisual.arrowRight())
+       .setGroup("duration");
 ore_unifier.setItemSlot(6, 2, ComponentFace.all(), 64)
        .setAccess(false, true)
        .setHandAccess(false, true)
