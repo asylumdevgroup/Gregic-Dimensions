@@ -54,10 +54,10 @@ mixer.recipeBuilder()
 // Steam Machine Fixes
 
 recipes.remove(<gregtech:machine:15>);
-recipes.addShaped("steam_furnace", <gregtech:machine:15>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<ore:pipeSmallFluidBronze>, <gregtech:machine_casing:11>, <ore:pipeSmallFluidBronze>], [<ore:pipeSmallFluidBronze>, <tconstruct:seared_furnace_controller>, <ore:pipeSmallFluidBronze>]]);
+recipes.addShaped("steam_furnace", <gregtech:machine:15>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<ore:pipeSmallFluidBronze>, <gregtech:steam_casing:1>, <ore:pipeSmallFluidBronze>], [<ore:pipeSmallFluidBronze>, <tconstruct:seared_furnace_controller>, <ore:pipeSmallFluidBronze>]]);
 
 recipes.remove(<gregtech:machine:17>);
-recipes.addShaped("steam_alloy_smelter", <gregtech:machine:17>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<tconstruct:seared_furnace_controller>, <gregtech:machine_casing:11>, <tconstruct:seared_furnace_controller>], [<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>]]);
+recipes.addShaped("steam_alloy_smelter", <gregtech:machine:17>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<tconstruct:seared_furnace_controller>, <gregtech:steam_casing:1>, <tconstruct:seared_furnace_controller>], [<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>]]);
 
 // HP Steam Recipe Buffs
 
