@@ -7,13 +7,17 @@ import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 import moretweaker.bewitchment.WitchesCauldron;
 import moretweaker.bewitchment.Distillery;
-
+import crafttweaker.liquid.ILiquidStack;
 
 // Machines
 
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
 val mixer as RecipeMap = RecipeMap.getByName("mixer");
 val pbf as RecipeMap = <recipemap:primitive_blast_furnace>;
+val distillery as RecipeMap = <recipemap:distillery>;
+val chemical_reactor as RecipeMap = <recipemap:chemical_reactor>;
+val centrifuge as RecipeMap = <recipemap:centrifuge>;
+val brewery as RecipeMap = <recipemap:brewery>;
 
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_dust:1617> * 2, [[<ore:logWood>],[<ore:craftingToolMortar>]]);
@@ -140,7 +144,7 @@ var earlyGTCables as IItemStack[] = [
 	<gregtech:cable_single:112>,
 	<gregtech:cable_single:55>
 ];
-	for i in earlyGTCables {
+for i in earlyGTCables {
 	recipes.remove(i);
 }
 
@@ -211,3 +215,15 @@ recipes.remove(<gregtech:meta_plate:32003>);
 
 recipes.remove(<gregtech:meta_ring:32003>);
 recipes.addShaped("correct_wr_ring", <gregtech:meta_ring:32003>, [[null, <ore:craftingToolKnife>, null], [null, <ore:plateWitchesRubber>, null]]);
+
+// LV Distillery & Centrifuge Nerf
+
+recipes.remove(<gregtech:machine:260>);
+recipes.addShaped("lv_distillery", <gregtech:machine:260>, [[<ore:blockGlass>, <ore:springAluminium>, <ore:blockGlass>],[<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:meta_item_1:142>, <ore:cableGtSingleTin>]]);
+
+recipes.remove(<gregtech:machine:185>);
+recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>, <gregtech:meta_item_1:128>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <gregtech:meta_item_1:127>, <ore:circuitBasic>]]);
+
+// LV Distillery / Centrifuge Recipes to Bewitchment
+
+#Distillery.addRecipe([], []);
