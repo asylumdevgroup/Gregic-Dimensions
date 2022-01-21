@@ -26,5 +26,5 @@ ore_unifier.setJEIItemSlot(0,0,"input");
 ore_unifier.setJEIItemSlot(2,0,"output");
 ore_unifier.setJEIDurationSlot(1,0,"duration", SlotVisual.arrowRight());
 
-
-
+// Ore Unifier Recipe
+recipes.addShaped("ore_unifier", <requious:ore_unifier>, [[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>],[<ore:gemZanite>,<gregtech:machine:986>,<ore:gemZanite>],[<ore:plateSteel>, <ore:plateInfusedIron>,<ore:plateSteel>]]);
