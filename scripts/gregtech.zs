@@ -222,7 +222,7 @@ recipes.remove(<gregtech:machine:260>);
 recipes.addShaped("lv_distillery", <gregtech:machine:260>, [[<ore:blockGlass>, <ore:springAluminium>, <ore:blockGlass>],[<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:meta_item_1:142>, <ore:cableGtSingleTin>]]);
 
 recipes.remove(<gregtech:machine:185>);
-recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>, <gregtech:meta_item_1:128>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <gregtech:meta_item_1:127>, <ore:circuitBasic>]]);
+recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>, <ore:plateAluminium>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <gregtech:meta_item_1:127>, <ore:circuitBasic>]]);
 
 // LV Distillery / Centrifuge Recipes to Bewitchment
 
