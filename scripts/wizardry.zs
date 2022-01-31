@@ -15,7 +15,7 @@ val alloy_smelter as RecipeMap = RecipeMap.getByName("alloy_smelter");
 recipes.remove(<wizardry:orb>);
 
 alloy_smelter.recipeBuilder()
-	.inputs([<ore:dustSmallGlass> * 2, <gregtech:meta_item_1:32307>])
+	.inputs([<ore:dustSmallGlass> * 2, <metaitem:shape.mold.ball>])
 	.outputs(<wizardry:orb>)
 	.duration(60)
 	.EUt(24)

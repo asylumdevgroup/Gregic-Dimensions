@@ -70,6 +70,8 @@ function unify (ore as IOreDictEntry, p as int) {
 // NC Bioplastic -> Polystyrene
 <ore:bioplastic>.add(<ore:platePolystyrene>.firstItem); 
 
+<ore:oreGravitite>.add(<gregtech:ore_gravitite_1>);
+<ore:oreZanite>.add(<gregtech:ore_zanite_1>);
 
 unify_oredicts(<ore:ingot*>);
 unify_oredicts(<ore:plate*>);

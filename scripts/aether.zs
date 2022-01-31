@@ -18,11 +18,11 @@ val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
 
 autoclave.recipeBuilder()
-	.inputs(<aether_legacy:gravitite_ore>)
+	.inputs(<ore:oreGravitite>)
 	.fluidInputs([<liquid:astralsorcery.liquidstarlight> * 250])
 	.outputs(<aether_legacy:enchanted_gravitite>)
 	.duration(80)
-	.EUt(30)
+	.EUt(120)
 	.buildAndRegister();
 	
 // Skyroot Bucket
