@@ -13,6 +13,6 @@ function oreUnifierRecipe(output as IItemStack, input as IIngredient, duration a
        <assembly:ore_unifier>.addJEIRecipe(recipe);
 }
 
-oreUnifierRecipe(<astralsorcery:blockcustomore>, <contenttweaker:ore_holy_rockcrystal>, 100);
-oreUnifierRecipe(<astralsorcery:blockcustomsandore>, <contenttweaker:ore_holy_aquamarine>, 100);
-oreUnifierRecipe(<gregtech:ore_sulfur_0>, <contenttweaker:ore_holy_sulfur>, 100);
+oreUnifierRecipe(<astralsorcery:blockcustomore>, <gregtech:ore_rockcrystal_1>, 100);
+//oreUnifierRecipe(<astralsorcery:blockcustomsandore>, <contenttweaker:ore_holy_aquamarine>, 100);
+//oreUnifierRecipe(<gregtech:ore_sulfur_0>, <contenttweaker:ore_holy_sulfur>, 100);

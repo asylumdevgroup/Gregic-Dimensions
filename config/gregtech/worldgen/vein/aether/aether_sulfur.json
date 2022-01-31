@@ -1,36 +1,36 @@
 {
-  "weight": 50,
-  "density": 0.2,
-  "max_height": 220,
-  "min_height": 60,
+  "weight": 100,
+  "density": 0.25,
+  "max_height": 120,
+  "min_height": 20,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "cassiterite"
+    "material": "sulfur"
   },
   "dimension_filter": [
-    "dimension_id:0"
+    "dimension_id:18"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      17,
-      24
+      14,
+      16
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:tin"
+        "primary": "ore:sulfur"
       },
       {
-        "secondary": "ore:tin"
+        "secondary": "ore:sulfur"
       },
       {
-        "between": "ore:cassiterite"
+        "between": "ore:ambrosium"
       },
       {
-        "sporadic": "ore:tin"
+        "sporadic": "ore:ambrosium"
       }
     ]
   }

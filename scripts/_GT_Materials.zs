@@ -9,6 +9,7 @@
 import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.Material;
+import mods.gregtech.StoneType;
 
 
 // Infused Iron (Nature's Aura) GT Material
@@ -102,3 +103,42 @@ var fluixSteel = MaterialBuilder(32008, "fluix_steel")
 .build();
 // val fluixSteel = MaterialRegistry.createIngotMaterial(484, "fluix_steel", 0x5c00a3, "dull", 2);
 // fluixSteel.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
+
+// Holystone Stone Type
+var holystone = MaterialBuilder(32009, "holystone")
+.dust(1)
+.build();
+
+var holystoneBlockState = "aether_legacy:holystone";
+
+StoneType.create(16, "holystone", "oreHolystone", holystone, holystoneBlockState);
+
+var ambrosium = MaterialBuilder(32010, "ambrosium")
+.gem()
+.color(0xffff33)
+.ore()
+.build();
+
+var zanite = MaterialBuilder(32011, "zanite")
+.gem()
+.color(0x751aff)
+.ore()
+.build();
+
+var gravitite = MaterialBuilder(32012, "gravitite")
+.gem()
+.color(0xff4d88)
+.ore()
+.build();
+
+var aquamarine = MaterialBuilder(32013, "aquamarine")
+.gem()
+.color(0x00e6e6)
+.ore()
+.build();
+
+var rockcrystal = MaterialBuilder(32014, "rockcrystal")
+.gem()
+.color(0xf2f2f2)
+.ore()
+.build();

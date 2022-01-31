@@ -13,6 +13,10 @@
       "dimName": "Nether"
     },
     {
+      "dimID": 18,
+      "dimName": "Aether"
+    },
+    {
       "dimID": 7,
       "dimName": "Twilight Forest"
     }

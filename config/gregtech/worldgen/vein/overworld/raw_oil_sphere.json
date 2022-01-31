@@ -14,6 +14,9 @@
     "type": "biome_dictionary",
     "sandy": 5
   },
+  "dimension_filter": [
+    "dimension_id:0"
+  ],
   "generator": {
     "type": "sphere",
     "radius": [
