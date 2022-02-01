@@ -1,11 +1,11 @@
 {
-  "weight": 180,
+  "weight": 140,
   "density": 0.25,
-  "max_height": 60,
+  "max_height": 40,
   "min_height": 10,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "aquamarine"
+    "material": "nickel"
   },
   "dimension_filter": [
     "dimension_id:18"
@@ -21,16 +21,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:aquamarine"
+        "primary": "ore:garnierite"
       },
       {
-        "secondary": "ore:zanite"
+        "secondary": "ore:nickel"
       },
       {
-        "between": "ore:gravitite"
+        "between": "ore:cobaltite"
       },
       {
-        "sporadic": "ore:rockcrystal"
+        "sporadic": "ore:pentlandite"
       }
     ]
   }
