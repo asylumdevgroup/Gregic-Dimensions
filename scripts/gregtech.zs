@@ -12,12 +12,14 @@ import crafttweaker.liquid.ILiquidStack;
 // Machines
 
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
-val mixer as RecipeMap = RecipeMap.getByName("mixer");
+val mixer as RecipeMap = <recipemap:mixer>;
 val pbf as RecipeMap = <recipemap:primitive_blast_furnace>;
 val distillery as RecipeMap = <recipemap:distillery>;
 val chemical_reactor as RecipeMap = <recipemap:chemical_reactor>;
 val centrifuge as RecipeMap = <recipemap:centrifuge>;
 val brewery as RecipeMap = <recipemap:brewery>;
+val electrolyzer as RecipeMap = <recipemap:electrolyzer>;
+val ebf as RecipeMap = <recipemap:electric_blast_furnace>;
 
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_dust:1617> * 2, [[<ore:logWood>],[<ore:craftingToolMortar>]]);
@@ -227,3 +229,128 @@ recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>,
 // LV Distillery / Centrifuge Recipes to Bewitchment
 
 #Distillery.addRecipe([], []);
+
+// Early Aluminium Changes
+
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:gemRuby>], null).remove();
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:gemGreenSapphire>], null).remove();
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:gemSapphire>], null).remove();
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:dustSapphire>], null).remove();
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:dustRuby>], null).remove();
+<recipemap:electric_blast_furnace>.findRecipe(100, [<metaitem:dustGreenSapphire>], null).remove();
+
+<recipemap:electrolyzer>.findRecipe(30, [<metaitem:dustSapphire> * 5], null).remove();
+<recipemap:electrolyzer>.findRecipe(30, [<metaitem:dustGreenSapphire> * 5], null).remove();
+<recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustRuby> * 6], null).remove();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:gemZanite>])
+	.outputs([<metaitem:nuggetAluminium> * 6, <metaitem:dustTinyDarkAsh>])
+	.duration(320)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:gemGravitite>])
+	.outputs([<metaitem:nuggetAluminium> * 6, <metaitem:dustTinyDarkAsh>])
+	.duration(320)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+	
+ebf.recipeBuilder()
+	.inputs([<metaitem:gemAquamarine>])
+	.outputs([<metaitem:nuggetAluminium> * 6, <metaitem:dustTinyDarkAsh>])
+	.duration(320)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:dustZanite>])
+	.outputs([<metaitem:nuggetAluminium> * 6])
+	.duration(400)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:dustGravitite>])
+	.outputs([<metaitem:nuggetAluminium> * 6])
+	.duration(400)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:dustAquamarine>])
+	.outputs([<metaitem:nuggetAluminium> * 6])
+	.duration(400)
+	.EUt(120)
+	.property("temperature",1200)
+	.buildAndRegister();
+
+electrolyzer.recipeBuilder()
+	.inputs([<metaitem:dustRuby> * 6])
+	.outputs([<metaitem:dustChrome>, <metaitem:dustAluminium> * 2])
+	.fluidOutputs([<liquid:oxygen> * 3000])
+	.EUt(120)
+	.duration(80)
+	.buildAndRegister();
+
+electrolyzer.recipeBuilder()
+	.inputs([<metaitem:dustSapphire> * 5])
+	.outputs([<metaitem:dustAluminium> * 2])
+	.fluidOutputs([<liquid:oxygen> * 3000])
+	.EUt(120)
+	.duration(80)
+	.buildAndRegister();
+
+electrolyzer.recipeBuilder()
+	.inputs([<metaitem:dustGreenSapphire> * 5])
+	.outputs([<metaitem:dustAluminium> * 2])
+	.fluidOutputs([<liquid:oxygen> * 3000])
+	.EUt(120)
+	.duration(80)
+	.buildAndRegister();
+
+// Mana Recipe Fix
+
+<recipemap:electrolyzer>.findRecipe(30, null, [<liquid:mana> * 1000]).remove();
+
+electrolyzer.recipeBuilder()
+	.fluidInputs([<liquid:mana> * 11000])
+	.outputs([<minecraft:redstone> * 9])
+	.fluidOutputs([<liquid:mana_fluid> * 2000])
+	.duration(2000)
+	.EUt(30)
+	.buildAndRegister();
+
+// Cobaltite to LV
+
+<recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustCobaltite> * 3], null).remove();
+
+electrolyzer.recipeBuilder()
+	.inputs([<metaitem:dustCobaltite> * 3])
+	.outputs([<metaitem:dustCobalt>, <metaitem:dustArsenic>, <metaitem:dustSulfur>])
+	.EUt(30)
+	.duration(150)
+	.buildAndRegister();
+
+// Redstone Alloy
+
+mixer.recipeBuilder()
+	.inputs([<minecraft:redstone> * 3,<metaitem:dustSilicon>, <metaitem:dustSteel> * 2])
+	.outputs([<metaitem:dustRedstoneAlloy> * 6])
+	.EUt(30)
+	.duration(60)
+	.buildAndRegister();
+
+ebf.recipeBuilder()
+	.inputs([<metaitem:dustRedstoneAlloy>])
+	.outputs([<metaitem:ingotRedstoneAlloy>])
+	.EUt(120)
+	.duration(1500)
+	.property("temperature", 1200)
+	.buildAndRegister();

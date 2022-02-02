@@ -10,6 +10,7 @@ import mods.gregtech.material.MaterialRegistry;
 import mods.gregtech.material.MaterialBuilder;
 import mods.gregtech.material.Material;
 import mods.gregtech.StoneType;
+import mods.gregtech.material.Elements;
 
 
 // Infused Iron (Nature's Aura) GT Material
@@ -56,6 +57,7 @@ var redstone_alloy = MaterialBuilder(32004, "redstone_alloy")
 .iconSet("SHINY")
 .flags(["generate_plate", "generate_rod", "generate_bolt_screw"])
 .cableProperties(32, 1, 0)
+.components([<material:redstone> * 3, <material:silicon> * 1, <material:steel> * 2])
 .build();
 // val redstoneAlloy = MaterialRegistry.createIngotMaterial(480, "redstone_alloy", 0xb53333, "SHINY", 1);
 // redstoneAlloy.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_BOLT_SCREW"]);
@@ -113,28 +115,46 @@ var holystoneBlockState = "aether_legacy:holystone";
 
 StoneType.create(16, "holystone", "oreHolystone", holystone, holystoneBlockState);
 
+var mana_element = Elements.add(666, 666, -1, null, "Mana", "Ma", false);
+
+var mana_fluid = MaterialBuilder(32016, "mana_fluid")
+.fluid("fluid", true)
+.color(0x66fffc)
+.element("Mana")
+.build();
+
+var mana = MaterialBuilder(32015, "mana")
+.fluid("fluid", true)
+.color(0x66fffc)
+.components([<material:mana_fluid> * 2, <material:redstone> * 9])
+.build();
+
 var ambrosium = MaterialBuilder(32010, "ambrosium")
 .gem()
 .color(0xffff33)
 .ore()
+.components([<material:sulfur> * 3, <material:mana> * 1])
 .build();
 
 var zanite = MaterialBuilder(32011, "zanite")
 .gem()
 .color(0x751aff)
 .ore()
+.components([<material:oxygen> * 2, <material:mana> * 1, <material:aluminium> * 2])
 .build();
 
 var gravitite = MaterialBuilder(32012, "gravitite")
 .gem()
 .color(0xff4d88)
 .ore()
+.components([<material:oxygen> * 3, <material:mana> * 1, <material:aluminium> * 2])
 .build();
 
 var aquamarine = MaterialBuilder(32013, "aquamarine")
 .gem()
 .color(0x00e6e6)
 .ore()
+.components([<material:water> * 2, <material:mana> * 1, <material:aluminium> * 2])
 .build();
 
 var rockcrystal = MaterialBuilder(32014, "rockcrystal")
