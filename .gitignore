@@ -1,30 +1,5 @@
-# Add the following to your gitignore:
-
-# Instance Sync
-**/*.jar
-!InstanceSync*.jar
-**/*.jar.disabled
-**/*.jar.meta
-
-# Optional: Generic Modpack Ignores
-**/*.log
-/.mixin.out
-/saves
-/downloads
-/resourcepacks
-/screenshots
-.curseclient
-options.txt
-journeymap/
-
-logs/
-
-BotaniaVars.dat
-
-usercache.json
-
-usernamecache.json
-
-crash-reports/
-
-/backups
+config/jei/worldSettings.cfg
+config/oauth.cfg
+.ReAuth.cfg
+.DS_Store
+buildOut/
