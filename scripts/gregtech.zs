@@ -20,6 +20,7 @@ val centrifuge as RecipeMap = <recipemap:centrifuge>;
 val brewery as RecipeMap = <recipemap:brewery>;
 val electrolyzer as RecipeMap = <recipemap:electrolyzer>;
 val ebf as RecipeMap = <recipemap:electric_blast_furnace>;
+val unifier as RecipeMap = <recipemap:unifier>;
 
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_dust:1617> * 2, [[<ore:logWood>],[<ore:craftingToolMortar>]]);
@@ -353,4 +354,13 @@ ebf.recipeBuilder()
 	.EUt(120)
 	.duration(1500)
 	.property("temperature", 1200)
+	.buildAndRegister();
+
+// Unifier Test Recipe
+
+unifier.recipeBuilder()
+	.inputs([<minecraft:dirt> * 1])
+	.outputs([<minecraft:diamond> * 1])
+	.EUt(30)
+	.duration(20)
 	.buildAndRegister();

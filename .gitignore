@@ -3,3 +3,17 @@ config/oauth.cfg
 .ReAuth.cfg
 .DS_Store
 buildOut/
+
+/mods
+
+/saves
+
+/screenshots
+
+/logs
+
+/resourcepacks
+
+/journeymap
+
+options.txt
