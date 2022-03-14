@@ -2,6 +2,8 @@
 // By MCAdventureCity
 
 import mods.requious.AssemblyRecipe;
+import mods.gregtech.recipe.RecipeMaps;
+import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -13,6 +15,11 @@ function oreUnifierRecipe(output as IItemStack, input as IIngredient, duration a
        <assembly:ore_unifier>.addJEIRecipe(recipe);
 }
 
-oreUnifierRecipe(<astralsorcery:blockcustomore>, <gregtech:ore_rockcrystal_1>, 100);
-//oreUnifierRecipe(<astralsorcery:blockcustomsandore>, <contenttweaker:ore_holy_aquamarine>, 100);
-//oreUnifierRecipe(<gregtech:ore_sulfur_0>, <contenttweaker:ore_holy_sulfur>, 100);
+var unifier = <recipemap:unifier>;
+
+unifier.recipeBuilder()
+	.inputs([<gregtech:ore_rockcrystal_1>])
+	.outputs(<astralsorcery:blockcustomore>)
+	.duration(100)
+	.EUt(7)
+	.buildAndRegister();

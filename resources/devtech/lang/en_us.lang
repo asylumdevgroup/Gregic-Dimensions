@@ -1,6 +1,9 @@
+devtech.machine.steam_mixer.bronze.name=Steam Mixer
+devtech.machine.steam_mixer.steel.name=High Pressure Mixer
 devtech.machine.ore_unifier.bronze.name=Steam Ore Unifier
 devtech.machine.ore_unifier.steel.name=High Pressure Ore Unifier
 devtech.machine.ore_unifier.lv.name=Basic Ore Unifier
 devtech.machine.ore_unifier.mv.name=Advanced Ore Unifier
 devtech.machine.ore_unifier.hs.name=Advanced Ore Unifier II
 recipemap.unifier.name=Ore Unification
+item.material.oreprefix.oreHolystone=Holystone %s Ore

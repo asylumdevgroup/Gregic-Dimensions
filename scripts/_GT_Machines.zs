@@ -26,3 +26,10 @@ MachineBuilder.create(32000, "ore_unifier")
 	/*.setRenderer(Renderer.create("machines/ore_unifier", "front", "top", "side"))*/
 	.setRenderer("machines/forge_hammer")
 	.buildAndRegister();
+
+MachineBuilder.create(32016, "steam_mixer")
+	.addSteamTier(false, false)
+	.addSteamTier(true)
+	.setRecipeMap(<recipemap:mixer>)
+	.setRenderer("machines/mixer")
+	.buildAndRegister();

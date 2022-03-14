@@ -66,6 +66,9 @@ recipes.addShaped("steam_furnace", <gregtech:machine:15>, [[<ore:pipeSmallFluidB
 recipes.remove(<gregtech:machine:17>);
 recipes.addShaped("steam_alloy_smelter", <gregtech:machine:17>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<tconstruct:seared_furnace_controller>, <gregtech:steam_casing:1>, <tconstruct:seared_furnace_controller>], [<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>]]);
 
+// Steam Mixer
+recipes.addShaped("steam_mixer", <gregtech:machine:32016>, [[<ore:blockGlassColorless>,<ore:rotorBronze>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<gregtech:steam_casing>,<ore:blockGlassColorless>],[<ore:pipeSmallFluidBronze>,<ore:pipeSmallFluidBronze>,<ore:pipeSmallFluidBronze>]]);
+
 // HP Steam Recipe Buffs
 
 recipes.remove(<gregtech:machine:16>);
@@ -99,7 +102,6 @@ recipes.remove(<gregtech:steam_casing:3>);
 
 recipes.addShaped("regular_steel_casing", <gregtech:steam_casing:2>, [[<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>], [<ore:plateSteel>, <ore:craftingToolHardHammer>, <ore:plateSteel>], [<ore:plateWroughtIron>, <ore:plateWroughtIron>, <ore:plateWroughtIron>]]);
 recipes.addShaped("bricked_steel_casing", <gregtech:steam_casing:3>, [[<ore:plateWroughtIron>, <ore:plateSteel>, <ore:plateWroughtIron>], [<ore:plateWroughtIron>, <ore:craftingToolHardHammer>, <ore:plateWroughtIron>], [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]]);
-
 
 // Primitive Blast Furnace Changes
 
@@ -185,7 +187,7 @@ recipes.addShapeless(<gregtech:cable_quadruple:112>, [<gregtech:cable_double:112
 
 // Empty Cell Early
 
-recipes.addShaped("empty_cell", <gregtech:meta_item_1:78>, [[<ore:craftingToolHardHammer>, <ore:plateDoubleIron>, <ore:craftingToolBendingCylinder>]]);
+recipes.addShaped("empty_cell", <gregtech:meta_item_1:78>, [[<ore:craftingToolHardHammer>, <ore:plateDoubleIron>]]);
 
 // Witches' Rubber Cell
 
@@ -219,6 +221,9 @@ recipes.remove(<gregtech:meta_plate:32003>);
 recipes.remove(<gregtech:meta_ring:32003>);
 recipes.addShaped("correct_wr_ring", <gregtech:meta_ring:32003>, [[null, <ore:craftingToolKnife>, null], [null, <ore:plateWitchesRubber>, null]]);
 
+// LV Ore Unifier
+recipes.addShaped("ore_unifier", <gregtech:machine:32003>, [[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>],[<ore:gemZanite>,<gregtech:machine:986>,<ore:gemZanite>],[<ore:plateSteel>, <ore:plateInfusedIron>,<ore:plateSteel>]]);
+
 // LV Distillery & Centrifuge Nerf
 
 recipes.remove(<gregtech:machine:260>);
@@ -228,6 +233,7 @@ recipes.remove(<gregtech:machine:185>);
 recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>, <ore:plateAluminium>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <metaitem:electric.motor.lv>, <ore:circuitBasic>]]);
 
 // LV Distillery / Centrifuge Recipes to Bewitchment
+
 
 #Distillery.addRecipe([], []);
 

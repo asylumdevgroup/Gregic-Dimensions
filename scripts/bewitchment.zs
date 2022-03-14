@@ -46,7 +46,7 @@ recipes.remove(<bewitchment:distillery>);
 recipes.remove(<bewitchment:witches_cauldron>);
 
 recipes.addShaped("witches_oven", <bewitchment:witches_oven>, [[null, <ore:plateNetherite>, null], [<ore:plateNetherite>, <ore:barsIron>, <ore:plateNetherite>], [<ore:plateNetherite>, <ore:plateSteel>, <ore:plateNetherite>]]);
-recipes.addShaped("bw_distillery", <bewitchment:distillery>, [[<gregtech:machine:812>, null, null], [<ore:gemOpal>, <ore:pipeSmallBronze>, <gregtech:machine:812>], [<ore:plateNetherite>, null, <ore:plateNetherite>]]);
+recipes.addShaped("bw_distillery", <bewitchment:distillery>, [[<metaitem:component.glass.tube>, null, null], [<ore:gemOpal>, <ore:pipeSmallFluidBronze>, <metaitem:component.glass.tube>], [<ore:plateNetherite>, null, <ore:plateNetherite>]]);
 recipes.addShaped("witches_cauldron", <bewitchment:witches_cauldron>, [[<ore:nuggetNetherite>, null, <ore:nuggetNetherite>], [<ore:plateNetherite>, null, <ore:plateNetherite>], [<ore:plateNetherite>, <ore:plateSteel>, <ore:plateNetherite>]]);
 
 // Essence of Vitality

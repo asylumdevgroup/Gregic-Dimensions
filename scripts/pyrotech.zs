@@ -132,21 +132,21 @@ Bloomery.createBloomeryBuilder("iron_bloomery_recipe", <minecraft:iron_ingot>, <
 	.setBloomYield(0,0)
 	.register();
 	
-Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <gregtech:meta_item_1:10827>, <ore:oreEarlyPrecMetal>)
+Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <minecraft:gold_ingot>, <ore:oreEarlyPrecMetal>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
 	.setBloomYield(0,0)
 	.register();
 
-Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_item_1:10071>, <ore:oreEarlyTin>)
+Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_ingot:112>, <ore:oreEarlyTin>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
 	.setBloomYield(0,0)
 	.register();
 	
-Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_item_1:10018>, <ore:oreEarlyCopper>)
+Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_ingot:25>, <ore:oreEarlyCopper>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
