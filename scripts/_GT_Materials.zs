@@ -162,3 +162,11 @@ var rockcrystal = MaterialBuilder(32014, "rockcrystal")
 .color(0xf2f2f2)
 .ore()
 .build();
+
+var reinforcedSteel = MaterialBuilder(32017, "reinforced_steel")
+.fluid("fluid", true)
+.ingot()
+.color(0xb5b5b5)
+.iconSet("SHINY")
+.flags(["generate_plate", "generate_rod", "generate_bolt_screw"])
+.build();

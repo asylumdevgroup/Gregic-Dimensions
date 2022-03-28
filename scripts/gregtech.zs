@@ -370,3 +370,8 @@ unifier.recipeBuilder()
 	.EUt(30)
 	.duration(20)
 	.buildAndRegister();
+	
+// Electric Blast Furnace
+
+recipes.remove(<metaitem:electric_blast_furnace>);
+recipes.addShaped("ebf_new", <metaitem:electric_blast_furnace>, [[<calculator:reinforcedfurnace>, <gregtech:metal_casing:2>, <calculator:reinforcedfurnace>], [<metaitem:circuit.electronic>, <gregtech:metal_casing:2>, <metaitem:circuit.electronic>], [<metaitem:cableGtSingleTin>, <metaitem:circuit.electronic>, <metaitem:cableGtSingleTin>]]); 
