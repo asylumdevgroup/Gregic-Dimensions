@@ -97,10 +97,11 @@ SoakingPot.addRecipe("tarred_board_soak", <pyrotech:material:23>, <liquid:wood_t
 // Remove Lumps of Clay
 
 mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
-mods.jei.JEI.removeAndHide(<pyrotech:material:35>);
 
 recipes.remove(<minecraft:brick>, <pyrotech:material:24>);
 recipes.remove(<pyrotech:bucket_clay_unfired>);
+
+recipes.addShaped("unfired_clay_bucket", <pyrotech:bucket_clay_unfired>, [[<minecraft:clay_ball>, null, <minecraft:clay_ball>],[null,<minecraft:clay_ball>,null]]);
 
 
 
@@ -139,14 +140,14 @@ Bloomery.createBloomeryBuilder("prec_bloomery_recipe", <minecraft:gold_ingot>, <
 	.setBloomYield(0,0)
 	.register();
 
-Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <gregtech:meta_ingot:112>, <ore:oreEarlyTin>)
+Bloomery.createBloomeryBuilder("tin_bloomery_recipe", <metaitem:ingotTin>, <ore:oreEarlyTin>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)
 	.setBloomYield(0,0)
 	.register();
 	
-Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <gregtech:meta_ingot:25>, <ore:oreEarlyCopper>)
+Bloomery.createBloomeryBuilder("copper_bloomery_recipe", <metaitem:ingotCopper>, <ore:oreEarlyCopper>)
 	.setAnvilTiers(["granite", "ironclad"])
 	.setBurnTimeTicks(2400)
 	.setFailureChance(0)

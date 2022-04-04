@@ -72,6 +72,7 @@ function unify (ore as IOreDictEntry, p as int) {
 
 <ore:oreGravitite>.add(<gregtech:ore_gravitite_1>);
 <ore:oreZanite>.add(<gregtech:ore_zanite_1>);
+<ore:ingotInfinity>.remove(<avaritia:resource:6>);
 
 unify_oredicts(<ore:ingot*>);
 unify_oredicts(<ore:plate*>);
@@ -107,11 +108,13 @@ oreDictEntIron.addAll(<ore:oreBandedIron>);
 
 oreDictEntCopper.addAll(<ore:oreCopper>);
 oreDictEntCopper.addAll(<ore:oreChalcopyrite>);
+oreDictEntCopper.addAll(<ore:oreMalachite>);
 
 oreDictEntPrecMetal.addAll(<ore:oreGold>);
 
 oreDictEntTin.addAll(<ore:oreTin>);
 oreDictEntTin.addAll(<ore:oreCassiterite>);
+oreDictEntTin.addAll(<ore:oreCassiteriteSand>);
 
 // New GT Materials OreDict Fix
 

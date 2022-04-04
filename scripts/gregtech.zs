@@ -66,6 +66,10 @@ recipes.addShaped("steam_furnace", <gregtech:machine:15>, [[<ore:pipeSmallFluidB
 recipes.remove(<gregtech:machine:17>);
 recipes.addShaped("steam_alloy_smelter", <gregtech:machine:17>, [[<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>], [<tconstruct:seared_furnace_controller>, <gregtech:steam_casing:1>, <tconstruct:seared_furnace_controller>], [<ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>, <ore:pipeSmallFluidBronze>]]);
 
+recipes.remove(<gregtech:machine:9>);
+recipes.addShaped("steam_macerator", <gregtech:machine:9>, [[<ore:gemFlint>, <ore:pipeSmallFluidBronze>, <ore:gemFlint>], [<ore:pipeSmallFluidBronze>, <gregtech:steam_casing>, <ore:pipeSmallFluidBronze>], [<ore:craftingPiston>, <ore:pipeSmallFluidBronze>, <ore:craftingPiston>]]);
+
+
 // Steam Mixer
 recipes.addShaped("steam_mixer", <gregtech:machine:32016>, [[<ore:blockGlassColorless>,<ore:rotorBronze>,<ore:blockGlassColorless>],[<ore:blockGlassColorless>,<gregtech:steam_casing>,<ore:blockGlassColorless>],[<ore:pipeSmallFluidBronze>,<ore:pipeSmallFluidBronze>,<ore:pipeSmallFluidBronze>]]);
 
@@ -332,17 +336,6 @@ electrolyzer.recipeBuilder()
 	.fluidOutputs([<liquid:mana_fluid> * 2000])
 	.duration(2000)
 	.EUt(30)
-	.buildAndRegister();
-
-// Cobaltite to LV
-
-<recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustCobaltite> * 3], null).remove();
-
-electrolyzer.recipeBuilder()
-	.inputs([<metaitem:dustCobaltite> * 3])
-	.outputs([<metaitem:dustCobalt>, <metaitem:dustArsenic>, <metaitem:dustSulfur>])
-	.EUt(30)
-	.duration(150)
 	.buildAndRegister();
 
 // Redstone Alloy
