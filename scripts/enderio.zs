@@ -22,7 +22,7 @@ alloy_smelter.recipeBuilder()
 	.inputs([<ore:blockGlass> * 2, <ore:dustNetherQuartz>])
 	.outputs(<enderio:block_fused_glass> * 3)
 	.duration(60)
-	.EUt(32)
+	.EUt(30)
 	.buildAndRegister();
 	
 // Early Conduits (LV)

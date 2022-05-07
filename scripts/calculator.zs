@@ -27,7 +27,7 @@ var removals as IItemStack[] = [
 recipes.remove(<calculator:calculator>);
 
 assembler.recipeBuilder()
-	.inputs(<metaitem:plateSteel> * 2, <calculator:calculatorscreen>, <metaitem:wireFineRedAlloy> * 16, <metaitem:screwSteel> * 2, <calculator:calculatorassembly>, <metaitem:circuit.electronic> * 2)
+	.inputs(<metaitem:plateSteel> * 2, <calculator:calculatorscreen>, <metaitem:wireFineRedAlloy> * 16, <metaitem:screwSteel> * 2, <calculator:calculatorassembly>, <ore:circuitLv> * 2)
 	.fluidInputs([<liquid:soldering_alloy> * 144])
 	.outputs(<calculator:calculator>.withTag({}))
 	.duration(100)
@@ -48,7 +48,7 @@ assembler.recipeBuilder()
 recipes.remove(<calculator:calculatorassembly>);
 
 assembler.recipeBuilder()
-	.inputs(<metaitem:plateSteel>, <minecraft:stone_button> * 8, <metaitem:circuit.electronic>, <metaitem:wireFineCopper> * 4)
+	.inputs(<metaitem:plateSteel>, <minecraft:stone_button> * 8, <ore:circuitLv>, <metaitem:wireFineCopper> * 4)
 	.outputs(<calculator:calculatorassembly>)
 	.duration(50)
 	.EUt(30)

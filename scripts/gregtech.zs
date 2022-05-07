@@ -226,15 +226,15 @@ recipes.remove(<gregtech:meta_ring:32003>);
 recipes.addShaped("correct_wr_ring", <gregtech:meta_ring:32003>, [[null, <ore:craftingToolKnife>, null], [null, <ore:plateWitchesRubber>, null]]);
 
 // LV Ore Unifier
-recipes.addShaped("ore_unifier", <gregtech:machine:32003>, [[<ore:plateSteel>,<ore:circuitBasic>,<ore:plateSteel>],[<ore:gemZanite>,<gregtech:machine:986>,<ore:gemZanite>],[<ore:plateSteel>, <ore:plateInfusedIron>,<ore:plateSteel>]]);
+recipes.addShaped("ore_unifier", <gregtech:machine:32003>, [[<ore:plateSteel>,<ore:circuitLv>,<ore:plateSteel>],[<ore:gemZanite>,<gregtech:machine:986>,<ore:gemZanite>],[<ore:plateSteel>, <ore:plateInfusedIron>,<ore:plateSteel>]]);
 
 // LV Distillery & Centrifuge Nerf
 
 recipes.remove(<gregtech:machine:260>);
-recipes.addShaped("lv_distillery", <gregtech:machine:260>, [[<ore:blockGlass>, <ore:springAluminium>, <ore:blockGlass>],[<ore:circuitBasic>, <gregtech:machine:986>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <metaitem:electric.pump.lv>, <ore:cableGtSingleTin>]]);
+recipes.addShaped("lv_distillery", <gregtech:machine:260>, [[<ore:blockGlass>, <ore:springAluminium>, <ore:blockGlass>],[<ore:circuitLv>, <gregtech:machine:986>, <ore:circuitLv>],[<ore:cableGtSingleTin>, <metaitem:electric.pump.lv>, <ore:cableGtSingleTin>]]);
 
 recipes.remove(<gregtech:machine:185>);
-recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitBasic>, <ore:plateAluminium>, <ore:circuitBasic>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <metaitem:electric.motor.lv>, <ore:circuitBasic>]]);
+recipes.addShaped("lv_centrifuge", <gregtech:machine:185>, [[<ore:circuitLv>, <ore:plateAluminium>, <ore:circuitLv>],[<ore:cableGtSingleTin>, <gregtech:machine:986>, <ore:cableGtSingleTin>],[<ore:circuitBasic>, <metaitem:electric.motor.lv>, <ore:circuitLv>]]);
 
 // LV Distillery / Centrifuge Recipes to Bewitchment
 
@@ -367,4 +367,4 @@ unifier.recipeBuilder()
 // Electric Blast Furnace
 
 recipes.remove(<metaitem:electric_blast_furnace>);
-recipes.addShaped("ebf_new", <metaitem:electric_blast_furnace>, [[<calculator:reinforcedfurnace>, <gregtech:metal_casing:2>, <calculator:reinforcedfurnace>], [<metaitem:circuit.electronic>, <gregtech:metal_casing:2>, <metaitem:circuit.electronic>], [<metaitem:cableGtSingleTin>, <metaitem:circuit.electronic>, <metaitem:cableGtSingleTin>]]); 
+recipes.addShaped("ebf_new", <metaitem:electric_blast_furnace>, [[<calculator:reinforcedfurnace>, <gregtech:metal_casing:2>, <calculator:reinforcedfurnace>], [<ore:circuitLv>, <gregtech:metal_casing:2>, <ore:circuitLv>], [<metaitem:cableGtSingleTin>, <ore:circuitLv>, <metaitem:cableGtSingleTin>]]); 
