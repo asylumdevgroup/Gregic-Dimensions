@@ -119,18 +119,6 @@ var holystoneBlockState = "aether_legacy:holystone";
 
 StoneType.create(16, "holystone", "oreHolystone", holystone, holystoneBlockState);
 
-// Holystone Macerator Recipes - Broken until Brachy updates DevTech
-// var holystonePrefix = OrePrefix.getByName("oreHolystone");
-// holystonePrefix.addRecipeHandler(function(orePrefix as OrePrefix, material as Material) {
-//     // example (will add a recipe that requires a hammer and the materials plate in crafting table)
-//     <recipemap:macerator>.recipeBuilder()
-//         .inputs(helpers.getItem(orePrefix, material))
-//         .outputs(helpers.getOreEntry("crushed", material))
-//         .EUt(2)
-//         .duration(400)
-//         .buildAndRegister();
-// } as IOreRecipeHandler);
-
 var mana_element = Elements.add(666, 666, -1, null, "Mana", "Ma", false);
 
 var mana_fluid = MaterialBuilder(32016, "mana_fluid")
