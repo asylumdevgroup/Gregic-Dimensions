@@ -58,6 +58,23 @@ mixer.recipeBuilder()
 	.EUt(16)
 	.buildAndRegister();
 	
+recipes.remove(<gregtech:metal_casing:1>);
+recipes.remove(<forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}));
+
+// Concrete
+
+<recipemap:mixer>.findRecipe(16, [<metaitem:dustClay>, <metaitem:dustStone> * 3], [<liquid:water> * 500]).remove();
+<recipemap:mixer>.findRecipe(16, [<metaitem:dustStone> * 2, <metaitem:dustCalcite>, <metaitem:dustGypsum>], [<liquid:water> * 1000]).remove();
+<recipemap:mixer>.findRecipe(16, [<metaitem:dustStone> * 2, <metaitem:dustMarble>, <metaitem:dustGypsum>], [<liquid:water> * 1000]).remove();
+
+mixer.recipeBuilder()
+	.inputs([<metaitem:dustStone> *3, <metaitem:dustCalcite>, <metaitem:dustClay>])
+	.fluidInputs([<liquid:water> * 1000])
+	.fluidOutputs([<liquid:concrete> * 1500])
+	.duration(200)
+	.EUt(16)
+	.buildAndRegister();
+
 // Steam Machine Fixes
 
 recipes.remove(<gregtech:machine:15>);

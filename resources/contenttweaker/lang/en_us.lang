@@ -6,3 +6,12 @@ tile.contenttweaker.ore_holy_rockcrystal.name=Holystone Rock Crystal Ore
 tile.contenttweaker.ore_holy_sulfur.name=Holystone Sulfur Ore
 
 tile.ore_unifier.name=Ore Unifier
+
+item.contenttweaker.adg_stone_coin.name=Stone Coin
+item.contenttweaker.adg_bronze_coin.name=Bronze Coin
+item.contenttweaker.adg_steel_coin.name=Steel Coin
+item.contenttweaker.adg_aluminium_coin.name=Aluminium Coin
+item.contenttweaker.adg_stainless_coin.name=Stainless Steel Coin
+item.contenttweaker.adg_titanium_coin.name=Titanium Coin
+item.contenttweaker.adg_tungstensteel_coin.name=Tungstensteel Coin
+item.contenttweaker.adg_palladium_coin.name=Rhodium Plated Palladium Coin
