@@ -17,3 +17,10 @@ buildOut/
 /journeymap
 
 options.txt
+crash-reports/
+
+backups/
+
+.curseclient
+
+*.log
