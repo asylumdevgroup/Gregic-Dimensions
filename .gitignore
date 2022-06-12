@@ -24,3 +24,5 @@ backups/
 .curseclient
 
 *.log
+
+.mixin.out/
