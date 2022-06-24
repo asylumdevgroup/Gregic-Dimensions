@@ -26,3 +26,5 @@ backups/
 *.log
 
 .mixin.out/
+
+config/gregtech/terminal/ore_prospector

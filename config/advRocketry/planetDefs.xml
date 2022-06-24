@@ -1,0 +1,51 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
+        <planet name="Mercury">
+			<isKnown>True</isKnown>
+		</planet>
+		<planet name="Venus">
+			<isKnown>True</isKnown>
+		</planet>
+		<planet name="Earth" DIMID="0" dimMapping="">
+			<isKnown>True</isKnown>
+			<planet name="Moon">
+			</planet>
+		</planet>
+		<planet name="Mars">
+			<isKnown>True</isKnown>
+		</planet>
+		<planet name="Asteroids">
+			<isKnown>True</isKnown>
+		</planet>
+		<planet name="Jupiter">
+			<isKnown>True</isKnown>
+			<GasGiant>True</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+		</planet>
+		<planet name="Saturn">
+			<isKnown>True</isKnown>
+			<hasRings>True</hasRings>
+			<GasGiant>True</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+		</planet>
+		<planet name="Uranus">
+			<isKnown>True</isKnown>
+			<GasGiant>True</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<gas>methane</gas>
+		</planet>
+		<planet name="Neptune">
+			<isKnown>True</isKnown>
+			<GasGiant>True</GasGiant>
+			<gas>hydrogen</gas>
+			<gas>helium</gas>
+			<gas>methane</gas>
+		</planet>
+		<planet name="Pluto">
+			<isKnown>True</isKnown>
+		</planet>
+    </star>
+</galaxy>
