@@ -185,14 +185,14 @@ recipes.addShapeless(<gregtech:cable_quadruple:23>, [<gregtech:cable_double:23> 
 recipes.addShapeless(<gregtech:cable_single:55> * 2, [<gregtech:cable_double:55>]);
 recipes.addShapeless(<gregtech:cable_double:55> * 2, [<gregtech:cable_quadruple:55>]);
 recipes.addShapeless(<gregtech:cable_quadruple:55> * 2, [<gregtech:cable_octal:55>]);
-recipes.addShapeless(<gregtech:cable_double:55>, [<gregtech:cable_single:55> * 2]);
-recipes.addShapeless(<gregtech:cable_quadruple:55>, [<gregtech:cable_double:55> * 2]);
+recipes.addShapeless(<gregtech:cable_double:55>, [<gregtech:cable_single:55>, <gregtech:cable_double:55>]);
+recipes.addShapeless(<gregtech:cable_quadruple:55>, [<gregtech:cable_double:55>, <gregtech:cable_double:55>]);
 
 recipes.addShapeless(<gregtech:cable_single:112> * 2, [<gregtech:cable_double:112>]);
 recipes.addShapeless(<gregtech:cable_double:112> * 2, [<gregtech:cable_quadruple:112>]);
 recipes.addShapeless(<gregtech:cable_quadruple:112> * 2, [<gregtech:cable_octal:112>]);
-recipes.addShapeless(<gregtech:cable_double:112>, [<gregtech:cable_single:112> * 2]);
-recipes.addShapeless(<gregtech:cable_quadruple:112>, [<gregtech:cable_double:112> * 2]);
+recipes.addShapeless(<gregtech:cable_double:112>, [<gregtech:cable_single:112>, <gregtech:cable_single:112>]);
+recipes.addShapeless(<gregtech:cable_quadruple:112>, [<gregtech:cable_double:112>, <gregtech:cable_double:112>]);
 
 // recipes.addShapeless(<gregtech:cable:5080> * 2, [<gregtech:cable:6080>]);
 // recipes.addShapeless(<gregtech:cable:6080> * 2, [<gregtech:cable:7080>]);
@@ -214,6 +214,10 @@ recipes.addShaped("empty_cell", <gregtech:meta_item_1:78>, [[<ore:craftingToolHa
 
 var full_wr_cell = <gregtech:meta_item_1:78>.withTag({Fluid: {FluidName: "witches_rubber", Amount: 1000}});
 WitchesCauldron.addRecipe([full_wr_cell, <bewitchment:empty_jar>, <bewitchment:empty_jar>], [<bewitchment:essence_of_vitality>, <bewitchment:fiery_unguent>, <metaitem:rubber_drop>, <metaitem:rubber_drop>, <bewitchment:wood_ash>, <gregtech:meta_item_1:78>]);
+
+// LV Conveyor from Witches' Rubber
+
+recipes.addShaped("lv_conveyor_witch", <metaitem:conveyor.module.lv>, [[<metaitem:plateWitchesRubber>, <metaitem:plateWitchesRubber>, <metaitem:plateWitchesRubber>],[<metaitem:electric.motor.lv>, <metaitem:cableGtSingleTin>, <metaitem:electric.motor.lv>],[<metaitem:plateWitchesRubber>, <metaitem:plateWitchesRubber>, <metaitem:plateWitchesRubber>]]);
 
 // Coated Circuit Board
 
