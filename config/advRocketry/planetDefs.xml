@@ -1,51 +1,101 @@
 <galaxy>
     <star name="Sol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0">
-        <planet name="Mercury">
+        <planet name="Mercury" DIMID="10" customIcon="moon">
 			<isKnown>True</isKnown>
+			<genType>0</genType>
+			<biomeIds>advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
+            <skyColor>0,0,0</skyColor>
+			<oceanBlock>minecraft:fluid.lava</oceanBlock>
+			<atmosphereDensity>120</atmosphereDensity>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>10</orbitalDistance>
+			<rotationalPeriod>1400000</rotationalPeriod>
 		</planet>
-		<planet name="Venus">
+		<planet name="Venus" DIMID="11" customIcon="venusian">
 			<isKnown>True</isKnown>
+			<genType>0</genType>
+			<biomeIds>advancedrocketry:volcanic,advancedrocketry:volcanicbarren</biomeIds>
+            <skyColor>0,0,0</skyColor>
+			<fogColor>0.9,0.9,0.9</fogColor>
+			<oceanBlock>gregtech:fluid.sulfuric_acid</oceanBlock>
+			<atmosphereDensity>120</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>40</orbitalDistance>
+			<rotationalPeriod>2784000</rotationalPeriod>
 		</planet>
-		<planet name="Earth" DIMID="0" dimMapping="">
+		<planet name="Earth" DIMID="0" dimMapping="" customIcon="earthlike">
 			<isKnown>True</isKnown>
-			<planet name="Moon">
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>80</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="Moon" DIMID="12" customIcon="moon">
+				<genType>0</genType>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<orbitalDistance>150</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>128000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
 			</planet>
 		</planet>
-		<planet name="Mars">
+		<planet name="Mars" DIMID="13" customIcon="marslike">
 			<isKnown>True</isKnown>
+			<genType>0</genType>
+			<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+            <skyColor>1,0.2,0</skyColor>
+			<fogColor>0.9,0.6,0.1</fogColor>
+			<atmosphereDensity>0</atmosphereDensity>
+			<orbitalDistance>120</orbitalDistance>
+			<gravitationalMultiplier>70</gravitationalMultiplier>
+			<rotationalPeriod>20000</rotationalPeriod>
 		</planet>
-		<planet name="Asteroids">
-			<isKnown>True</isKnown>
-		</planet>
-		<planet name="Jupiter">
+		<planet name="Jupiter" customIcon="gasgiantred">
 			<isKnown>True</isKnown>
 			<GasGiant>True</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
+			<orbitalDistance>120</orbitalDistance>
+			<rotationalPeriod>9900</rotationalPeriod>
 		</planet>
-		<planet name="Saturn">
+		<planet name="Saturn" customIcon="gasgiantbrown">
 			<isKnown>True</isKnown>
 			<hasRings>True</hasRings>
 			<GasGiant>True</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
+			<orbitalDistance>130</orbitalDistance>
+			<rotationalPeriod>10600</rotationalPeriod>
 		</planet>
-		<planet name="Uranus">
+		<planet name="Uranus" customIcon="iceworld">
 			<isKnown>True</isKnown>
 			<GasGiant>True</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<gas>methane</gas>
+			<orbitalDistance>300</orbitalDistance>
+			<gravitationalMultiplier>200</gravitationalMultiplier>
+			<rotationalPeriod>17250</rotationalPeriod>
 		</planet>
-		<planet name="Neptune">
+		<planet name="Neptune"  customIcon="gasgiantblue">
 			<isKnown>True</isKnown>
 			<GasGiant>True</GasGiant>
 			<gas>hydrogen</gas>
 			<gas>helium</gas>
 			<gas>methane</gas>
+			<orbitalDistance>350</orbitalDistance>
+			<gravitationalMultiplier>200</gravitationalMultiplier>
+			<rotationalPeriod>21100</rotationalPeriod>
 		</planet>
-		<planet name="Pluto">
+		<planet name="Pluto" DIMID="14" customIcon="iceworld">
 			<isKnown>True</isKnown>
+			<genType>0</genType>
+			<orbitalDistance>400</orbitalDistance>
+			<gravitationalMultiplier>120</gravitationalMultiplier>
+			<rotationalPeriod>110160</rotationalPeriod>
 		</planet>
     </star>
 </galaxy>

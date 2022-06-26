@@ -1,0 +1,26 @@
++--------+------------------+------------------------+-----------------+------------------+---------------------------------------------------------------------------+
+|     ID | DimensionType ID | Name                   | shouldLoadSpawn | Currently loaded | WorldProvider class                                                       |
++--------+------------------+------------------------+-----------------+------------------+---------------------------------------------------------------------------+
+|      0 |                0 | overworld              |            true |             true | net.minecraft.world.WorldProviderSurface                                  |
+|     -1 |               -1 | the_nether             |           false |            false | net.minecraft.world.WorldProviderHell                                     |
+|      1 |                1 | the_end                |           false |            false | net.minecraft.world.WorldProviderEnd                                      |
+|     50 |               50 | The Abyssal Wasteland  |           false |            false | com.shinoow.abyssalcraft.common.world.WorldProviderAbyss                  |
+|     51 |               51 | The Dreadlands         |           false |            false | com.shinoow.abyssalcraft.common.world.WorldProviderDreadlands             |
+|     52 |               52 | Omothol                |           false |            false | com.shinoow.abyssalcraft.common.world.WorldProviderOmothol                |
+|     53 |               53 | The Dark Realm         |           false |            false | com.shinoow.abyssalcraft.common.world.WorldProviderDarkRealm              |
+|     33 |               33 | underworld             |           false |            false | com.teamwizardry.wizardry.common.world.underworld.WorldProviderUnderWorld |
+|     18 |               18 | AetherI                |           false |            false | com.gildedgames.the_aether.world.AetherWorldProvider                      |
+| -11325 |           -11325 | Deep Dark              |           false |            false | com.rwtema.extrautils2.dimensions.deep_dark.WorldProviderDeepDark         |
+|  -9999 |            -9999 | ExtraUtils2_Quarry_Dim |            true |             true | com.rwtema.extrautils2.dimensions.workhousedim.WorldProviderSpecialDim    |
+|   4598 |             4598 | nc_wasteland           |           false |            false | nc.worldgen.dimension.WorldProviderWasteland                              |
+|      7 |                7 | twilight_forest        |           false |            false | twilightforest.world.WorldProviderTwilightForest                          |
+|     -2 |                3 | space                  |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderSpace             |
+|      2 |              -11 | Storage Cell           |            true |             true | appeng.spatial.StorageWorldProvider                                       |
+|     10 |                2 | planet                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet            |
+|     11 |                2 | planet                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet            |
+|     12 |                2 | planet                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet            |
+|     13 |                2 | planet                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet            |
+|     14 |                2 | planet                 |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet            |
++--------+------------------+------------------------+-----------------+------------------+---------------------------------------------------------------------------+
+|     ID | DimensionType ID | Name                   | shouldLoadSpawn | Currently loaded | WorldProvider class                                                       |
++--------+------------------+------------------------+-----------------+------------------+---------------------------------------------------------------------------+
