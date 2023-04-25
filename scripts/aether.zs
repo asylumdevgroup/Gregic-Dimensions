@@ -34,7 +34,7 @@ assembler.recipeBuilder()
 	.inputs([<contenttweaker:skyroot> * 3])
 	.fluidInputs([<liquid:witches_rubber> * 1000])
 	.outputs(<aether_legacy:skyroot_bucket>)
-	.property("circuit", 1)
+	.circuit(1)
 	.duration(200)
 	.EUt(30)
 	.buildAndRegister();
