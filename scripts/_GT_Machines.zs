@@ -18,6 +18,14 @@ val unifierRecipes as RecipeMap = RecipeMapBuilder.create("unifier")
 	.setDurationBar("textures/gui/progress_bar/progress_bar_arrow.png",MoveType.RIGHT)
 	.build();
 
+// Vending Machine
+
+val vendingRecipes as RecipeMap = RecipeMapBuilder.create("vending_machine")
+	.setInputs(1)
+	.setOutputs(9)
+	.setDurationBar("textures/gui/progress_bar/progress_bar_arrow.png",MoveType.RIGHT)
+	.build();
+
 MachineBuilder.create(32000, "ore_unifier")
 	.addSteamTier(false, true)
 	.addSteamTier(true)
@@ -32,4 +40,11 @@ MachineBuilder.create(32016, "steam_mixer")
 	.addSteamTier(true)
 	.setRecipeMap(<recipemap:mixer>)
 	.setRenderer("machines/mixer")
+	.buildAndRegister();
+
+MachineBuilder.create(32032, "vending_machine")
+	.addSteamTier(false, false)
+	.addSteamTier(true)
+	.setRecipeMap(vendingRecipes)
+	.setRenderer("machines/assembler")
 	.buildAndRegister();

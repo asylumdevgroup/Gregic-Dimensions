@@ -64,7 +64,7 @@ assembler.recipeBuilder()
 <calculator:reinforcedironingot>.displayName = "Reinforced Steel Ingot";
 
 basic.removeRecipe(<calculator:reinforcedironingot>);
-basic.addRecipe(<sonarcore:reinforcedstoneblock>, <gregtech:meta_ingot:324>, <calculator:reinforcedironingot>);
+basic.addRecipe(<sonarcore:reinforcedstoneblock>, <metaitem:ingotSteel>, <calculator:reinforcedironingot>);
 
 <ore:ingotReinforcedSteel>.add(<calculator:reinforcedironingot>);
 

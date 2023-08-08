@@ -208,7 +208,7 @@ recipes.addShapeless(<gregtech:cable_quadruple:112>, [<gregtech:cable_double:112
 
 // Empty Cell Early
 
-recipes.addShaped("empty_cell", <gregtech:meta_item_1:78>, [[<ore:craftingToolHardHammer>, <ore:plateDoubleIron>]]);
+recipes.addShaped("empty_cell", <gregtech:meta_item_1:78>, [[<ore:craftingToolHardHammer>, <ore:plateIron>]]);
 
 // Witches' Rubber Cell
 
@@ -374,15 +374,6 @@ ebf.recipeBuilder()
 	.EUt(120)
 	.duration(1500)
 	.property("temperature", 1200)
-	.buildAndRegister();
-
-// Unifier Test Recipe
-
-unifier.recipeBuilder()
-	.inputs([<minecraft:dirt> * 1])
-	.outputs([<minecraft:diamond> * 1])
-	.EUt(30)
-	.duration(20)
 	.buildAndRegister();
 	
 // Electric Blast Furnace

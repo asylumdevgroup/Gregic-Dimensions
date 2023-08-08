@@ -36,7 +36,7 @@ TreeRitual.addRecipe("na_gold_bricks", <minecraft:sapling>, <naturesaura:gold_br
 
 // Add Recipe to convert NA Infused Iron to the GT Material Version.
 
-recipes.addShapeless("gt_infused_iron", <gregtech:meta_item_1:10476>, [<naturesaura:infused_iron>]);
+recipes.addShapeless("gt_infused_iron", <metaitem:ingotInfusedIron>, [<naturesaura:infused_iron>]);
 
 
 // Natural Altar

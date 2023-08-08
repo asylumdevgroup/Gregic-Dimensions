@@ -1,4 +1,5 @@
 {
+  "build:8": "4.1.0",
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
@@ -6,7 +7,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Welcome to §b§cA§bD§eG §e§0§rGregic Dimensions! This modpack is centered around §3GregTech CE: Unofficial§r, however several §5Magic§5§r mods are also featured, including Nature\u0027s Aura, Bewitchment, Roots, Astral Sorcery, Botania, and Blood Magic! In addition to these magic mods being required for progression, each one is associated with and gated behin§c§d§rd a §c§r§cdimension§r. For example, Astral Sorcery temples and ores can only be found in the Aether, and Botania requires the Twilight Forest. Tech is also gated behind the various dimensions, as most ore veins cannot be found in the overworld.\n\nThis chapter delves into the §7§7stone ag§8§8§r§r§7e §rof the pack, which is focused around PyroTech, Nature\u0027s Aura, Roots, and Tinkers\u0027 Construct. Good Luck!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30,7 +31,20 @@
         }
       },
       "questID:3": 0,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:apple"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -45,7 +59,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Exploring the world, you may notice some things. Most significantly, you cannot punch trees to collect wood! This is caused by the mod PyroTech, which significantly overhauls Stone Age progression. To proceed, you will need to collect a few things.\n\n§7Rocks§r: Can be found on the ground in most areas and collected by breaking.\n\n§2§2§a§2Sticks§r: Can be obtained by breaking leaves on trees.\n\n§aPlant Fibers§r: Can be obtained by breaking tall grass.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -69,7 +83,20 @@
         }
       },
       "questID:3": 1,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -109,7 +136,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Now that you have collected the three basic things needed to get started in PyroTech, you can craft Crude Tools! These are PyroTech\u0027s equivalent of wooden tools, and only have 32 durability.\n\nLet\u0027s make a deal: Craft a §7Crude Pickaxe§r, and I\u0027ll give you the rest of the tools.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -178,6 +205,18 @@
               "id:8": "pyrotech:crude_hoe"
             }
           }
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
         }
       },
       "tasks:9": {
@@ -210,7 +249,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Now that you can use your crude axe to chop wood, one other thing you may notice is that you cannot turn said wood into planks in a crafting grid. For that, you will need to craft a §aChopping Block §rby putting a wooden log in the crafting grid with your crude axe. However, be warned! The chopping block has a limited lifespan, and it will eventually break after several uses. It may be best to craft several.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -234,7 +273,20 @@
         }
       },
       "questID:3": 3,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -262,7 +314,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Using your chopping block, you can now craft §aplanks§r. You can also craft wooden §2slabs§r§r, and you can use one slab and one log to craft a §4Worktable§r, your first form of 3x3 crafting. To use the worktable, right-click the items for the recipe into their designated slots. Then, right-click the table a few times with a §7Hammer§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -286,7 +338,20 @@
         }
       },
       "questID:3": 4,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -369,7 +434,9 @@
       }
     },
     "6:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -608,7 +675,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "With a Crude Axe, you can now obtain wood! Go ahead and collect some.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -632,7 +699,20 @@
         }
       },
       "questID:3": 10,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -818,7 +898,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Now that you have access to tools, particularly the §7Crude Hoe§r, now might be a good time to set up a simple §eWheat Farm§r. Go collect some §aseeds§r by breaking grass!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -842,7 +922,20 @@
         }
       },
       "questID:3": 14,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -922,7 +1015,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "With access to planks and slabs comes the ability to store items! The vanilla chest, however, is further gated. Yet, PyroTech offers two alternatives, the Crate and the Shelf! Like crafting in the worktable, items can be stored in these by right-clicking them into the storage slots.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -946,7 +1039,20 @@
         }
       },
       "questID:3": 16,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -991,7 +1097,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Now that you have obtained 3x3 crafting, You can obtain better tools in the form of §3GregTech §rtools, made from flint. The flint axe is particularly helpful, as it can chop down an entire tree by only breaking the bottom log.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1034,7 +1140,20 @@
         }
       },
       "questID:3": 17,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1362,7 +1481,9 @@
       }
     },
     "21:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        0
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -5789,9 +5910,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "OreDict:8": "",
               "id:8": "forge:bucketfilled",
               "tag:10": {
@@ -11056,9 +11174,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "OreDict:8": "",
               "id:8": "calculator:calculator",
               "tag:10": {}
@@ -11461,6 +11576,45 @@
     },
     "191:10": {
       "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You may notice that most quests provide different types of §6coins§6§r as rewards, depending on the current tier of tech you are in. These coins, known as §b§cA§bD§eG §6coins§r§r, exist for every tier of GregTech voltage, and can be used to buy basic materials and items. For the stone age, you can buy items using a 3x3 crafting grid. However, for steam age and onward, a single-block GregTech machine known as the §3Vending Machine§r§r exists for you to spend your coins.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:adg_stone_coin"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "ADG Coins",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 191,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "192:10": {
+      "preRequisites:11": [
         189
       ],
       "properties:10": {
@@ -11511,7 +11665,7 @@
         }
       }
     },
-    "192:10": {
+    "193:10": {
       "preRequisites:11": [
         192,
         197
@@ -11564,7 +11718,7 @@
         }
       }
     },
-    "193:10": {
+    "194:10": {
       "preRequisites:11": [
         183
       ],
@@ -11616,7 +11770,7 @@
         }
       }
     },
-    "194:10": {
+    "195:10": {
       "preRequisites:11": [
         126
       ],
@@ -11655,7 +11809,7 @@
         }
       }
     },
-    "195:10": {
+    "196:10": {
       "preRequisites:11": [
         136
       ],
@@ -11707,7 +11861,7 @@
         }
       }
     },
-    "196:10": {
+    "197:10": {
       "preRequisites:11": [
         188
       ],
@@ -11823,10 +11977,10 @@
       "quests:9": {
         "0:10": {
           "id:3": 0,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -84
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
+          "y:3": -132
         },
         "1:10": {
           "id:3": 1,
@@ -12075,157 +12229,164 @@
         },
         "36:10": {
           "id:3": 36,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
           "y:3": 348
         },
         "37:10": {
           "id:3": 37,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 384
+          "x:3": -12,
+          "y:3": 420
         },
         "38:10": {
           "id:3": 38,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 384
+          "x:3": -48,
+          "y:3": 456
         },
         "39:10": {
           "id:3": 39,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 384
+          "x:3": -12,
+          "y:3": 456
         },
         "40:10": {
           "id:3": 40,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 384
+          "x:3": 24,
+          "y:3": 456
         },
         "41:10": {
           "id:3": 41,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 420
+          "x:3": -84,
+          "y:3": 492
         },
         "42:10": {
           "id:3": 42,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 420
+          "x:3": -48,
+          "y:3": 492
         },
         "43:10": {
           "id:3": 43,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 420
+          "x:3": -12,
+          "y:3": 492
         },
         "44:10": {
           "id:3": 44,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 420
+          "x:3": 24,
+          "y:3": 492
         },
         "45:10": {
           "id:3": 45,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 384
+          "x:3": -84,
+          "y:3": 540
         },
         "46:10": {
           "id:3": 46,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 420
+          "x:3": -120,
+          "y:3": 492
         },
         "47:10": {
           "id:3": 47,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 456
+          "x:3": -48,
+          "y:3": 528
         },
         "48:10": {
           "id:3": 48,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 492
+          "x:3": -48,
+          "y:3": 564
         },
         "49:10": {
           "id:3": 49,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 492
+          "x:3": 24,
+          "y:3": 564
         },
         "50:10": {
           "id:3": 50,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 492
+          "x:3": 60,
+          "y:3": 564
         },
         "51:10": {
           "id:3": 51,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 528
+          "x:3": -12,
+          "y:3": 600
         },
         "52:10": {
           "id:3": 52,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 528
+          "x:3": -48,
+          "y:3": 600
         },
         "53:10": {
           "id:3": 53,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
-          "y:3": 528
+          "x:3": -84,
+          "y:3": 600
         },
         "54:10": {
           "id:3": 54,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 564
+          "x:3": 24,
+          "y:3": 636
         },
         "55:10": {
           "id:3": 55,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 564
+          "x:3": 60,
+          "y:3": 636
         },
         "56:10": {
           "id:3": 56,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -36,
-          "y:3": 576
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -60,
+          "y:3": 648
         },
         "57:10": {
           "id:3": 57,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -108,
-          "y:3": 528
+          "x:3": -120,
+          "y:3": 600
+        },
+        "58:10": {
+          "id:3": 191,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -72,
+          "y:3": -48
         }
       }
     },
@@ -12250,10 +12411,10 @@
       "quests:9": {
         "0:10": {
           "id:3": 58,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -72
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -24,
+          "y:3": -84
         },
         "1:10": {
           "id:3": 59,
@@ -13647,7 +13808,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
