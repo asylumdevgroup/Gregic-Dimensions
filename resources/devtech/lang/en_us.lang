@@ -6,4 +6,5 @@ devtech.machine.ore_unifier.lv.name=Basic Ore Unifier
 devtech.machine.ore_unifier.mv.name=Advanced Ore Unifier
 devtech.machine.ore_unifier.hs.name=Advanced Ore Unifier II
 recipemap.unifier.name=Ore Unification
+recipemap.vending_machine.name=Vending Machine
 item.material.oreprefix.oreHolystone=Holystone %s Ore

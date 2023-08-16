@@ -77,7 +77,6 @@
       "slagColor": "ffaa1c",
       "langKey": [
         "abyssalcraft:tile.abycopore",
-        "forestry:tile.for.resources.copper",
         "gregtech:tile.ore_block",
         "libvulpes:material.Copper",
         "mysticalworld:tile.copper_ore",
@@ -248,7 +247,6 @@
       "slagColor": "c3e9ff",
       "langKey": [
         "abyssalcraft:tile.abytinore",
-        "forestry:tile.for.resources.tin",
         "gregtech:tile.ore_block",
         "libvulpes:material.Tin",
         "nuclearcraft:tile.nuclearcraft.ore.tin",

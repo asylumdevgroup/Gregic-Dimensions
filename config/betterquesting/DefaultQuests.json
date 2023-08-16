@@ -1249,7 +1249,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§3GregTech\u0027s §rFlint Weapons are also useful early game, as any mob attacked with them will be lit on fire, as they are automatically enchanted with §cFire Aspect II§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1294,7 +1294,20 @@
         }
       },
       "questID:3": 18,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1370,7 +1383,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Now that you have some basic weapons, go kill some animals and collect some meat! Any type of raw meat is accepted for this quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1394,7 +1407,20 @@
         }
       },
       "questID:3": 19,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -11230,9 +11256,6 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
               "OreDict:8": "",
               "id:8": "scannable:scanner"
             }

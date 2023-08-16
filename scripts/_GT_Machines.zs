@@ -43,6 +43,7 @@ MachineBuilder.create(32016, "steam_mixer")
 	.buildAndRegister();
 
 MachineBuilder.create(32032, "vending_machine")
+	.addTierRange(1,14)
 	.addSteamTier(false, false)
 	.addSteamTier(true)
 	.setRecipeMap(vendingRecipes)
