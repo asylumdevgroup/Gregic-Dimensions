@@ -379,7 +379,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §7Mortar and Pestle§r from §aRoots§r allows you to grind certain items down early on. In this pack, its primary purpose is to allow you to obtain §7Silk Thread§r, an early form of String. To use the Mortar and Pestle, simply place the mortar on the ground, right click to place the ingredient(s) in, then right click with the pestle.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -403,7 +403,20 @@
         }
       },
       "questID:3": 5,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -440,7 +453,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "You may notice that you occasionally get §eSilkworm Eggs§r when breaking leaves. If these eggs are right-clicked on the ground, there is a chance to spawn a §eSilkworm§r. These creatures will occasionally drop §7silk cocoons§r, which can be ground into §7Silk Thread§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -464,7 +477,20 @@
         }
       },
       "questID:3": 6,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -510,7 +536,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Using your newly crafted §8Mortar and Pestle§r, go ahead and make some §7Silk Thread§r.\n\nNot only can §7Silk Thread §rbe crafted into String, it will also be used for Drying Racks in the next quest.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -534,7 +560,20 @@
         }
       },
       "questID:3": 7,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -832,7 +871,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "With the §6Drying Rack§r, you are able to dry your regular §2Plant Fibers§r, as well as create §6Straw§r from wheat.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -863,7 +902,20 @@
         }
       },
       "questID:3": 13,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -963,7 +1015,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "After waiting for some time, you should be able to harvest the §6Wheat§r from your farm. Come back to this quest when you have collected eight §6Wheat§r for an easy §cA§bD§eG§r coin.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -987,7 +1039,20 @@
         }
       },
       "questID:3": 15,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -998,7 +1063,7 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 1,
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "minecraft:wheat"
@@ -1513,7 +1578,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Crop growth acceleration this early on? Un-bee-lievable!!",
+          "desc:8": "Crop growth acceleration this early on? Un-bee-lievable!!\n\nYes, that\u0027s right, §6Bees§r from Rustic can be placed in an Apiary to accelerate crop growth.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1537,7 +1602,20 @@
         }
       },
       "questID:3": 21,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1567,7 +1645,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §6Apiary§r from Rustic can house up to 64 §6Bees§r, which can accelerate crop growth while simultaneously producing §6Honeycombs§r. I personally recommend placing an apiary above the water source block of a 9x9 farm plot for optimal efficiency.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1591,7 +1669,20 @@
         }
       },
       "questID:3": 22,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
