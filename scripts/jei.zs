@@ -1,6 +1,8 @@
 // JEI.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
 
 import crafttweaker.item.IItemStack;

@@ -1,6 +1,8 @@
 // Nether Backport.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
 
 import mods.gregtech.recipe.RecipeMap;

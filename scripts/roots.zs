@@ -1,8 +1,9 @@
 // Roots.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
-import mods.roots.Mortar;
 
 // Mortar & Pestle
 

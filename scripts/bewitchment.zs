@@ -1,13 +1,11 @@
 // Bewitchment.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
 
 import crafttweaker.item.IItemStack;
-import mods.naturesaura.TreeRitual;
-import moretweaker.bewitchment.WitchesOven;
-import moretweaker.bewitchment.WitchesCauldron;
-import moretweaker.bewitchment.Distillery;
 import mods.gregtech.recipe.RecipeMap;
 
 // GT Machines
@@ -35,9 +33,6 @@ var otherAltars as IItemStack[] = [
 recipes.remove(<bewitchment:obsidian_witches_altar>);
 recipes.addShaped("witches_altar", <bewitchment:obsidian_witches_altar> * 2, [[<ore:plateNetherite>, <ore:dustRegularSalt>, <ore:plateNetherite>], [<ore:obsidian>, <bewitchment:elder_wood>, <ore:obsidian>], [<ore:obsidian>, <bewitchment:elder_wood>, <ore:obsidian>]]);
 
-// Helpful Elder Tree Sapling Recipe
-
-TreeRitual.addRecipe("elder_sapling", <minecraft:sapling>, <bewitchment:elder_sapling>, 20, [<ore:nuggetNetherite>, <ore:nuggetNetherite>, <ore:netherrack>, <ore:netherrack>]);
 
 // Bewitchment Basic "Machines"
 
@@ -49,9 +44,6 @@ recipes.addShaped("witches_oven", <bewitchment:witches_oven>, [[null, <ore:plate
 recipes.addShaped("bw_distillery", <bewitchment:distillery>, [[<metaitem:component.glass.tube>, null, null], [<ore:gemOpal>, <ore:pipeSmallFluidBronze>, <metaitem:component.glass.tube>], [<ore:plateNetherite>, null, <ore:plateNetherite>]]);
 recipes.addShaped("witches_cauldron", <bewitchment:witches_cauldron>, [[<ore:nuggetNetherite>, null, <ore:nuggetNetherite>], [<ore:plateNetherite>, null, <ore:plateNetherite>], [<ore:plateNetherite>, <ore:plateSteel>, <ore:plateNetherite>]]);
 
-// Essence of Vitality
-
-WitchesOven.addRecipe(<naturesaura:ancient_sapling>, <bewitchment:essence_of_vitality>, <bewitchment:wood_ash>, 100, true);
 
 // Sigil Table
 

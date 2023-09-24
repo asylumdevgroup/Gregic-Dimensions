@@ -1,19 +1,12 @@
 // ore_unifier.zs
 // By MCAdventureCity
 
-import mods.requious.AssemblyRecipe;
+#reloadable
+
 import mods.gregtech.recipe.RecipeMaps;
 import mods.gregtech.recipe.RecipeMap;
-import crafttweaker.item.IItemStack;
-import crafttweaker.item.IIngredient;
 
-function oreUnifierRecipe(output as IItemStack, input as IIngredient, duration as int) {
-       var recipe = AssemblyRecipe.create(function(container) {
-       container.addItemOutput("output", output);
-       }).requireItem("input", input).requireDuration("duration", duration);
-       <assembly:ore_unifier>.addRecipe(recipe);
-       <assembly:ore_unifier>.addJEIRecipe(recipe);
-}
+
 
 var unifier = <recipemap:unifier>;
 

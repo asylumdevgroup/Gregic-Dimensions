@@ -1,13 +1,11 @@
 // Aether.zs
 // By CJWilk
 
+#reloadable
 
 // Imports
 
-import mods.roots.Bark;
-import mods.aether_legacy.Enchanter;
 import mods.gregtech.recipe.RecipeMap;
-import moretweaker.bewitchment.WitchesCauldron;
 
 // GT Machines
 
@@ -15,8 +13,6 @@ val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 
 // Gravitite
-
-Enchanter.removeEnchantment(<aether_legacy:gravitite_ore>);
 
 autoclave.recipeBuilder()
 	.inputs(<ore:oreGravitite>)
@@ -38,8 +34,3 @@ assembler.recipeBuilder()
 	.duration(200)
 	.EUt(30)
 	.buildAndRegister();
-	
-// Skyroot
-
-WitchesCauldron.addRecipe([<contenttweaker:skyroot>, <bewitchment:empty_jar> * 3], [<naturesaura:sky_ingot>, <naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"}), <roots:wildroot>, <bewitchment:mandrake_root>, <bewitchment:cloudy_oil>, <bewitchment:oak_spirit>, <bewitchment:heaven_extract>, <wizardry:orb:1>]);
-Bark.addRecipe("skyroot_bark", <aether_legacy:aether_log>, <contenttweaker:skyroot>);

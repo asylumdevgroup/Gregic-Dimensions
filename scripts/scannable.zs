@@ -1,6 +1,8 @@
 //scannable.zs
 //By MCAdventureCity
 
+#reloadable
+
 import mods.gregtech.recipe.RecipeMap;
 
 val assembler as RecipeMap = <recipemap:assembler>;

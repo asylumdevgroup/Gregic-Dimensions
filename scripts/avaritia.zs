@@ -3,6 +3,8 @@
 
 // Imports
 
+#reloadable
+
 import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.RecipeMaps;
 

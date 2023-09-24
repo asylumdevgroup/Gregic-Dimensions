@@ -1,10 +1,11 @@
 // Calculator.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
 
 import mods.gregtech.recipe.RecipeMap;
-import mods.calculator.basic;
 import crafttweaker.item.IItemStack;
 
 // GT Machines
@@ -62,9 +63,6 @@ assembler.recipeBuilder()
 <calculator:reinforcedironpickaxe>.displayName = "Reinforced Steel Pickaxe";
 <calculator:material:3>.displayName = "Reinforced Steel Block";
 <calculator:reinforcedironingot>.displayName = "Reinforced Steel Ingot";
-
-basic.removeRecipe(<calculator:reinforcedironingot>);
-basic.addRecipe(<sonarcore:reinforcedstoneblock>, <metaitem:ingotSteel>, <calculator:reinforcedironingot>);
 
 <ore:ingotReinforcedSteel>.add(<calculator:reinforcedironingot>);
 

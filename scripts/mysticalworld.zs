@@ -1,6 +1,8 @@
 // Mysticalworld.zs
 // By CJWilk
 
+#reloadable
+
 
 // Remove Silk from String OreDict
 

@@ -3,6 +3,8 @@
 
 // Imports
 
+#reloadable
+
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 

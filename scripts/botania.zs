@@ -1,6 +1,8 @@
 // Botania
 // By CJWilk
 
+#reloadable
+
 // Imports
 
 import mods.gregtech.recipe.RecipeMap;

@@ -2,6 +2,8 @@
 // By CJWilk
 
 
+#reloadable
+
 // Earlier Alchemic Condensor
 
 recipes.remove(<rustic:retort>);

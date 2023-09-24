@@ -1,9 +1,10 @@
 // Ender IO.zs
 // By CJWilk
 
+#reloadable
+
 // Imports
 
-import mods.enderio.AlloySmelter;
 import mods.tconstruct.Casting;
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;

@@ -4,6 +4,9 @@
 // Imports
 import mods.requious.ComponentFace;
 import mods.requious.SlotVisual;
+import mods.requious.AssemblyRecipe;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 
 // Ore Unifier Setup
 var ore_unifier = <assembly:ore_unifier>;
@@ -28,3 +31,11 @@ ore_unifier.setJEIDurationSlot(1,0,"duration", SlotVisual.arrowRight());
 
 // Ore Unifier Recipe
 <requious:ore_unifier>.addTooltip(format.red("Deprecated. Use the DevTech Version."));
+
+function oreUnifierRecipe(output as IItemStack, input as IIngredient, duration as int) {
+       var recipe = AssemblyRecipe.create(function(container) {
+       container.addItemOutput("output", output);
+       }).requireItem("input", input).requireDuration("duration", duration);
+       <assembly:ore_unifier>.addRecipe(recipe);
+       <assembly:ore_unifier>.addJEIRecipe(recipe);
+}
