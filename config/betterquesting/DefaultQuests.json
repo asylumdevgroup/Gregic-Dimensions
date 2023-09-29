@@ -5638,7 +5638,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Your First Blast Furnace",
@@ -5896,7 +5896,7 @@
             "id:8": "minecraft:flint_and_steel"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Flint and Steel",
@@ -5951,7 +5951,7 @@
             "id:8": "bewitchment:witches_cauldron"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Bewitchment",
@@ -5999,7 +5999,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Rubber Substitute",
@@ -6026,12 +6026,14 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 0,
+              "Damage:2": 78,
               "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
+              "id:8": "gregtech:meta_item_1",
               "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "witches_rubber"
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "witches_rubber"
+                }
               }
             }
           },
@@ -6055,7 +6057,7 @@
             "id:8": "gregtech:cable_single"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Cables",
@@ -6113,7 +6115,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "Circuit Boards",
