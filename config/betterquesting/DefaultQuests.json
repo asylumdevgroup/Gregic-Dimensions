@@ -59,7 +59,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Exploring the world, you may notice some things. Most significantly, you cannot punch trees to collect wood! This is caused by the mod PyroTech, which significantly overhauls Stone Age progression. To proceed, you will need to collect a few things.\n\n§7Rocks§r: Can be found on the ground in most areas and collected by breaking.\n\n§2§2§a§2Sticks§r: Can be obtained by breaking leaves on trees.\n\n§aPlant Fibers§r: Can be obtained by breaking tall grass.",
+          "desc:8": "Exploring the world, you may notice some things. Most significantly, you cannot punch trees to collect wood! This is caused by the mod PyroTech, which significantly overhauls Stone Age progression. To proceed, you will need to collect a few things.\n\n§7Rocks§r: Can be found on the ground in most areas and collected by breaking.\n\n§2§2§a§2Sticks§r: Can be obtained by breaking leaves on trees.\n\n§aPlant Fibers§r: Can be obtained by breaking grass.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1224,7 +1224,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -1378,7 +1378,7 @@
           "autoConsume:1": 0,
           "consume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -13924,7 +13924,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
