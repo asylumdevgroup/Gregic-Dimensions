@@ -1,0 +1,16 @@
+{
+	"sub_module_id": "effect_holy_area",
+	"reference_module_id": "effect_holy_area",
+	"item": "wizardry:wisdom_stick",
+	"meta": "1",
+	"primary_color": "0015ff",
+	"secondary_color": "00ffe1",
+	"mana": { "min": 40 },
+	"burnout": { "min": 20 },
+	"cooldown": { "min": 150 },
+	"area": { "min": 3, "max": 12 },
+	"potency": { "min": 10, "max": 60 },
+	"duration": { "min": 10, "max": 100 },
+	"tags": [ "gravity", "lingering", "area" ],
+	"hidden_tags": [ "uriel" ]
+}

@@ -21,6 +21,10 @@ val electrolyzer as RecipeMap = <recipemap:electrolyzer>;
 val ebf as RecipeMap = <recipemap:electric_blast_furnace>;
 val unifier as RecipeMap = <recipemap:unifier>;
 
+// Empty Wooden Form
+
+recipes.addShaped("wooden_form_knife", <gregtech:meta_item_1:347>, [[<ore:plankWood>],[<ore:craftingToolKnife>]]);
+
 // Wood Pulp from Mortar and Wood
 recipes.addShaped("wood_pulp_mortar", <gregtech:meta_dust:1617> * 2, [[<ore:logWood>],[<ore:craftingToolMortar>]]);
 
@@ -336,6 +340,7 @@ electrolyzer.recipeBuilder()
 
 <recipemap:electrolyzer>.findRecipe(30, null, [<liquid:mana> * 1000]).remove();
 
+// Redstone * 9
 electrolyzer.recipeBuilder()
 	.fluidInputs([<liquid:mana> * 11000])
 	.outputs([<minecraft:redstone> * 9])
@@ -343,6 +348,8 @@ electrolyzer.recipeBuilder()
 	.duration(2000)
 	.EUt(30)
 	.buildAndRegister();
+
+
 
 // Redstone Alloy
 

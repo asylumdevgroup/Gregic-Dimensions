@@ -453,7 +453,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You may notice that you occasionally get §eSilkworm Eggs§r when breaking leaves. If these eggs are right-clicked on the ground, there is a chance to spawn a §eSilkworm§r. These creatures will occasionally drop §7silk cocoons§r, which can be ground into §7Silk Thread§r.",
+          "desc:8": "You may notice that you occasionally get §eSilkworm Eggs§r when breaking leaves. If these eggs are right-clicked on the ground, there is a chance to spawn a §eSilkworm§r. These creatures will occasionally passively produce §7silk cocoons§r, which can be ground into §7Silk Thread§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -603,7 +603,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "In addition to §cTinder§r, you will also need to craft a tool to start your first campfire. However, §7Flint and Steel§r is not yet available, so the best option right now is to use a §4Bow Drill§r.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -630,7 +630,20 @@
         }
       },
       "questID:3": 8,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -662,7 +675,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "No, this isn\u0027t the dating app, §cTinder§r in this case refers to a fire-starter material. It can be crafted by using dried §aPlant Fibers §rand Sticks.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -686,7 +699,20 @@
         }
       },
       "questID:3": 9,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -779,7 +805,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "To create a §4campfire§r, place the §cTinder§r you previously crafted on the ground by right-clicking. Then right-click on the placed Tinder with up to eight wooden logs, to place the wood for the fire. Finally, hold right click on the pile with your new Bow Drill, and voila! You have created a §4fire§r!",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -803,7 +829,20 @@
         }
       },
       "questID:3": 11,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -819,7 +858,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "The §6Pit Kiln§r acts as a primitive form of smelting, and can be crafted from §eStraw §rand Dried §aPlant Fibers§r.\n\nTo use the §6Pit Kiln§r, place it in a one-block-deep hole and right-click the items you wish to smelt onto it. (I recommend using it to make §7Stone§r from §7Cobblestone§r initially.) Then, add a §6Straw Bale§r on top of the kiln. Finally, right-click wooden logs onto the §6Straw Bale§r, and light it on fire using your §4Bow Drill§r.\n\nNOTE: Most §6Pit Kiln §rrecipes have a chance to fail, in which case §8Ash§r or another Failure Item is produced.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -843,7 +882,20 @@
         }
       },
       "questID:3": 12,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -858,6 +910,23 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "pyrotech:kiln_pit"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pyrotech:thatch"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1513,7 +1582,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "Having trouble finding the §cGranite §ryou need for your §cGranite Anvil§r? Here, trade me a stack of cobblestone and I\u0027ll give you some.\n\nAlternatively, you can buy §cGranite §rwith §cA§bD§eG§r coins.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -1734,7 +1803,20 @@
         }
       },
       "questID:3": 23,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -1757,8 +1839,7 @@
     },
     "24:10": {
       "preRequisites:11": [
-        23,
-        12
+        23
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1802,6 +1883,18 @@
               "id:8": "pyrotech:sawmill_blade_flint"
             }
           }
+        },
+        "1:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:adg_stone_coin"
+            }
+          }
         }
       },
       "tasks:9": {
@@ -1835,9 +1928,7 @@
     },
     "25:10": {
       "preRequisites:11": [
-        23,
-        24,
-        12
+        24
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1889,7 +1980,6 @@
     },
     "26:10": {
       "preRequisites:11": [
-        12,
         23
       ],
       "properties:10": {
@@ -1942,8 +2032,7 @@
     },
     "27:10": {
       "preRequisites:11": [
-        25,
-        24
+        25
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2200,13 +2289,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 32012,
+              "Damage:2": 348,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "gregtech:meta_item_2",
-                "orig_meta:3": 32012
-              }
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2592,7 +2677,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Magnetite Vein",
+          "name:8": "Early Iron and Gold Vein(s)",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -2617,19 +2702,13 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "oreMagnetite",
+              "OreDict:8": "oreEarlyIron",
               "id:8": "gregtech:ore_magnetite_0"
             },
             "1:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "oreVanadiumMagnetite",
-              "id:8": "gregtech:ore_vanadium_magnetite_0"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "oreGold",
+              "OreDict:8": "oreEarlyPrecMetal",
               "id:8": "gregtech:ore_gold_0"
             }
           },
@@ -2656,7 +2735,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Cassiterite Vein",
+          "name:8": "Early Tin Vein",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -2681,14 +2760,8 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "oreCassiterite",
+              "OreDict:8": "oreEarlyTin",
               "id:8": "gregtech:ore_cassiterite_0"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "oreTin",
-              "id:8": "gregtech:ore_tin_0"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2714,7 +2787,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "Chalcopyrite Vein",
+          "name:8": "Early Copper Vein",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -2739,26 +2812,8 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "oreChalcopyrite",
+              "OreDict:8": "oreEarlyCopper",
               "id:8": "gregtech:ore_chalcopyrite_0"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "orePyrite",
-              "id:8": "gregtech:ore_pyrite_0"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "oreCopper",
-              "id:8": "gregtech:ore_copper_0"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "oreIron",
-              "id:8": "gregtech:ore_iron_0"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12256,7 +12311,7 @@
           "id:3": 23,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
+          "x:3": -12,
           "y:3": 168
         },
         "24:10": {
@@ -13924,7 +13979,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
